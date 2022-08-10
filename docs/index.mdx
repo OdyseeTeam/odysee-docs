@@ -1,0 +1,151 @@
+---
+slug: /
+sidebar_position: 1
+sidebar_label: 'Index'
+title: Index
+description: This is the index of the Odysee Help Hub... Description for search engines.
+image: https://i.imgur.com/FpXwZoM.jpg
+keywords: [odysee, help, documentation]
+---
+
+# Index
+
+
+## Demo
+
+This is the index site that contains a few useful formatting tools that Docusraurus offers.
+
+
+### Markdown
+
+Like on Odysee.com, you can use markdown formatting as usual.
+
+### Tabs
+
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+In some cases, you may want to give instructions depending on the device.
+
+#### Example use case:
+How to upload content:
+
+
+<Tabs groupId="appUsed">
+  <TabItem value="Odysee.com" label="Odysee.com" default>
+    1. This is how you upload content on Odysee.com
+  </TabItem>
+  <TabItem value="Android" label="Android">
+    1. This is how you upload content on Android
+  </TabItem>
+  <TabItem value="Apple" label="Apple">
+    1. This is how you upload content on Apple
+  </TabItem>
+</Tabs>
+
+```markdown
+<Tabs groupId="appUsed">
+  <TabItem value="Odysee.com" label="Odysee.com" default>
+    This is how you upload content on Odysee.com
+    1. test
+    2. hello
+    3. 123
+  </TabItem>
+  <TabItem value="Android" label="Android">
+    This is how you upload content on Android
+  </TabItem>
+  <TabItem value="Apple" label="Apple">
+    This is how you upload content on Apple
+  </TabItem>
+</Tabs>
+```
+
+### Admonitions
+
+:::danger Be careful!
+
+Sometimes, you want people to read something **very important** or useful. Use Admonitions like these to get their attention!
+
+:::
+
+
+```markdown
+:::note Something to note...
+
+Sometimes, you want people to read something **very important** or useful. Use Admonitions like these to get their attention!
+
+:::
+
+:::tip Useful
+
+Sometimes, you want people to read something **very important** or useful. Use Admonitions like these to get their attention!
+
+:::
+
+:::info
+
+Sometimes, you want people to read something **very important** or useful. Use Admonitions like these to get their attention!
+
+:::
+
+:::caution Be careful!
+
+Sometimes, you want people to read something **very important** or useful. Use Admonitions like these to get their attention!
+
+:::
+
+:::danger
+
+Sometimes, you want people to read something **very important** or useful. Use Admonitions like these to get their attention!
+
+:::
+```
+
+### Custom components
+
+We can add components, like custom buttons that match the Odysee style or use <Credits/> Credits.
+
+### Embedding
+
+<iframe width="100%" height="365" src="https://odysee.com/$/embed/youtubegulag/2d9c9ab133eecc0cc71da8ebc2dbe72ff634a2ff?r=97bT3hvnLEY1inLzM9eE6PG2qDS4h4KF" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+```
+<iframe width="100%" height="365" src="https://odysee.com/$/embed/youtubegulag/2d9c9ab133eecc0cc71da8ebc2dbe72ff634a2ff?r=97bT3hvnLEY1inLzM9eE6PG2qDS4h4KF" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
+
+### Metadata:
+The metadata sits on the top of each file, do not translate the slug, but you can translate everything else besides the slug. Basicially, the metadata is completely optional, but it it's good to use it.
+```markdown
+---
+// Optional: The slug defines the path, for example docs.odysee.tv/hello-world. If not defined, just the file name is being used (without the `.mdx` ending).
+slug: /hello-world
+// The position in which this documentation should be in the sidebar, optional.
+sidebar_position: 1
+// How this site should be labelled in the sidebar.
+sidebar_label: 'Index'
+// The title that shows up everywhere and on search engines.
+title: Index
+// The description, it is shown in search engines. Keep it at around 140 characters.
+description: This is the index of the Odysee Help Hub... Description for search engines.
+// Optional: Add a image that is shown in preview cards on social media if people share this page.
+image: https://i.imgur.com/FpXwZoM.jpg
+// SEO keywords of this file:
+keywords: [odysee, help, documentation]
+---
+```
+
+### Images
+To allow images to be edited too, create a subfolder named `img` in the folder in which 
+
+### There is more!
+
+Check out the docusaurus documentation what else you can do: https://docusaurus.io/docs/markdown-features/react
+
+
+:::tip
+
+There is also a **live preview** you can use to create, which is located **[here](https://stackblitz.com/edit/github-deydeg?file=docs%2Fintro.md)**.
+
+:::
