@@ -31,4 +31,4 @@ workflow_dispatch:
             key: ${{ secrets.SSH_PRIVATE_KEY }}
             known_hosts: ${{ secrets.KNOWN_HOSTS }}
         - name: Deploy with rsync
-          run: rsync -avz -e "ssh -vvv -p ${{ secrets.SSH_PORT }}" ./build/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/odysee/odyseedocs/        
+          run: rsync -avz -e "ssh -p ${{ secrets.SSH_PORT }}" ./build/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/odysee/odyseedocs/        
