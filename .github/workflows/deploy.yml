@@ -6,29 +6,27 @@ on:
   pull_request:
     branches: [main]
 
-workflow_dispatch:
-  # A workflow run is made up of one or more jobs that can run sequentially or in parallel
-  jobs:
-    publish:
-      runs-on: ubuntu-latest
-      steps:
-        # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-        - name: Check out repo
-          uses: actions/checkout@v2
-        # Node is required for npm
-        - name: Set up Node
-          uses: actions/setup-node@v2
-          with:
-            node-version: "16"
-        # Install and build Docusaurus website
-        - name: Build Docusaurus website
-          run: |
-            npm install 
-            npm run build
-        - name: Install SSH Key
-          uses: shimataro/ssh-key-action@v2
-          with:
-            key: ${{ secrets.SSH_PRIVATE_KEY }}
-            known_hosts: ${{ secrets.KNOWN_HOSTS }}
-        - name: Deploy with rsync
-          run: rsync -avz -e "ssh -p ${{ secrets.SSH_PORT }}" ./build/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/odysee/odyseedocs/        
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Check out repo
+        uses: actions/checkout@v2
+      # Node is required for npm
+      - name: Set up Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      # Install and build Docusaurus website
+      - name: Build Docusaurus website
+        run: |
+          npm install 
+          npm run build
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          known_hosts: ${{ secrets.KNOWN_HOSTS }}
+      - name: Deploy with rsync
+        run: rsync -avz -e "ssh -p ${{ secrets.SSH_PORT }}" ./build/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/odysee/odyseedocs/        
