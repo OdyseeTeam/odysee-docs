@@ -8,8 +8,6 @@ image: https://i.imgur.com/FpXwZoM.jpg
 keywords: [odysee, help, documentation]
 ---
 
-import ThemedImage from '@theme/ThemedImage';
-
 # Index
 
 ## Demo
@@ -20,7 +18,6 @@ This is the index site that contains a few useful formatting tools that Docusrau
 
 The image toggles between light and dark mode:
 
-
 ![Logo with white text](/img/Logo_Transparent_White_Text.png#dark)
 ![Logo with black text](/img/Logo_White_Background_Black_Text.png#light)
 
@@ -29,6 +26,16 @@ The image toggles between light and dark mode:
 ![Logo with black text](/img/Logo_White_Background_Black_Text.png#light)
 ```
 
+```jsx
+<Image
+  img={require('/img/Logo_Transparent_White_Text.png')}
+  class="dark-image"
+/>
+<Image
+  img={require('/img/Logo_White_Background_Black_Text.png')}
+  class="light-image"
+/>
+```
 
 ### Markdown
 

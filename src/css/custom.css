@@ -54,3 +54,8 @@
 [data-theme='dark'] img[src$='#light'] {
   display: none;
 }
+
+[data-theme='light'] img[class$='dark-image'],
+[data-theme='dark'] img[class$='light-image'] {
+  display: none;
+}
