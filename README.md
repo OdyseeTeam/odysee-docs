@@ -1,6 +1,6 @@
-# Odysee Documentation - docs.odysee.tv
+# Odysee Help Hub - help.odysee.tv
 
-This repo contains the code that powers docs.odysee.tv, which is built using Docusaurus 2.
+This repo contains the code that powers help.odysee.tv, which is built using Docusaurus 2.
 
  <a href="https://github.com/OdyseeTeam/odysee-frontend/blob/master/LICENSE" title="MIT licensed">
    <img alt="npm" src="https://img.shields.io/dub/l/vibe-d.svg?style=flat">
