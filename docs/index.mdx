@@ -14,6 +14,29 @@ keywords: [odysee, help, documentation]
 
 This is the index site that contains a few useful formatting tools that Docusraurus offers.
 
+### Themed images
+
+The image toggles between light and dark mode:
+
+![Logo with white text](/img/Logo_Transparent_White_Text.png#dark)
+![Logo with black text](/img/Logo_White_Background_Black_Text.png#light)
+
+```markdown
+![Logo with white text](/img/Logo_Transparent_White_Text.png#dark)
+![Logo with black text](/img/Logo_White_Background_Black_Text.png#light)
+```
+
+```jsx
+<Image
+  img={require('/img/Logo_Transparent_White_Text.png')}
+  class="dark-image"
+/>
+<Image
+  img={require('/img/Logo_White_Background_Black_Text.png')}
+  class="light-image"
+/>
+```
+
 ### Markdown
 
 Like on Odysee.com, you can use markdown formatting as usual.
