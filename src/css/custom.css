@@ -5,13 +5,12 @@
  */
 
 @font-face {
-   font-family: Hero;
-   src: url('/font/Hero.otf') format("opentype");
-
+  font-family: Hero;
+  src: url('/font/Hero.otf') format('opentype');
 }
 
 .aa-DetachedSearchButton {
-  color: rgba(var(--aa-muted-color-alpha))!important;
+  color: rgba(var(--aa-muted-color-alpha)) !important;
 }
 
 /* You can override the default Infima variables here. */
@@ -49,4 +48,9 @@
 
 .aa-SubmitIcon {
   color: var(--ifm-color-primary);
+}
+
+[data-theme='light'] img[src$='#dark'],
+[data-theme='dark'] img[src$='#light'] {
+  display: none;
 }
