@@ -16,7 +16,6 @@ This repo contains the code that powers help.odysee.tv, which is built using Doc
 3. [Contributing](#contributing)
 4. [License](#license)
 5. [Security](#security)
-6. [Contact](#contact)
 
 ## Usage
 
