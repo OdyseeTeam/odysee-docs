@@ -102,15 +102,18 @@ const config = {
     locales: ['en', 'es', 'fr', 'de', 'it', 'pt'],
   },
   plugins: [
-    ['@docusaurus/plugin-ideal-image',
+    [
+      '@docusaurus/plugin-ideal-image',
       {
         quality: 85,
         max: 1030,
         min: 640,
         steps: 4,
         disableInDev: true,
-      }],
-      ['@cmfcmf/docusaurus-search-local',
+      },
+    ],
+    [
+      '@cmfcmf/docusaurus-search-local',
       {
         // whether to index docs pages
         indexDocs: true,
@@ -133,7 +136,8 @@ const config = {
 
         // language of your documentation, see next section
         language: ['en', 'es', 'fr', 'de', 'it', 'pt'],
-      }],
+      },
+    ],
   ],
   presets: [
     [
