@@ -1,4 +1,8 @@
 {
+  "title": {
+    "message": "",
+    "description": "The title in the navbar"
+  },
   "item.label.Help Hub": {
     "message": "Help Hub",
     "description": "Navbar item with label Help Hub"
