@@ -4,19 +4,19 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Odysee Basics": {
-    "message": "Odysee Basics",
+    "message": "Odysee Grundlagen",
     "description": "The label for category Odysee Basics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Setting Up Your Account": {
-    "message": "Setting Up Your Account",
+    "message": "Konto einrichten",
     "description": "The label for category Setting Up Your Account in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Channels": {
-    "message": "Channels",
+    "message": "Kanäle",
     "description": "The label for category Channels in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Logging In": {
-    "message": "Logging In",
+    "message": "Einloggen",
     "description": "The label for category Logging In in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.YouTube Sync": {
@@ -24,39 +24,39 @@
     "description": "The label for category YouTube Sync in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Walkthrough": {
-    "message": "Walkthrough",
+    "message": "YouTube Sync einrichten",
     "description": "The label for category Walkthrough in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Frequently Asked Questions": {
-    "message": "Frequently Asked Questions",
+    "message": "Häufig gestellte Fragen",
     "description": "The label for category Frequently Asked Questions in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Uploading Content": {
-    "message": "Uploading Content",
+    "message": "Hochladen von Inhalten",
     "description": "The label for category Uploading Content in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Uploading Files (Videos, Images, Audio)": {
-    "message": "Uploading Files (Videos, Images, Audio)",
+    "message": "Hochladen von Dateien (Videos, Bilder, Audio)",
     "description": "The label for category Uploading Files (Videos, Images, Audio) in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Uploading Text Posts": {
-    "message": "Uploading Text Posts",
+    "message": "Hochladen von Textbeiträgen",
     "description": "The label for category Uploading Text Posts in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Livestreaming": {
-    "message": "Livestreaming",
+    "message": "Livestreamen",
     "description": "The label for category Livestreaming in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Creating a Livestream": {
-    "message": "Creating a Livestream",
+    "message": "Livestream erstellen",
     "description": "The label for category Creating a Livestream in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Channel Categories": {
-    "message": "Channel Categories",
+    "message": "Kanal Kategorien",
     "description": "The label for category Channel Categories in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Odysee's Blockchain": {
-    "message": "Odysee's Blockchain",
+    "message": "Die Blockchain von Odysee",
     "description": "The label for category Odysee's Blockchain in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Staking": {
@@ -64,7 +64,7 @@
     "description": "The label for category Staking in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Moderation Tools": {
-    "message": "Moderation Tools",
+    "message": "Moderationswerkzeuge",
     "description": "The label for category Moderation Tools in sidebar tutorialSidebar"
   }
 }
