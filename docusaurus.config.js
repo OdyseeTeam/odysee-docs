@@ -112,7 +112,7 @@ const config = {
         disableInDev: true,
       },
     ],
-    [
+    process.env.NODE_ENV === 'production' && [
       '@cmfcmf/docusaurus-search-local',
       {
         // whether to index docs pages
@@ -138,7 +138,7 @@ const config = {
         language: ['en', 'es', 'fr', 'de', 'it', 'pt'],
       },
     ],
-  ],
+  ].filter(Boolean),
   presets: [
     [
       'classic',

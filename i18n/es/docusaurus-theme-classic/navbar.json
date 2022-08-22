@@ -1,0 +1,10 @@
+{
+  "item.label.Help Hub": {
+    "message": "Help Hub",
+    "description": "Navbar item with label Help Hub"
+  },
+  "item.label.Odysee": {
+    "message": "Odysee",
+    "description": "Navbar item with label Odysee"
+  }
+}
