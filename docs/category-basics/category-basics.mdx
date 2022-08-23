@@ -1,0 +1,18 @@
+# Category Basics
+
+## Intro
+
+Some intro text
+
+:::tip
+
+It is also possible to render the card items for that category thanks to MDX:
+
+:::
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
+
+<DocCardList items={useCurrentSidebarCategory().items}/>
+```
