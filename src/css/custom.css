@@ -4,7 +4,7 @@
  * work well for content-centric websites.
  */
 
-@font-face {
+ @font-face {
   font-family: Hero;
   src: url('/font/Hero.otf') format('opentype');
 }
@@ -50,12 +50,29 @@
   color: var(--ifm-color-primary);
 }
 
-[data-theme='light'] img[src$='#dark'],
+[data-theme='light'] img[src$='#dark'] {
+  display: none;
+}
 [data-theme='dark'] img[src$='#light'] {
   display: none;
 }
 
-[data-theme='light'] img[class$='dark-image'],
+[data-theme='light'] img[class$='dark-image'] {
+  display: none;
+}
+
 [data-theme='dark'] img[class$='light-image'] {
   display: none;
+}
+
+.noFit {
+  padding: 0px;
+  border-radius: 0px;
+  filter: drop-shadow(0px 0px 0px #00000000);
+}
+
+.container img {
+  padding: 10px;
+  border-radius: 20px;
+  filter: drop-shadow(0px 0px 5px #00000070);
 }
