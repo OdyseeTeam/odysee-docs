@@ -4,7 +4,7 @@
  * work well for content-centric websites.
  */
 
- @font-face {
+@font-face {
   font-family: Hero;
   src: url('/font/Hero.otf') format('opentype');
 }
@@ -29,6 +29,30 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --aa-input-border-color-rgb: #de0050;
   --aa-input-border-color-alpha: #de0050;
+
+  /* Odysee Colors */
+  --odysee-very-dark-purple: #1e003c;
+  --odysee-metallic-violet: #650f7c;
+  --odysee-purple-heart: #64449a;
+  --odysee-dark-turquoise-rgb: 0, 208, 217;
+  --odysee-dark-turquoise: rgb(var(--odysee-dark-turquoise-rgb));
+  --odysee-razzmatazz: #ef1970;
+  --odysee-maroon-rgb: 184, 55, 105;
+  --odysee-maroon: rgb(var(--odysee-maroon-rgb));
+
+  --odysee-crayola-rgb: 247, 125, 53;
+  --odysee-crayola: rgb(var(--odysee-crayola-rgb));
+  --odysee-jelly-bean: #d4694d;
+  --odysee-light-orange-rgb: 255, 221, 162;
+  --odysee-light-orange: rgb(var(--odysee-light-orange-rgb));
+  --odysee-gold-rgb: 255, 214, 0;
+  --odysee-gold: rgb(var(--odysee-gold-rgb));
+
+  --odysee-maroon-20: rgba(var(--odysee-maroon-rgb), 0.2);
+  --odysee-crayola-20: rgba(var(--odysee-crayola-rgb), 0.2);
+  --odysee-dark-turquoise-20: rgba(var(--odysee-dark-turquoise-rgb), 0.2);
+  --odysee-gold-20: rgba(var(--odysee-gold-rgb), 0.2);
+  --odysee-light-orange-20: rgba(var(--odysee-light-orange-rgb), 0.2);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -75,4 +99,40 @@
   padding: 10px;
   border-radius: 20px;
   filter: drop-shadow(0px 0px 5px #00000010);
+}
+
+/* Admonition */
+
+.alert--danger {
+  --ifm-alert-background-color: var(--odysee-maroon-20);
+  --ifm-alert-background-color-highlight: var(--odysee-maroon-20);
+  /*--ifm-alert-foreground-color: var(--ifm-color-danger-contrast-foreground);*/
+  --ifm-alert-border-color: var(--odysee-maroon);
+}
+
+.alert--warning {
+  --ifm-alert-background-color: var(--odysee-crayola-20);
+  --ifm-alert-background-color-highlight: var(--odysee-crayola-20);
+  /*--ifm-alert-foreground-color: var(--ifm-color-warning-contrast-foreground);*/
+  --ifm-alert-border-color: var(--odysee-crayola);
+}
+
+.alert--info {
+  --ifm-alert-background-color: var(--odysee-dark-turquoise-20);
+  --ifm-alert-background-color-highlight: var(--odysee-dark-turquoise-20);
+  /*--ifm-alert-foreground-color: var( --ifm-color-info-contrast-foreground );*/
+  --ifm-alert-border-color: var(--odysee-dark-turquoise);
+}
+
+.alert--success {
+  --ifm-alert-background-color: var(--odysee-gold-20);
+  --ifm-alert-background-color-highlight: var(--odysee-gold-20);
+  /*--ifm-alert-foreground-color: var( --ifm-color-info-contrast-foreground );*/
+  --ifm-alert-border-color: var(--odysee-gold);
+}
+.alert--secondary {
+  --ifm-alert-background-color: var(--odysee-light-orange-20);
+  --ifm-alert-background-color-highlight: var(--odysee-light-orange-20);
+  /*--ifm-alert-foreground-color: var( --ifm-color-info-contrast-foreground );*/
+  --ifm-alert-border-color: var(--odysee-light-orange);
 }
