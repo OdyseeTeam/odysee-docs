@@ -1,0 +1,39 @@
+[data-theme='light'] .odyseeButton {
+  padding: 10px;
+  padding-right: 13px;
+  padding-left: 13px;
+  border-radius: 8px;
+  background: #e5e5e5;
+  font-weight: 500;
+  color: black;
+  font-size: 17px;
+}
+[data-theme='light'] .odyseeButton:hover {
+  border-radius: 8px;
+  background: var(--ifm-color-primary);
+  color: white;
+}
+
+[data-theme='light'] .odyseeButtonLink:hover {
+  text-decoration: none;
+  color: white;
+}
+
+[data-theme='dark'] .odyseeButton {
+  padding: 10px;
+  padding-right: 13px;
+  padding-left: 13px;
+  border-radius: 8px;
+  background: #252525;
+  font-weight: 500;
+  color: white;
+  font-size: 17px;
+}
+[data-theme='dark'] .odyseeButton:hover {
+  border-radius: 8px;
+  background: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .odyseeButtonLink:hover {
+  text-decoration: none;
+}
