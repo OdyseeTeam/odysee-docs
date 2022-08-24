@@ -4,7 +4,7 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Odysee Basics": {
-    "message": "Odysee Basics",
+    "message": "Lo básico de Odysee",
     "description": "The label for category Odysee Basics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Setting Up Your Account": {
@@ -16,7 +16,7 @@
     "description": "The label for category Channels in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Logging In": {
-    "message": "Logging In",
+    "message": "Iniciando sesión",
     "description": "The label for category Logging In in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.YouTube Sync": {
