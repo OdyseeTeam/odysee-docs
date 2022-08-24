@@ -4,19 +4,19 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Odysee Basics": {
-    "message": "Odysee Basics",
+    "message": "O Básico da Odysee",
     "description": "The label for category Odysee Basics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Setting Up Your Account": {
-    "message": "Setting Up Your Account",
+    "message": "Configurar Conta",
     "description": "The label for category Setting Up Your Account in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Channels": {
-    "message": "Channels",
+    "message": "Canais",
     "description": "The label for category Channels in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Logging In": {
-    "message": "Logging In",
+    "message": "Logar na Odysee",
     "description": "The label for category Logging In in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.YouTube Sync": {
@@ -28,11 +28,11 @@
     "description": "The label for category Walkthrough in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Frequently Asked Questions": {
-    "message": "Frequently Asked Questions",
+    "message": "Perguntas Frequentes",
     "description": "The label for category Frequently Asked Questions in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Uploading Content": {
-    "message": "Uploading Content",
+    "message": "Postar Conteúdo",
     "description": "The label for category Uploading Content in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Uploading Files (Videos, Images, Audio)": {
@@ -64,7 +64,7 @@
     "description": "The label for category Staking in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Moderation Tools": {
-    "message": "Moderation Tools",
+    "message": "Ferramentas de Moderação",
     "description": "The label for category Moderation Tools in sidebar tutorialSidebar"
   }
 }
