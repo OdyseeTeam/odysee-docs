@@ -9,10 +9,6 @@
   src: url('/font/Hero.otf') format('opentype');
 }
 
-.aa-DetachedSearchButton {
-  color: rgba(var(--aa-muted-color-alpha)) !important;
-}
-
 /* Search bar */
 .aa-DetachedSearchButton {
   background: #e5e5e5 !important;
@@ -20,6 +16,9 @@
   border: 2px solid #e5e5e5 !important;
   margin-top: -3px !important;
   padding-right: 12px !important;
+}
+.aa-DetachedSearchButton:target {
+  margin: 0px;
 }
 .aa-DetachedSearchButton:hover {
   background: #e5e5e5 !important;
@@ -33,6 +32,22 @@
 }
 .aa-SubmitIcon {
   color: black !important;
+  width: 17px;
+  margin-left: -4px;
+}
+.aa-SubmitButton .aa-SubmitIcon {
+  color: black !important;
+  width: 19px;
+  margin-left: 1px;
+  margin-top: 4px;
+}
+.aa-Form {
+  border: 2px solid var(--ifm-color-primary) !important;
+  border-radius: 11px !important;
+  background: #e5e5e5 !important;
+}
+.aa-Input::placeholder {
+  color: #999999 !important;
 }
 
 /* Color mode toggle button */
@@ -74,6 +89,9 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --aa-input-border-color-rgb: #de0050;
   --aa-input-border-color-alpha: #de0050;
+
+  --aa-primary-color-rgb: 222, 0, 80 !important;
+  --aa-muted-color-rgb: 222, 0, 80 !important;
 
   /* Odysee Colors */
   --odysee-very-dark-purple: #1e003c;
