@@ -80,6 +80,13 @@
   color: #999999 !important;
 }
 
+.footer--dark {
+  --ifm-footer-background-color: var(--odysee-very-dark-purple);
+  --ifm-footer-color: var(--ifm-footer-link-color);
+  --ifm-footer-link-color: var(--ifm-color-secondary);
+  --ifm-footer-title-color: var(--ifm-color-white);
+}
+
 /* You can override the default Infima variables here. */
 :root {
   /*--ifm-font-family-monospace: Hero;*/
