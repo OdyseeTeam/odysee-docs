@@ -10,18 +10,32 @@
 }
 
 /* Search bar */
-.aa-DetachedSearchButton {
+
+[data-theme='light'] .aa-DetachedSearchButton {
   background: #e5e5e5 !important;
   border-radius: 6px !important;
   border: 2px solid #e5e5e5 !important;
   margin-top: -3px !important;
   padding-right: 12px !important;
 }
+[data-theme='dark'] .aa-DetachedSearchButton {
+  background: #3d3d3d !important;
+  border-radius: 6px !important;
+  border: 2px solid #3d3d3d !important;
+  margin-top: -3px !important;
+  padding-right: 12px !important;
+}
 .aa-DetachedSearchButton:target {
   margin: 0px;
 }
-.aa-DetachedSearchButton:hover {
+[data-theme='light'] .aa-DetachedSearchButton:hover {
   background: #e5e5e5 !important;
+  border-radius: 6px !important;
+  border: 2px solid var(--ifm-color-primary) !important;
+  margin-top: -3px !important;
+}
+[data-theme='dark'] .aa-DetachedSearchButton:hover {
+  background: #3d3d3d !important;
   border-radius: 6px !important;
   border: 2px solid var(--ifm-color-primary) !important;
   margin-top: -3px !important;
@@ -30,21 +44,37 @@
   font-size: 14.4px;
   color: #999999;
 }
-.aa-SubmitIcon {
+[data-theme='light'] .aa-SubmitIcon {
   color: black !important;
   width: 17px;
   margin-left: -4px;
 }
-.aa-SubmitButton .aa-SubmitIcon {
+[data-theme='dark'] .aa-SubmitIcon {
+  color: white !important;
+  width: 17px;
+  margin-left: -4px;
+}
+[data-theme='light'] .aa-SubmitButton .aa-SubmitIcon {
   color: black !important;
   width: 19px;
   margin-left: 1px;
   margin-top: 4px;
 }
-.aa-Form {
+[data-theme='dark'] .aa-SubmitButton .aa-SubmitIcon {
+  color: white !important;
+  width: 19px;
+  margin-left: 1px;
+  margin-top: 4px;
+}
+[data-theme='light'] .aa-Form {
   border: 2px solid var(--ifm-color-primary) !important;
   border-radius: 11px !important;
   background: #e5e5e5 !important;
+}
+[data-theme='dark'] .aa-Form {
+  border: 2px solid var(--ifm-color-primary) !important;
+  border-radius: 11px !important;
+  background: #3d3d3d !important;
 }
 .aa-Input::placeholder {
   color: #999999 !important;
