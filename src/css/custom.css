@@ -80,10 +80,65 @@
   color: #999999 !important;
 }
 
+.footer--dark {
+  --ifm-footer-background-color: var(--odysee-very-dark-purple);
+  --ifm-footer-color: var(--ifm-footer-link-color);
+  --ifm-footer-link-color: var(--ifm-color-secondary);
+  --ifm-footer-title-color: var(--ifm-color-white);
+}
+
+.markdown h1:first-child {
+  --ifm-font-family-monospace: Hero;
+  --ifm-font-family-base: Hero;
+}
+
+@font-face {
+  font-family: 'GothamRnd-Bold';
+  src: url('/static/font/GothamRnd-Bold.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'GothamRnd-Book';
+  src: url('/static/font/GothamRnd-Book.otf') format('woff');
+}
+
+.menu_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-Content-styles-module {
+  background-color: var(--odysee-very-dark-purple);
+}
+.menu__link {
+  color: #ebeaeb;
+}
+.menu__link:hover {
+  color: var(--ifm-color-primary);
+}
+.menu__caret {
+  color: white;
+}
+
+.markdown h1:first-child {
+  color: var(--odysee-very-dark-purple);
+  font-family: GothamRnd-Bold;
+}
+
+.markdown > h2 {
+  color: var(--odysee-very-dark-purple);
+  font-family: GothamRnd-Bold;
+}
+
+.markdown > h3 {
+  color: var(--odysee-very-dark-purple);
+  font-family: GothamRnd-Bold;
+}
+
+.markdown > h4 {
+  color: var(--odysee-very-dark-purple);
+  font-family: GothamRnd-Bold;
+}
+
 /* You can override the default Infima variables here. */
 :root {
-  /*--ifm-font-family-monospace: Hero;*/
-  /*--ifm-font-family-base: Hero;*/
+  --ifm-font-family-monospace: GothamRnd-Book;
+  --ifm-font-family-base: GothamRnd-Book;
   --ifm-color-primary: #de0050;
   --ifm-color-primary-dark: #c80048;
   --ifm-color-primary-darker: #bd0044;
@@ -127,8 +182,8 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  /*--ifm-font-family-monospace: Hero;*/
-  /*--ifm-font-family-base: Hero;*/
+  --ifm-font-family-monospace: GothamRnd-Book;
+  --ifm-font-family-base: GothamRnd-Book;
   --ifm-color-primary: #de0050;
   --ifm-color-primary-dark: #c80048;
   --ifm-color-primary-darker: #bd0044;
