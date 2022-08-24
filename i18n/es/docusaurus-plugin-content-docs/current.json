@@ -12,7 +12,7 @@
     "description": "The label for category Setting Up Your Account in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Channels": {
-    "message": "Channels",
+    "message": "Canales",
     "description": "The label for category Channels in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Logging In": {
@@ -24,15 +24,15 @@
     "description": "The label for category YouTube Sync in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Walkthrough": {
-    "message": "Walkthrough",
+    "message": "Paso a paso",
     "description": "The label for category Walkthrough in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Frequently Asked Questions": {
-    "message": "Frequently Asked Questions",
+    "message": "Preguntas frecuentes",
     "description": "The label for category Frequently Asked Questions in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Uploading Content": {
-    "message": "Uploading Content",
+    "message": "Subiendo contenido",
     "description": "The label for category Uploading Content in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Uploading Files (Videos, Images, Audio)": {
