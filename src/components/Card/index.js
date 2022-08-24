@@ -13,6 +13,7 @@ function CardContainer({ href, children }) {
     </Link>
   );
 }
+
 function CardLayout({ href, icon, title, description }) {
   return (
     <CardContainer href={href}>
@@ -31,15 +32,7 @@ function CardLayout({ href, icon, title, description }) {
   );
 }
 
-export default function ButtonCard({
-  children,
-  color,
-  icon,
-  title,
-  description,
-  to,
-  layout = 'vertical',
-}) {
+export default function Card({ children, icon, title, description, to }) {
   return (
     <CardContainer href={to}>
       <h2 className={clsx('text--truncate', styles.cardTitle)} title={title}>

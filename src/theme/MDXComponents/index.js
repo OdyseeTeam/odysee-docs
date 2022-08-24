@@ -4,17 +4,17 @@ import Credits from '@site/src/components/Credits';
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import OdyseeButton from '@site/src/components/OdyseeButton';
 import OdyseeButtonRound from '@site/src/components/OdyseeButtonRound';
-import ThemedImage from '@theme/ThemedImage';
 import Image from '@theme/IdealImage';
-import ButtonCard from '@site/src/components/ButtonCard';
+import Card from '@site/src/components/Card';
+import ThumbnailCard from '@site/src/components/ThumbnailCard';
 
 export default {
   ...MDXComponents,
   Credits: Credits,
   BrowserWindow: BrowserWindow,
   Image: Image,
-  ThemedImage: ThemedImage,
   OdyseeButton: OdyseeButton,
   OdyseeButtonRound: OdyseeButtonRound,
-  ButtonCard: ButtonCard,
+  Card: Card,
+  ThumbnailCard: ThumbnailCard,
 };

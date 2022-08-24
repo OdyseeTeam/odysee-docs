@@ -25,3 +25,12 @@
 .cardDescription {
   font-size: 0.8rem;
 }
+
+.container__image {
+  width: 100px;
+  max-width: 25%;
+  float: left;
+}
+.container__text {
+  display: inline;
+}
