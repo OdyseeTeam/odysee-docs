@@ -46,10 +46,7 @@ export default function Card({
   return (
     <CardContainer href={to}>
       <h2 className={clsx('text--truncate', styles.cardTitle)} title={title}>
-        {faIcon !== undefined && faIcon !== "" && 
-          <FontAwesomeIcon icon={faIcon} />
-        }
-        {icon} {title}
+        {children} {title}
       </h2>
       {description && (
         <p
@@ -59,7 +56,6 @@ export default function Card({
           {description}
         </p>
       )}
-      {children}
     </CardContainer>
   );
 }

@@ -16,11 +16,11 @@ function CardContainer({ href, children }) {
   );
 }
 export default function ThumbnailCard({
+  children,
   title,
   description,
   to,
   thumbnail,
-  faIcon,
 }) {
   return (
     <CardContainer href={to}>
@@ -35,13 +35,7 @@ export default function ThumbnailCard({
       </div>
       <div className={styles.thumbnailCard}>
         <h3>
-          {faIcon !== undefined && faIcon !== '' && (
-            <FontAwesomeIcon icon={faIcon} />
-          )}
-          {faIcon !== undefined && faIcon !== '' && 
-            ' '
-          }
-          {title}
+          {children} {title}
         </h3>
         <p className={styles.cardDescription}>{description}</p>
       </div>
