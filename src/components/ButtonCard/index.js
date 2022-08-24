@@ -32,7 +32,6 @@ function CardLayout({ href, icon, title, description }) {
 }
 
 export default function ButtonCard({
-  href,
   children,
   color,
   icon,
@@ -42,18 +41,19 @@ export default function ButtonCard({
   layout = 'vertical',
 }) {
   return (
-    <CardContainer href={href}>
-    <h2 className={clsx('text--truncate', styles.cardTitle)} title={title}>
-      {icon} {title}
-    </h2>
-    {description && (
-      <p
-        className={clsx('text--truncate', styles.cardDescription)}
-        title={description}
-      >
-        {description}
-      </p>
-    )}
-  </CardContainer>
+    <CardContainer href={to}>
+      <h2 className={clsx('text--truncate', styles.cardTitle)} title={title}>
+        {icon} {title}
+      </h2>
+      {description && (
+        <p
+          className={clsx('text--truncate', styles.cardDescription)}
+          title={description}
+        >
+          {description}
+        </p>
+      )}
+      {children}
+    </CardContainer>
   );
 }
