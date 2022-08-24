@@ -75,7 +75,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Odysee.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Odysee Holdings, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
