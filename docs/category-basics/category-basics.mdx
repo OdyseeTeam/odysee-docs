@@ -9,10 +9,20 @@ Some intro text
 It is also possible to render the card items for that category thanks to MDX:
 
 :::
+import useBaseUrl from '@docusaurus/useBaseUrl'
+import ButtonCard from '@site/src/components/ButtonCard'
 
-```mdx-code-block
-import DocCardList from '@theme/DocCardList';
-import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
-
-<DocCardList items={useCurrentSidebarCategory().items}/>
-```
+<div class="container" style={{ padding: 0 }}>
+  <div class="row is-multiline">
+    {/* Auth */}
+    <div class="col col--4">
+      <ButtonCard
+        class="card"
+        to={useBaseUrl('/category/setting-up-your-account')}
+        title={'🔥 Setup'}
+        description={'How to set up your account.'}
+        style={{ height: '100%' }}
+      />
+    </div>    
+  </div>
+</div>
