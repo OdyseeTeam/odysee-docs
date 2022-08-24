@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 import clsx from 'clsx';
 import Image from '@theme/IdealImage';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function CardContainer({ href, children }) {
   return (
@@ -14,7 +15,13 @@ function CardContainer({ href, children }) {
     </Link>
   );
 }
-export default function ThumbnailCard({ title, description, to, thumbnail }) {
+export default function ThumbnailCard({
+  title,
+  description,
+  to,
+  thumbnail,
+  faIcon,
+}) {
   return (
     <CardContainer href={to}>
       <div>
@@ -27,7 +34,15 @@ export default function ThumbnailCard({ title, description, to, thumbnail }) {
         </Link>
       </div>
       <div className={styles.thumbnailCard}>
-        <h3>{title}</h3>
+        <h3>
+          {faIcon !== undefined && faIcon !== '' && (
+            <FontAwesomeIcon icon={faIcon} />
+          )}
+          {faIcon !== undefined && faIcon !== '' && 
+            ' '
+          }
+          {title}
+        </h3>
         <p className={styles.cardDescription}>{description}</p>
       </div>
     </CardContainer>
