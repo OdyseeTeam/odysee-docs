@@ -87,6 +87,36 @@
   --ifm-footer-title-color: var(--ifm-color-white);
 }
 
+.markdown h1:first-child {
+  --ifm-font-family-monospace: Hero;
+  --ifm-font-family-base: Hero;
+}
+
+@font-face {
+  font-family: 'GothamRnd-Bold';
+  src: url('/static/font/GothamRnd-Bold.otf') format('woff');
+}
+
+.markdown h1:first-child {
+  color: var(--odysee-very-dark-purple);
+  font-family: GothamRnd-Bold;
+}
+
+.markdown > h2 {
+  color: var(--odysee-very-dark-purple);
+  font-family: GothamRnd-Bold;
+}
+
+.markdown > h3 {
+  color: var(--odysee-very-dark-purple);
+  font-family: GothamRnd-Bold;
+}
+
+.markdown > h4 {
+  color: var(--odysee-very-dark-purple);
+  font-family: GothamRnd-Bold;
+}
+
 /* You can override the default Infima variables here. */
 :root {
   /*--ifm-font-family-monospace: Hero;*/
