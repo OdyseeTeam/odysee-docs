@@ -8,7 +8,7 @@
     "description": "The label for category Odysee Basics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Setting Up Your Account": {
-    "message": "Setting Up Your Account",
+    "message": "Configuración de su cuenta",
     "description": "The label for category Setting Up Your Account in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Channels": {
@@ -20,7 +20,7 @@
     "description": "The label for category Logging In in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.YouTube Sync": {
-    "message": "YouTube Sync",
+    "message": "Sincronización de YouTube",
     "description": "The label for category YouTube Sync in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Walkthrough": {
@@ -56,7 +56,7 @@
     "description": "The label for category Channel Categories in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Odysee's Blockchain": {
-    "message": "Odysee's Blockchain",
+    "message": "La blockchain de Odysee",
     "description": "The label for category Odysee's Blockchain in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Staking": {
