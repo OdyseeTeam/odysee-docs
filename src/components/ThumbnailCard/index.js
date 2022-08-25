@@ -3,7 +3,7 @@ import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 import clsx from 'clsx';
 import Image from '@theme/IdealImage';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 function CardContainer({ href, children }) {
   return (
@@ -28,7 +28,9 @@ export default function ThumbnailCard({
         <Link to={to}>
           <Image
             className={styles.thumbnailCardImage}
-            img={thumbnail}
+            img={useBaseUrl(
+              '/img/en/g_1906x1062_RGB_Odysee_Homepage_Sign_Up_Arrow.jpg"'
+            )}
             alt={`Thumbnail of ${title}`}
           />
         </Link>
