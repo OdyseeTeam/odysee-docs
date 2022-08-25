@@ -35,7 +35,6 @@ You can use FontAwesome in mdx files:
         to={'/category/setting-up-your-account'}
         title={'👋 Hello'}
         faIcon="fa-circle-play"
-        thumbnail="https://i.imgur.com/vu3pTG8.png"
         description={'How to set up your account. The icon is fa-circle-play'}
       ></Card>
     </div>
@@ -64,7 +63,7 @@ You can use FontAwesome in mdx files:
         title="Setup"
         description="How to set up your account."
         to={'/category/setting-up-your-account'}
-        thumbnail="/static/img/en/g_1906x1062_RGB_Odysee_Homepage_Sign_Up_Arrow.jpg"
+        thumbnail="/img/en/g_1906x1062_RGB_Odysee_Homepage_Sign_Up_Arrow.jpg"
       >
         <FontAwesomeIcon icon="coffee" color="gold" />
       </ThumbnailCard>
@@ -72,16 +71,8 @@ You can use FontAwesome in mdx files:
   </div>
 </div>
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<Image
-  img={useBaseUrl(
-    '/static/img/en/g_1906x1062_RGB_Odysee_Homepage_Sign_Up_Arrow.jpg'
-  )}
-/>
-<img
-  src={useBaseUrl('/img/en/g_1906x1062_RGB_Odysee_Homepage_Sign_Up_Arrow.jpg')}
-/>;
+![](/img/en/g_1906x1062_RGB_Odysee_Homepage_Sign_Up_Arrow.jpg)
 
 Click on <OdyseeButton url="https://odysee.com/$/wallet" ><Credits/> Your Wallet</OdyseeButton> to view your wallet on Odysee.
 

@@ -9,6 +9,11 @@ Some intro text
 It is also possible to render the card items for that category thanks to MDX:
 
 :::
+import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
+
+
+<DocCardList items={useCurrentSidebarCategory().items}/>
+
 
 <div class="container" style={{ padding: 0 }}>
   <div class="row">

@@ -11,6 +11,7 @@ import ThumbnailCard from '@site/src/components/ThumbnailCard';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as Icons from '@fortawesome/free-solid-svg-icons';
+import DocCardList from '@theme/DocCardList';
 
 const iconList = Object.keys(Icons)
   .filter((key) => key !== 'fas' && key !== 'prefix')
@@ -27,4 +28,5 @@ export default {
   Card: Card,
   ThumbnailCard: ThumbnailCard,
   FontAwesomeIcon: FontAwesomeIcon,
+  DocCardList: DocCardList,
 };
