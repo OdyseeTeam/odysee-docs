@@ -36,11 +36,11 @@
     "description": "The label for category Uploading Content in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Uploading Files (Videos, Images, Audio)": {
-    "message": "Uploading Files (Videos, Images, Audio)",
+    "message": "Carga de archivos (videos, imágenes, audio)",
     "description": "The label for category Uploading Files (Videos, Images, Audio) in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Uploading Text Posts": {
-    "message": "Uploading Text Posts",
+    "message": "Subir publicaciones de texto",
     "description": "The label for category Uploading Text Posts in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Livestreaming": {
@@ -48,7 +48,7 @@
     "description": "The label for category Livestreaming in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Creating a Livestream": {
-    "message": "Creating a Livestream",
+    "message": "Crear transmisión en vivo",
     "description": "The label for category Creating a Livestream in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Channel Categories": {
