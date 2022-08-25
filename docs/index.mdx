@@ -64,33 +64,24 @@ You can use FontAwesome in mdx files:
         title="Setup"
         description="How to set up your account."
         to={'/category/setting-up-your-account'}
-        thumbnail="https://placehold.co/1200x600"
+        thumbnail="/static/img/en/g_1906x1062_RGB_Odysee_Homepage_Sign_Up_Arrow.jpg"
       >
         <FontAwesomeIcon icon="coffee" color="gold" />
       </ThumbnailCard>
     </div>
-    <div class="col col--4 margin-bottom--lg">
-      <ThumbnailCard
-        title="Setup"
-        description="How to set up your account."
-        to={'/category/setting-up-your-account'}
-        thumbnail="https://placehold.co/1200x600"
-      >
-        <FontAwesomeIcon icon="coffee" color="purple " />
-      </ThumbnailCard>
-    </div>
-    <div class="col col--4 margin-bottom--lg">
-      <ThumbnailCard
-        title="Setup"
-        description="How to set up your account."
-        to={'/category/setting-up-your-account'}
-        thumbnail="https://placehold.co/1200x600"
-      >
-        <FontAwesomeIcon icon="coffee" color="red" />
-      </ThumbnailCard>
-    </div>
   </div>
 </div>
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<Image
+  img={useBaseUrl(
+    '/static/img/en/g_1906x1062_RGB_Odysee_Homepage_Sign_Up_Arrow.jpg'
+  )}
+/>
+<img
+  src={useBaseUrl('/img/en/g_1906x1062_RGB_Odysee_Homepage_Sign_Up_Arrow.jpg')}
+/>;
 
 Click on <OdyseeButton url="https://odysee.com/$/wallet" ><Credits/> Your Wallet</OdyseeButton> to view your wallet on Odysee.
 
