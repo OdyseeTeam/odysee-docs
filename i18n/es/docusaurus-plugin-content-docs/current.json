@@ -66,5 +66,9 @@
   "sidebar.tutorialSidebar.category.Moderation Tools": {
     "message": "Moderation Tools",
     "description": "The label for category Moderation Tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Content Discovery": {
+    "message": "Descubrimiento de contenido",
+    "description": "The label for category Moderation Tools in sidebar tutorialSidebar"
   }
 }
