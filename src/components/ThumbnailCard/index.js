@@ -28,9 +28,7 @@ export default function ThumbnailCard({
         <Link to={to}>
           <Image
             className={styles.thumbnailCardImage}
-            img={useBaseUrl(
-              '/img/en/g_1906x1062_RGB_Odysee_Homepage_Sign_Up_Arrow.jpg"'
-            )}
+            img={useBaseUrl(thumbnail)}
             alt={`Thumbnail of ${title}`}
           />
         </Link>
