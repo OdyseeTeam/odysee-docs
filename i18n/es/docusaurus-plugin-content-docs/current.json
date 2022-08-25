@@ -44,7 +44,7 @@
     "description": "The label for category Uploading Text Posts in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Livestreaming": {
-    "message": "Livestreaming",
+    "message": "Transmisión en vivo",
     "description": "The label for category Livestreaming in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Creating a Livestream": {
@@ -52,7 +52,7 @@
     "description": "The label for category Creating a Livestream in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Channel Categories": {
-    "message": "Channel Categories",
+    "message": "Categorías de canales",
     "description": "The label for category Channel Categories in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Odysee's Blockchain": {
