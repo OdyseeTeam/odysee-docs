@@ -4,15 +4,15 @@
     "description": "The title of the footer links column with title=Help Hub in the footer"
   },
   "link.title.Community": {
-    "message": "Community",
+    "message": "Comunidad",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.More": {
-    "message": "More",
+    "message": "Más",
     "description": "The title of the footer links column with title=More in the footer"
   },
   "link.item.label.Index": {
-    "message": "Index",
+    "message": "Índice",
     "description": "The label of footer link with label=Index linking to /"
   },
   "link.item.label.Discord": {
@@ -21,7 +21,7 @@
   },
   "link.item.label.Twitter": {
     "message": "Twitter",
-    "description": "The label of footer link with label=Twitter linking to https://twitter.com/OdyseeTeam"
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/OdyseeEs"
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
