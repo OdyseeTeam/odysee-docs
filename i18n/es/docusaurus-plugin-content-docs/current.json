@@ -74,5 +74,21 @@
   "sidebar.tutorialSidebar.category.Monetization and Rewards": {
     "message": "Monetización y recompensas",
     "description": "The label for category Monetization and Rewards in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Cash Tipping": {
+    "message": "Propinas en efectivo",
+    "description": "The label for category Cash Tipping in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Earnings Per View": {
+    "message": "Ganancias por vista",
+    "description": "The label for category Earnings Per View in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.LBC Tipping": {
+    "message": "Propinas LBC",
+    "description": "The label for category LBC Tipping in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Rewards": {
+    "message": "Recompensas",
+    "description": "The label for category Rewards in sidebar tutorialSidebar"
   }
 }
