@@ -5,6 +5,30 @@ on:
     branches: [main]
 
 jobs:
+  copyfiles:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+    - name: Copy i18n files
+      run: |
+        rsync -r --ignore-existing docs/ i18n/it/docusaurus-plugin-content-docs/current
+        rsync -r --ignore-existing docs/ i18n/de/docusaurus-plugin-content-docs/current
+        rsync -r --ignore-existing docs/ i18n/fr/docusaurus-plugin-content-docs/current
+        rsync -r --ignore-existing docs/ i18n/es/docusaurus-plugin-content-docs/current
+        rsync -r --ignore-existing docs/ i18n/pt/docusaurus-plugin-content-docs/current
+    - name: Commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        if ! git diff-index --quiet HEAD; then
+          git commit -m "Copy files into i18n folder" -a
+        fi
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
   publish:
     runs-on: ubuntu-latest
     steps:
