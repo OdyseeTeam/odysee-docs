@@ -2,6 +2,7 @@
   "label": "Uploading Content",
   "position": 4,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-uploading/category-uploading"
   }
 }

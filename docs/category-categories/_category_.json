@@ -2,6 +2,7 @@
   "label": "Channel Categories",
   "position": 10,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-categories/category-categories"
   }
 }
