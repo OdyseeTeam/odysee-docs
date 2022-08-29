@@ -4,7 +4,7 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Odysee Basics": {
-    "message": "Odysee Grundlagen",
+    "message": "Odysee-Grundlagen",
     "description": "The label for category Odysee Basics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Setting Up Your Account": {
@@ -20,11 +20,11 @@
     "description": "The label for category Logging In in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.YouTube Sync": {
-    "message": "YouTube Sync",
+    "message": "YouTube-Sync",
     "description": "The label for category YouTube Sync in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Walkthrough": {
-    "message": "YouTube Sync einrichten",
+    "message": "YouTube-Sync einrichten",
     "description": "The label for category Walkthrough in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Frequently Asked Questions": {
@@ -52,11 +52,11 @@
     "description": "The label for category Creating a Livestream in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Channel Categories": {
-    "message": "Kanal Kategorien",
+    "message": "Kanalkategorien",
     "description": "The label for category Channel Categories in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Odysee's Blockchain": {
-    "message": "Die Blockchain von Odysee",
+    "message": "Die Odysee-Blockchain",
     "description": "The label for category Odysee's Blockchain in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Staking": {
