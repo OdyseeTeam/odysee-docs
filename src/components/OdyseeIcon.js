@@ -5,9 +5,50 @@ function getIcon(type) {
   if (type == 'credits') {
     return Credits();
   }
+  if (type == 'dollar') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--DollarSign"
+        aria-hidden="true"
+      >
+        <g>
+          <line x1="12" y1="1" x2="12" y2="23"></line>
+          <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+        </g>
+      </svg>
+    );
+  }
   if (type == 'wallet') {
     return (
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 24 24" overflow="visible" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--List" aria-hidden="true"><g><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></g></svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--List"
+        aria-hidden="true"
+      >
+        <g>
+          <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+          <line x1="1" y1="10" x2="23" y2="10"></line>
+        </g>
+      </svg>
     );
   }
   if (type == 'cogwheel') {
