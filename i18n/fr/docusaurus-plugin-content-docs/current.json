@@ -3,6 +3,22 @@
     "message": "Suivant",
     "description": "The label for version current"
   },
+  "sidebar.tutorialSidebar.category.Playlists": {
+    "message": "Playlists",
+    "description": "The label for category Playlists"
+  },
+  "sidebar.tutorialSidebar.category.Monetization & Rewards": {
+    "message": "Monetization & Rewards",
+    "description": "The label for category Monetization & Rewards"
+  },
+  "sidebar.tutorialSidebar.category.Wallet & Transactions": {
+    "message": "Wallet & Transactions",
+    "description": "The label for category Wallet & Transactions"
+  },
+  "sidebar.tutorialSidebar.category.Content Discovery": {
+    "message": "Content Discovery",
+    "description": "The label for category Content Discovery"
+  },
   "sidebar.tutorialSidebar.category.Odysee Basics": {
     "message": "Les bases d'Odysee",
     "description": "The label for category Odysee Basics in sidebar tutorialSidebar"
