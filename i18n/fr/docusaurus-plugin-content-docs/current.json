@@ -3,6 +3,22 @@
     "message": "Suivant",
     "description": "The label for version current"
   },
+  "sidebar.tutorialSidebar.category.Rewards": {
+    "message": "Rewards",
+    "description": "The label for category Rewards"
+  },
+  "sidebar.tutorialSidebar.category.Earnings Per View": {
+    "message": "Playlists",
+    "description": "The label for category Playlists"
+  },
+  "sidebar.tutorialSidebar.category.LBC Tipping": {
+    "message": "Playlists",
+    "description": "The label for category Playlists"
+  },
+  "sidebar.tutorialSidebar.category.Cash Tipping": {
+    "message": "Playlists",
+    "description": "The label for category Playlists"
+  },
   "sidebar.tutorialSidebar.category.Playlists": {
     "message": "Playlists",
     "description": "The label for category Playlists"
