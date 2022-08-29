@@ -4,35 +4,35 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Rewards": {
-    "message": "Rewards",
+    "message": "Récompenses",
     "description": "The label for category Rewards"
   },
   "sidebar.tutorialSidebar.category.Earnings Per View": {
-    "message": "Earnings Per View",
+    "message": "Gains par vue",
     "description": "The label for category Earnings Per View"
   },
   "sidebar.tutorialSidebar.category.LBC Tipping": {
-    "message": "LBC Tipping",
+    "message": "Pourboires en LBC",
     "description": "The label for category LBC Tipping"
   },
   "sidebar.tutorialSidebar.category.Cash Tipping": {
-    "message": "Cash Tipping",
+    "message": "Pourboires en espèces",
     "description": "The label for category Cash Tipping"
   },
   "sidebar.tutorialSidebar.category.Playlists": {
-    "message": "Playlists",
+    "message": "Listes de lecture",
     "description": "The label for category Playlists"
   },
   "sidebar.tutorialSidebar.category.Monetization & Rewards": {
-    "message": "Monetization & Rewards",
+    "message": "Monétisation et récompenses",
     "description": "The label for category Monetization & Rewards"
   },
   "sidebar.tutorialSidebar.category.Wallet & Transactions": {
-    "message": "Wallet & Transactions",
+    "message": "Portefeuille et transactions",
     "description": "The label for category Wallet & Transactions"
   },
   "sidebar.tutorialSidebar.category.Content Discovery": {
-    "message": "Content Discovery",
+    "message": "Découverte de contenu",
     "description": "The label for category Content Discovery"
   },
   "sidebar.tutorialSidebar.category.Odysee Basics": {
@@ -92,7 +92,7 @@
     "description": "The label for category Odysee's Blockchain in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Staking": {
-    "message": "Staking",
+    "message": "Valeur",
     "description": "The label for category Staking in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Moderation Tools": {
