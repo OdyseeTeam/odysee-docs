@@ -21,8 +21,10 @@ export default function ThumbnailCard({
   description,
   to,
   thumbnail,
+  size,
 }) {
   return (
+    <div class={"col col--" + size + " margin-bottom--lg"}>
     <CardContainer href={to}>
       <div>
         <Link to={to}>
@@ -40,5 +42,6 @@ export default function ThumbnailCard({
         <p className={styles.cardDescription}>{description}</p>
       </div>
     </CardContainer>
+    </div>
   );
 }
