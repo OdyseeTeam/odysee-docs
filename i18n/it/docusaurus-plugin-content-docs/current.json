@@ -3,6 +3,38 @@
     "message": "Next",
     "description": "The label for version current"
   },
+  "sidebar.tutorialSidebar.category.Rewards": {
+    "message": "Rewards",
+    "description": "The label for category Rewards"
+  },
+  "sidebar.tutorialSidebar.category.Earnings Per View": {
+    "message": "Earnings Per View",
+    "description": "The label for category Earnings Per View"
+  },
+  "sidebar.tutorialSidebar.category.LBC Tipping": {
+    "message": "LBC Tipping",
+    "description": "The label for category LBC Tipping"
+  },
+  "sidebar.tutorialSidebar.category.Cash Tipping": {
+    "message": "Cash Tipping",
+    "description": "The label for category Cash Tipping"
+  },
+  "sidebar.tutorialSidebar.category.Playlists": {
+    "message": "Playlists",
+    "description": "The label for category Playlists"
+  },
+  "sidebar.tutorialSidebar.category.Monetization & Rewards": {
+    "message": "Monetization & Rewards",
+    "description": "The label for category Monetization & Rewards"
+  },
+  "sidebar.tutorialSidebar.category.Wallet & Transactions": {
+    "message": "Wallet & Transactions",
+    "description": "The label for category Wallet & Transactions"
+  },
+  "sidebar.tutorialSidebar.category.Content Discovery": {
+    "message": "Content Discovery",
+    "description": "The label for category Content Discovery"
+  },
   "sidebar.tutorialSidebar.category.Odysee Basics": {
     "message": "Odysee Basics",
     "description": "The label for category Odysee Basics in sidebar tutorialSidebar"
