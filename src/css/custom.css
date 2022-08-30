@@ -124,7 +124,6 @@
   background-color: var(--odysee-very-dark-purple);
 }
 
-
 /* Font h1 - h4 */
 [data-theme='light'] .markdown h1:first-child {
   color: var(--odysee-very-dark-purple);
@@ -222,8 +221,14 @@
 [data-theme='light'] img[class$='dark-image'] {
   display: none;
 }
-
 [data-theme='dark'] img[class$='light-image'] {
+  display: none;
+}
+
+[data-theme='light'] video[class$='dark-video'] {
+  display: none;
+}
+[data-theme='dark'] video[class$='light-video'] {
   display: none;
 }
 
