@@ -90,5 +90,9 @@
   "sidebar.tutorialSidebar.category.Rewards": {
     "message": "Recompensas",
     "description": "The label for category Rewards in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Wallet & Transactions": {
+    "message": "Monedero y transacciones",
+    "description": "The label for category Wallet in sidebar tutorialSidebar"
   }
 }
