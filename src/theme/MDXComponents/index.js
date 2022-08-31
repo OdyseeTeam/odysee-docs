@@ -11,6 +11,7 @@ import ThumbnailCard from '@site/src/components/ThumbnailCard';
 import OdyseeIcon from '@site/src/components/OdyseeIcon';
 import CardRow from '@site/src/components/CardRow';
 import MailTemplate from '@site/src/components/MailTemplate';
+import CategoryCards from '@site/src/components/CategoryCards';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -37,4 +38,5 @@ export default {
   OdyseeIcon: OdyseeIcon,
   CardRow: CardRow,
   MailTemplate: MailTemplate,
+  CategoryCards: CategoryCards,
 };
