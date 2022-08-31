@@ -95,9 +95,9 @@
     "message": "Monedero y transacciones",
     "description": "The label for category Wallet in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Playlist": {
+  "sidebar.tutorialSidebar.category.Playlists": {
     "message": "Listas de reproducción",
-    "description": "The label for category Playlist in sidebar tutorialSidebar"
+    "description": "The label for category Playlists in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Content Interaction": {
     "message": "Interacción de contenido",
