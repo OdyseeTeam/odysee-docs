@@ -4,6 +4,30 @@ sidebar_position: 1
 
 # Wie kann ich einen Textbeitrag hochladen? 
 
-Um einen Textbeitrag hochzuladen, klicke auf das Federsymbol neben der Suchleiste.
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-Auf mobilen Geräten befindet sich diese Schaltfläche am unteren Rand der erweiterten Seitenleiste.
+<Tabs>
+  <TabItem value="web" label="Web" default>
+	Um einen Textbeitrag hochzuladen, klicke auf das Federsymbol <OdyseeButtonRound url="https://odysee.com/$/post"><OdyseeIcon type='Post'/></OdyseeButtonRound> neben der Suchleiste.
+	<Image
+      img="/img/de/locale_blog_link_desktop_dark.png"
+      class="dark-image"
+    />
+    <Image
+      img="/img/de/locale_blog_link_desktop_light.png"
+      class="light-image"
+    />
+  </TabItem>
+  <TabItem value="mobile" label="Mobile">
+    Auf mobilen Geräten befindet sich die Schaltfläche <a href="https://odysee.com/$/post"><OdyseeIcon type='Post'/> Blogbeitrag</a> am unteren Rand der erweiterten Seitenleiste.
+    <Image
+      img="/img/de/locale_blog_link_mobile_dark.png"
+      class="dark-image"
+    />
+    <Image
+      img="/img/de/locale_blog_link_mobile_light.png"
+      class="light-image"
+    />
+  </TabItem>
+</Tabs>

@@ -6,12 +6,39 @@ sidebar_position: 1
 
 Odysee ist vor allem als Videoplattform bekannt, aber du kannst auch Bilder, Audiodateien, PDFs, CAD-Dateien und so ziemlich alles andere hochladen.
 
-Um eine Datei hochzuladen, klicke auf das Wolkensymbol neben der Suchleiste.
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-Auf mobilen Geräten befindet sich diese Schaltfläche am unteren Rand der erweiterten Seitenleiste.
+<Tabs>
+  <TabItem value="web" label="Web" default>
+    Um eine Datei hochzuladen, klicke auf das Wolkensymbol <OdyseeButtonRound url="https://odysee.com/$/upload"><OdyseeIcon type='uploadCloud'/></OdyseeButtonRound> neben der Suchleiste.
+	<Image
+      img="/img/de/locale_upload_link_desktop_dark.png"
+      class="dark-image"
+    />
+    <Image
+      img="/img/de/locale_upload_link_desktop_light.png"
+      class="light-image"
+    />
+  </TabItem>
+  <TabItem value="mobile" label="Mobile">
+    Auf mobilen Geräten befindet sich die Schaltfläche <a href="https://odysee.com/$/upload"><OdyseeIcon type='uploadCloud'/> Hochladen</a> am unteren Rand der erweiterten Seitenleiste.
+    <Image
+      img="/img/de/locale_upload_link_mobile_dark.png"
+      class="dark-image"
+    />
+    <Image
+      img="/img/de/locale_upload_link_mobile_light.png"
+      class="light-image"
+    />
+  </TabItem>
+</Tabs>
+
 
 Auf dem Upload-Bildschirm wirst du zunächst aufgefordert, eine Datei auszuwählen.
 
 Für Videos müssen Sie MP4-Dateien im Format H264/AAC hochladen. Für eine optimale Anzeige empfehlen wir Bitraten unter 8 Mbps.
 
+:::info Hinweis
 Odysee-Uploads sind auf 16 GB beschränkt.
+:::
