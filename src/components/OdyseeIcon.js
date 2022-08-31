@@ -5,6 +5,393 @@ function getIcon(type) {
   if (type == 'credits') {
     return Credits();
   }
+  if (type == 'Unlock') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--Unlock"
+        aria-hidden="true"
+      >
+        <g>
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+          <path d="M7 11V7a5 5 0 0 1 9.9-1"></path>
+        </g>
+      </svg>
+    );
+  }
+  if (type == 'Edit') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--Edit"
+        aria-hidden="true"
+      >
+        <g>
+          <path d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34"></path>
+          <polygon points="18 2 22 6 12 16 8 16 8 12 18 2"></polygon>
+        </g>
+      </svg>
+    );
+  }
+  if (type == 'MoreVertical') {
+    return (
+      <svg
+        size="20"
+        class="icon icon--MoreVertical"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="20"
+        height="20"
+        fill="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <g>
+          <circle cx="12" cy="5" r="2"></circle>
+          <circle cx="12" cy="12" r="2"></circle>
+          <circle cx="12" cy="19" r="2"></circle>
+        </g>
+      </svg>
+    );
+  }
+  if (type == 'PlaylistAdd') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 9 24 24"
+        overflow="visible"
+        width="12"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--PlaylistAdd"
+        aria-hidden="true"
+		style={{marginRight: 12 + 'px'}}
+      >
+        <g transform="matrix(3.4285714285714284,0,0,3.4285714285714284,0,0)">
+          <rect x="0.5" y="0.5" width="10.5" height="10.5" rx="1"></rect>
+          <path d="M13.5,3.5v9a1,1,0,0,1-1,1h-9"></path>
+          <line x1="5.75" y1="3" x2="5.75" y2="8.5"></line>
+          <line x1="3" y1="5.75" x2="8.5" y2="5.75"></line>
+        </g>
+      </svg>
+    );
+  }
+  if (type == 'Playlist') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 9 24 24"
+        overflow="visible"
+        width="12"
+        height="16"
+        fill="currentColor"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke="currentColor"
+        class="icon icon--Playlist"
+        aria-hidden="true"
+		style={{marginRight: 12 + 'px'}}
+      >
+        <g transform="matrix(3.4285714285714284,0,0,3.4285714285714284,0,0)">
+          <rect
+            x="0.5"
+            y="0.5"
+            width="10.5"
+            height="10.5"
+            rx="1"
+            fill="none"
+          ></rect>
+          <path d="M13.5,3.5v9a1,1,0,0,1-1,1h-9" fill="none"></path>
+          <path
+            d="M3.75,7.64V3.86a.36.36,0,0,1,.55-.31L7.57,5.44a.36.36,0,0,1,0,.62L4.3,8A.36.36,0,0,1,3.75,7.64Z"
+            fill="none"
+          ></path>
+        </g>
+      </svg>
+    );
+  }
+  if (type == 'ChevronDown') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--ChevronDown"
+        aria-hidden="true"
+      >
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    );
+  }
+  if (type == 'ChevronRight') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--ChevronRight"
+        aria-hidden="true"
+      >
+        <g fill="none" fill-rule="evenodd" stroke-linecap="round">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </g>
+      </svg>
+    );
+  }
+  if (type == 'Livestream') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="18"
+        height="18"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--Video"
+        aria-hidden="true"
+      >
+        <g>
+          <polygon points="23 7 16 12 23 17 23 7"></polygon>
+          <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+        </g>
+      </svg>
+    );
+  }
+  if (type == 'Post') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="18"
+        height="18"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--Post"
+        aria-hidden="true"
+      >
+        <g>
+          <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
+          <line x1="16" y1="8" x2="2" y2="22"></line>
+          <line x1="17.5" y1="15" x2="9" y2="15"></line>
+        </g>
+      </svg>
+    );
+  }
+  if (type == 'SignOut') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--SignOut"
+        aria-hidden="true"
+      >
+        <g>
+          <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+          <polyline points="16 17 21 12 16 7"></polyline>
+          <line x1="21" y1="12" x2="9" y2="12"></line>
+        </g>
+      </svg>
+    );
+  }
+  if (type == 'HelpCircle') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--HelpCircle"
+        aria-hidden="true"
+      >
+        <g>
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+          <line x1="12" y1="17" x2="12" y2="17"></line>
+        </g>
+      </svg>
+    );
+  }
+  if (type == 'Upgrade') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--Upgrade"
+        aria-hidden="true"
+      >
+        <g>
+          <path d="m2 6 10-5 10 5M2 6v12l10 5 10-5V6"></path>
+          <circle cx="12" cy="10" r="5.25"></circle>
+          <path d="M8.5 14.5 6 17h3l1.5 2.5 1-4h1l1 4L15 17h3l-2-2.5"></path>
+        </g>
+      </svg>
+    );
+  }
+  if (type == 'Users') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--Users"
+        aria-hidden="true"
+      >
+        <g>
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+          <circle cx="9" cy="7" r="4"></circle>
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+        </g>
+      </svg>
+    );
+  }
+  if (type == 'Award') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--Award"
+        aria-hidden="true"
+      >
+        <g fill="none" fill-rule="evenodd" stroke-linecap="round">
+          <circle cx="12" cy="8" r="7"></circle>
+          <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+        </g>
+      </svg>
+    );
+  }
+  if (type == 'TestTube') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--BarChart2"
+        aria-hidden="true"
+      >
+        <g>
+          <path d="M 8.4312337,1.6285136 V 9.4232264 L 2.2367584,22.725564 H 22.030217 L 15.773797,9.2902071 V 1.6285136 Z"></path>
+          <path d="M 4.2426407,18.166369 H 12.197591"></path>
+          <path d="m 6.363961,14.188893 h 5.701048"></path>
+        </g>
+      </svg>
+    );
+  }
+  if (type == 'YouTube') {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -4 24 24"
+        overflow="visible"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon--Youtube"
+        aria-hidden="true"
+      >
+        <g>
+          <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+          <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+        </g>
+      </svg>
+    );
+  }
   if (type == 'atSign') {
     return (
       <svg
@@ -200,5 +587,5 @@ function getIcon(type) {
 }
 
 export default function OdyseeIcon(props) {
-  return getIcon(props.type);
+  return props.color !== undefined ? <span style={{color:props.color}}>{getIcon(props.type)}</span> : getIcon(props.type);
 }

@@ -10,6 +10,7 @@ import Card from '@site/src/components/Card';
 import ThumbnailCard from '@site/src/components/ThumbnailCard';
 import OdyseeIcon from '@site/src/components/OdyseeIcon';
 import CardRow from '@site/src/components/CardRow';
+import MailTemplate from '@site/src/components/MailTemplate';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -35,4 +36,5 @@ export default {
   PrimaryOdyseeButton: PrimaryOdyseeButton,
   OdyseeIcon: OdyseeIcon,
   CardRow: CardRow,
+  MailTemplate: MailTemplate,
 };
