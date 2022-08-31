@@ -150,7 +150,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/OdyseeTeam/odysee-docs/blob/main/',
+          // editUrl: 'https://github.com/OdyseeTeam/odysee-docs/blob/main/',
+          editUrl: ({locale, versionDocsDirPath, docPath}) => {
+            if (locale !== 'en') {
+              return `https://github.com/OdyseeTeam/odysee-docs/edit/main/i18n/${locale}/docusaurus-plugin-content-docs/current/${docPath}`;
+            }
+            return `https://github.com/OdyseeTeam/odysee-docs/edit/main/docs/${docPath}`;
+          },
           editLocalizedFiles: true,
         },
         theme: {

@@ -1,7 +1,8 @@
 {
   "label": "Odysee's Blockchain",
-  "position": 7,
+  "position": 8,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-blockchain/category-blockchain"
   }
 }

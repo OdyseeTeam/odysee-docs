@@ -1,0 +1,47 @@
+# Odysee's Blockchain
+
+One of Odysee's major differentiators from other media platforms is that Odysee is built on a blockchain called LBRY.
+
+In this section, we'll explore what exactly that means and how it affects Odysee. It's important to note, no one has to know a thing about blockchains in order to use and enjoy Odysee. It's similar to driving a car, you can drive one without understanding how the engine works.
+
+This section will focus primarily on how Odysee interacts with the LBRY protocol. For a more detailed look at every aspect of the LBRY protocol, visit https://lbry.com/faq.
+
+import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
+
+<div class="container" style={{ padding: 0 }}>
+  <div class="row">
+    <div class="col col--3 margin-bottom--lg">
+      <ThumbnailCard
+        title="Overview"
+        faIcon="fa-circle-play"
+        description="The LBRY protocol and LBC."
+        to={'/category-blockchain/overview'}
+        thumbnail="https://placehold.co/1200x600"
+      />
+    </div>
+    <div class="col col--3 margin-bottom--lg">
+      <ThumbnailCard
+        title="Staking"
+        description="How LBRY's staking system affects Odysee."
+        to={'/category/staking'}
+        thumbnail="https://placehold.co/1200x600"
+      />
+    </div>
+    <div class="col col--3 margin-bottom--lg">
+      <ThumbnailCard
+        title="New, Trending, and Top Content"
+        description="Category and Channel sorting based on LBC stake."
+        to={'/category-blockchain/trending'}
+        thumbnail="https://placehold.co/1200x600"
+      />
+    </div>
+    <div class="col col--3 margin-bottom--lg">
+      <ThumbnailCard
+        title="How Do I Get More LBC?"
+        description="Need some LBC? Here's how."
+        to={'/category-blockchain/getmorelbc'}
+        thumbnail="https://placehold.co/1200x600"
+      />
+    </div>
+  </div>
+</div>

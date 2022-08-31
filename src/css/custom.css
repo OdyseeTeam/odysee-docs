@@ -124,6 +124,20 @@
   background-color: var(--odysee-very-dark-purple);
 }
 
+/* Sidebar leveling style */
+theme-doc-sidebar-item-link-level-1,
+.theme-doc-sidebar-item-category-level-1 {
+  font-weight: 600;
+}
+.theme-doc-sidebar-item-link-level-2,
+.theme-doc-sidebar-item-category-level-2 {
+  font-weight: 500;
+}
+.theme-doc-sidebar-item-link-level-3,
+.theme-doc-sidebar-item-category-level-3 {
+  font-weight: 400;
+  font-style: italic;
+}
 
 /* Font h1 - h4 */
 [data-theme='light'] .markdown h1:first-child {
@@ -222,8 +236,14 @@
 [data-theme='light'] img[class$='dark-image'] {
   display: none;
 }
-
 [data-theme='dark'] img[class$='light-image'] {
+  display: none;
+}
+
+[data-theme='light'] video[class$='dark-video'] {
+  display: none;
+}
+[data-theme='dark'] video[class$='light-video'] {
   display: none;
 }
 
