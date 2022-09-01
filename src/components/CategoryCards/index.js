@@ -25,6 +25,7 @@ sidebar_custom_props:
   cardThumbnail: "https://placehold.co/1200x600" #The thumbnail on the category card.
   cardSize: 12 #12 is full size, 6 is 50% width, etc.
   thumbnailLocation: "left" #Possible options: top, left, bottom, right, none
+  tileColor: "blue" #Possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink
 */
 
 export default function CategoryCards({className}) {
@@ -39,6 +40,7 @@ export default function CategoryCards({className}) {
               thumbnail={item.customProps.cardThumbnail}
 			  size={item.customProps.cardSize}
 			  thumbnailLocation={item.customProps.thumbnailLocation}
+			  tileColor={item.customProps.tileColor}
             />
       ))}
     </section>
