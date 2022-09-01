@@ -63,3 +63,64 @@
   max-width: 100px;
   margin: 0px;
 }
+
+/* Background for cards */
+
+.cardBackgroundBlue {
+  background: url(/img/g_128x128_RGB_Blue_spaceman-80.jpg) repeat;
+  background-size: 37px;
+}
+.cardBackgroundBlue:hover {
+  background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url(/img/g_128x128_RGB_Blue_spaceman-80.jpg) repeat;
+  background-size: 37px;
+}
+.cardBackgroundCream {
+  background: url(/img/g_128x128_RGB_Cream_spaceman-80.jpg) repeat;
+  background-size: 37px;
+}
+.cardBackgroundCream:hover {
+  background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url(/img/g_128x128_RGB_Cream_spaceman-80.jpg) repeat;
+  background-size: 37px;
+}
+.cardBackgroundDarkPurple {
+  background: url(/img/g_128x128_RGB_DarkPurple_spaceman-80.jpg) repeat;
+  background-size: 37px;
+}
+.cardBackgroundDarkPurple:hover{
+  background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url(/img/g_128x128_RGB_DarkPurple_spaceman-80.jpg) repeat;
+  background-size: 37px;
+}
+.cardBackgroundLightPurple {
+  background: url(/img/g_128x128_RGB_LightPurple_spaceman-80.jpg) repeat;
+  background-size: 37px;
+}
+.cardBackgroundLightPurple:hover {
+  background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url(/img/g_128x128_RGB_LightPurple_spaceman-80.jpg) repeat;
+  background-size: 37px;
+}
+.cardBackgroundMauve {
+  background: url(/img/g_128x128_RGB_Mauve_spaceman-80.jpg) repeat;
+  background-size: 37px;
+}
+.cardBackgroundMauve:hover {
+  background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url(/img/g_128x128_RGB_Mauve_spaceman-80.jpg) repeat;
+  background-size: 37px;
+}
+.cardBackgroundOrange {
+  background: url(/img/g_128x128_RGB_Orange_spaceman-80.jpg) repeat;
+  background-size: 37px;
+}
+.cardBackgroundOrange:hover {
+  background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url(/img/g_128x128_RGB_Orange_spaceman-80.jpg) repeat;
+  background-size: 37px;
+}
+.cardBackgroundPink {
+  background: url(/img/g_128x128_RGB_Pink_spaceman-80.jpg) repeat;
+  background-size: 37px;
+}
+.cardBackgroundPink:hover {
+  background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url(/img/g_128x128_RGB_Pink_spaceman-80.jpg) repeat;
+  background-size: 37px;
+}
+.cardBackgroundNone {
+}

@@ -16,11 +16,23 @@ function CardContainer({ href, children, classes }) {
   );
 }
 
+function getBackgroundClass(background) {
+  var bg = background.toLowerCase();
+  if (bg == "blue") return styles.cardBackgroundBlue;
+  if (bg == "cream") return styles.cardBackgroundCream;
+  if (bg == "darkpurple") return styles.cardBackgroundDarkPurple;
+  if (bg == "lightpurple") return styles.cardBackgroundLightPurple;
+  if (bg == "mauve") return styles.cardBackgroundMauve;
+  if (bg == "orange") return styles.cardBackgroundOrange;
+  if (bg == "pink") return styles.cardBackgroundPink;
+  return styles.cardBackgroundNone;
+}
+
 function getCard(props) {
   if (props.thumbnailLocation == "top") {
     return (
       <div class={"col col--" + props.size + " margin-bottom--lg"}>
-        <CardContainer href={props.to}>
+        <CardContainer href={props.to} classes={clsx(getBackgroundClass(props.tileColor))}>
           <div>
             <Link to={props.to}>
               <Image
@@ -41,9 +53,9 @@ function getCard(props) {
   if (props.thumbnailLocation == "bottom") {
     return (
       <div class={"col col--" + props.size + " margin-bottom--lg"}>
-        <CardContainer href={props.to} classes={styles.rowCardReversedColumn}>
+        <CardContainer href={props.to} classes={clsx(styles.rowCardReversedColumn, getBackgroundClass(props.tileColor))}>
           <div>
-            <Link to={props.to}>
+            <Link to={props.to} class={getBackgroundClass(props.tileColor)}>
               <Image
                 className={styles.thumbnailCardImageReversedColumn}
                 img={useBaseUrl(props.thumbnail)}
@@ -62,7 +74,7 @@ function getCard(props) {
   if (props.thumbnailLocation == "left") {
     return (
       <div class={"col col--" + props.size + " margin-bottom--lg"}>
-        <CardContainer href={props.to} classes={styles.rowCard}>
+        <CardContainer href={props.to} classes={clsx(styles.rowCard,getBackgroundClass(props.tileColor))}>
           <div>
             <Link to={props.to}>
               <Image
@@ -83,7 +95,7 @@ function getCard(props) {
   if (props.thumbnailLocation == "right") {
     return (
       <div class={"col col--" + props.size + " margin-bottom--lg"}>
-        <CardContainer href={props.to} classes={styles.rowCardReverse}>
+        <CardContainer href={props.to} classes={clsx(styles.rowCardReverse, getBackgroundClass(props.tileColor))}>
           <div>
             <Link to={props.to}>
               <Image
