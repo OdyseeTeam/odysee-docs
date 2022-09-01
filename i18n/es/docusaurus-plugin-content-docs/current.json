@@ -71,9 +71,9 @@
     "message": "Descubrimiento de contenido",
     "description": "The label for category Content Discovery in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Monetization and Rewards": {
+  "sidebar.tutorialSidebar.category.Monetization & Rewards": {
     "message": "Monetización y recompensas",
-    "description": "The label for category Monetization and Rewards in sidebar tutorialSidebar"
+    "description": "The label for category Monetization & Rewards in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Cash Tipping": {
     "message": "Propinas en efectivo",
@@ -90,5 +90,17 @@
   "sidebar.tutorialSidebar.category.Rewards": {
     "message": "Recompensas",
     "description": "The label for category Rewards in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Wallet & Transactions": {
+    "message": "Monedero y transacciones",
+    "description": "The label for category Wallet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Playlists": {
+    "message": "Listas de reproducción",
+    "description": "The label for category Playlists in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Content Interaction": {
+    "message": "Interacción de contenido",
+    "description": "The label for category Content Interaction in sidebar tutorialSidebar"
   }
 }
