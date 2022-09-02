@@ -69,34 +69,38 @@
   },
   "sidebar.tutorialSidebar.category.Rewards": {
     "message": "Rewards",
-    "description": "The label for category Rewards"
+    "description": "The label for category Rewards in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Earnings Per View": {
     "message": "Earnings Per View",
-    "description": "The label for category Earnings Per View"
+    "description": "The label for category Earnings Per View in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.LBC Tipping": {
     "message": "LBC Tipping",
-    "description": "The label for category LBC Tipping"
+    "description": "The label for category LBC Tipping in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Cash Tipping": {
     "message": "Cash Tipping",
-    "description": "The label for category Cash Tipping"
+    "description": "The label for category Cash Tipping in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Playlists": {
     "message": "Playlists",
-    "description": "The label for category Playlists"
+    "description": "The label for category Playlists in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Monetization & Rewards": {
     "message": "Monetization & Rewards",
-    "description": "The label for category Monetization & Rewards"
+    "description": "The label for category Monetization & Rewards in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Wallet & Transactions": {
     "message": "Wallet & Transactions",
-    "description": "The label for category Wallet & Transactions"
+    "description": "The label for category Wallet & Transactions in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Content Discovery": {
     "message": "Content Discovery",
-    "description": "The label for category Content Discovery"
+    "description": "The label for category Content Discovery in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Content Interaction": {
+    "message": "Content Interaction",
+    "description": "The label for category Content Interaction in sidebar tutorialSidebar"
   }
 }
