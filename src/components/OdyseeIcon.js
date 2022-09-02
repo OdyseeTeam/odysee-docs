@@ -1,11 +1,12 @@
 import React from 'react';
 import Credits from '@site/src/components/Credits';
 
-function getIcon(type) {
+function getIcon(inputType) {
+  var type = inputType.toLowerCase()
   if (type == 'credits') {
     return Credits();
   }
-  if (type == 'Unlock') {
+  if (type == 'unlock') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +29,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'Edit') {
+  if (type == 'edit') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +52,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'MoreVertical') {
+  if (type == 'morevertical') {
     return (
       <svg
         size="20"
@@ -75,7 +76,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'PlaylistAdd') {
+  if (type == 'playlistadd') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +102,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'Playlist') {
+  if (type == 'playlist') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +137,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'ChevronDown') {
+  if (type == 'chevrondown') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -156,7 +157,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'ChevronRight') {
+  if (type == 'chevronright') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +179,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'Livestream') {
+  if (type == 'livestream') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -201,7 +202,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'Post') {
+  if (type == 'post') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -225,7 +226,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'SignOut') {
+  if (type == 'signout') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -249,7 +250,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'HelpCircle') {
+  if (type == 'helpcircle') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -273,7 +274,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'Upgrade') {
+  if (type == 'upgrade') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -297,7 +298,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'Users') {
+  if (type == 'users') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -322,7 +323,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'Award') {
+  if (type == 'award') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -345,7 +346,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'TestTube') {
+  if (type == 'testtube') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -369,7 +370,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'YouTube') {
+  if (type == 'youtube') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -392,7 +393,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'atSign') {
+  if (type == 'atsign') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -552,7 +553,7 @@ function getIcon(type) {
       </svg>
     );
   }
-  if (type == 'uploadCloud') {
+  if (type == 'uploadcloud') {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
