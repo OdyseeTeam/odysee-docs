@@ -52,7 +52,8 @@ function filterItems(items) {
 }
 
 function getCard(props) {
-	
+	console.log(props);
+
   if (props.isCategory == true) {
 	var propItem = props.item;
     return (
@@ -60,7 +61,7 @@ function getCard(props) {
         <CategoryCardContainer>
           <div className={styles.thumbnailCard}>
             <h3>{props.title}</h3>
-
+			<section class="row">
 			  {filterItems(propItem.items).map((item, index) => (
 				<ThumbnailCard
 				  title={item.label}
@@ -73,10 +74,9 @@ function getCard(props) {
 				  tileColor={item.customProps.tileColor}
 				  isCategory={item.type === 'category'}
 				  item={item}
-				  style={{padding: "0px"}}
 				/>
 			  ))}
-
+			  </section>
           </div>
         </CategoryCardContainer>
       </div>
