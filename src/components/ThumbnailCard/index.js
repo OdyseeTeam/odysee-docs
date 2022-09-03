@@ -4,12 +4,23 @@ import styles from "./styles.module.css";
 import clsx from "clsx";
 import Image from "@theme/IdealImage";
 import useBaseUrl from "@docusaurus/useBaseUrl";
+import { useDocById } from '@docusaurus/theme-common/internal';
 
 function CardContainer({ href, children, classes }) {
   return (
     <Link
       href={href}
       className={clsx("card padding--lg", styles.cardContainer, classes)}
+    >
+      {children}
+    </Link>
+  );
+}
+function CategoryCardContainer({ href, children, classes }) {
+  return (
+    <Link
+      href={href}
+      className={clsx("card padding--lg", styles.categoryCardContainer, classes)}
     >
       {children}
     </Link>
@@ -28,10 +39,52 @@ function getBackgroundClass(background) {
   return styles.cardBackgroundNone;
 }
 
+function filterItems(items) {
+  return items.filter((item) => {
+    if (item.customProps === undefined) {
+      return false;
+    }
+    if (item.type === 'category') {
+      return !!findFirstCategoryLink(item);
+    }
+    return true;
+  });
+}
+
 function getCard(props) {
+	
+  if (props.isCategory == true) {
+	var propItem = props.item;
+    return (
+      <div className={clsx("col col--" + props.size + " margin-bottom--lg", styles.cardColumn)} style={props.style}>
+        <CategoryCardContainer>
+          <div className={styles.thumbnailCard}>
+            <h3>{props.title}</h3>
+
+			  {filterItems(propItem.items).map((item, index) => (
+				<ThumbnailCard
+				  title={item.label}
+				  faIcon={item.customProps.faIcon}
+				  description={useDocById(item.docId ?? undefined)?.description}
+				  to={item.href}
+				  thumbnail={item.customProps.cardThumbnail}
+				  size={item.customProps.cardSize}
+				  thumbnailLocation={item.customProps.thumbnailLocation}
+				  tileColor={item.customProps.tileColor}
+				  isCategory={item.type === 'category'}
+				  item={item}
+				  style={{padding: "0px"}}
+				/>
+			  ))}
+
+          </div>
+        </CategoryCardContainer>
+      </div>
+    );
+  }
   if (props.thumbnailLocation == "top") {
     return (
-      <div class={"col col--" + props.size + " margin-bottom--lg"}>
+      <div className={clsx("col col--" + props.size + " margin-bottom--lg", styles.cardColumn)} style={props.style}>
         <CardContainer href={props.to}>
           <div>
             <Link to={props.to}>
@@ -56,7 +109,7 @@ function getCard(props) {
   }
   if (props.thumbnailLocation == "bottom") {
     return (
-      <div class={"col col--" + props.size + " margin-bottom--lg"}>
+      <div className={clsx("col col--" + props.size + " margin-bottom--lg", styles.cardColumn)} style={props.style}>
         <CardContainer href={props.to} classes={clsx(styles.rowCardReversedColumn)}>
           <div>
             <Link to={props.to} class={getBackgroundClass(props.tileColor)}>
@@ -77,7 +130,7 @@ function getCard(props) {
   }
   if (props.thumbnailLocation == "left") {
     return (
-      <div class={"col col--" + props.size + " margin-bottom--lg"}>
+      <div className={clsx("col col--" + props.size + " margin-bottom--lg", styles.cardColumn)} style={props.style}>
         <CardContainer href={props.to} classes={clsx(styles.rowCard)}>
           <div>
             <Link to={props.to}>
@@ -98,7 +151,7 @@ function getCard(props) {
   }
   if (props.thumbnailLocation == "right") {
     return (
-      <div class={"col col--" + props.size + " margin-bottom--lg"}>
+      <div className={clsx("col col--" + props.size + " margin-bottom--lg", styles.cardColumn)} style={props.style}>
         <CardContainer href={props.to} classes={clsx(styles.rowCardReverse)}>
           <div>
             <Link to={props.to}>
@@ -119,7 +172,7 @@ function getCard(props) {
   }
   if (props.thumbnailLocation == "none") {
     return (
-      <div class={"col col--" + props.size + " margin-bottom--lg"}>
+      <div className={clsx("col col--" + props.size + " margin-bottom--lg", styles.cardColumn)} style={props.style}>
         <CardContainer href={props.to}>
           <div>
             <Link to={props.to}></Link>
