@@ -88,31 +88,31 @@
 
 /* Background for cards */
 .cardBackgroundBlue {
-  background: url("https://help.odysee.tv/img/g_258x258_RGB_Blue_spaceman-80.jpg") repeat;
+  background: url("https://help.odysee.tv/img/g_258x258_RGB_Blue_spaceman-80.png") repeat;
   background-size: 37px;
 }
 .cardBackgroundCream {
-  background: url("https://help.odysee.tv/img/g_258x258_RGB_Cream_spaceman-80.jpg") repeat;
+  background: url("https://help.odysee.tv/img/g_258x258_RGB_Cream_spaceman-80.png") repeat;
   background-size: 37px;
 }
 .cardBackgroundDarkPurple {
-  background: url("https://help.odysee.tv/img/g_258x258_RGB_DarkPurple_spaceman-80.jpg") repeat;
+  background: url("https://help.odysee.tv/img/g_258x258_RGB_DarkPurple_spaceman-80.png") repeat;
   background-size: 37px;
 }
 .cardBackgroundLightPurple {
-  background: url("https://help.odysee.tv/img/g_258x258_RGB_LightPurple_spaceman-80.jpg") repeat;
+  background: url("https://help.odysee.tv/img/g_258x258_RGB_LightPurple_spaceman-80.png") repeat;
   background-size: 37px;
 }
 .cardBackgroundMauve {
-  background: url("https://help.odysee.tv/img/g_258x258_RGB_Mauve_spaceman-80.jpg") repeat;
+  background: url("https://help.odysee.tv/img/g_258x258_RGB_Mauve_spaceman-80.png") repeat;
   background-size: 37px;
 }
 .cardBackgroundOrange {
-  background: url("https://help.odysee.tv/img/g_258x258_RGB_Orange_spaceman-80.jpg") repeat;
+  background: url("https://help.odysee.tv/img/g_258x258_RGB_Orange_spaceman-80.png") repeat;
   background-size: 37px;
 }
 .cardBackgroundPink {
-  background: url("https://help.odysee.tv/img/g_258x258_RGB_Pink_spaceman-80.jpg") repeat;
+  background: url("https://help.odysee.tv/img/g_258x258_RGB_Pink_spaceman-80.png") repeat;
   background-size: 37px;
 }
 .cardBackgroundNone {
