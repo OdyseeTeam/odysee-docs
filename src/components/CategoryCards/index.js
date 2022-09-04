@@ -41,6 +41,8 @@ export default function CategoryCards({className}) {
 			  size={item.customProps.cardSize}
 			  thumbnailLocation={item.customProps.thumbnailLocation}
 			  tileColor={item.customProps.tileColor}
+			  isCategory={item.type === 'category'}
+			  item={item}
             />
       ))}
     </section>

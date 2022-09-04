@@ -100,7 +100,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'es', 'fr', 'de', 'it', 'pt'],
+    locales: ['en', 'es', 'fr', 'de', 'pt'],
   },
   plugins: [
     [
@@ -136,7 +136,7 @@ const config = {
         indexPages: false,
 
         // language of your documentation, see next section
-        language: ['en', 'es', 'fr', 'de', 'it', 'pt'],
+        language: ['en', 'es', 'fr', 'de', 'pt'],
       },
     ],
   ].filter(Boolean),
