@@ -1,27 +1,9 @@
+---
+description: Overview of Odysee's Categories.
+---
+
 # Channel Categories
 
 On the Odysee sidebar and homepage, there are several categories for content. In this section, we'll explain what each of those categories mean, and how they work.
 
-import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
-
-<div class="container" style={{ padding: 0 }}>
-  <div class="row">
-    <div class="col col--3 margin-bottom--lg">
-      <ThumbnailCard
-        title="The Categories"
-        faIcon="fa-circle-play"
-        description="Overview of Odysee's Categories."
-        to={'/category-categories/categories'}
-        thumbnail="https://placehold.co/1200x600"
-      />
-    </div>
-    <div class="col col--3 margin-bottom--lg">
-      <ThumbnailCard
-        title="How Do the Categories Work?"
-        description="Channel categorizations, sorting, and new categories."
-        to={'/category-categories/howdocategorieswork'}
-        thumbnail="https://placehold.co/1200x600"
-      />
-    </div>
-  </div>
-</div>
+<CategoryCards/>
