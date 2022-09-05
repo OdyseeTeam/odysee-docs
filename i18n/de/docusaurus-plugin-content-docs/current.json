@@ -68,11 +68,11 @@
     "description": "The label for category Uploading Content in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Uploading Files (Videos, Images, Audio)": {
-    "message": "Hochladen von Dateien (Videos, Bilder, Audio)",
+    "message": "Dateien hochladen (Videos, Bilder, Audio)",
     "description": "The label for category Uploading Files (Videos, Images, Audio) in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Uploading Text Posts": {
-    "message": "Hochladen von Textbeiträgen",
+    "message": "Blogbeiträge schreiben",
     "description": "The label for category Uploading Text Posts in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Livestreaming": {
