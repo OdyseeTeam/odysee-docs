@@ -2,34 +2,4 @@
 
 One of the most important parts of a media platform is being able to find new content to view. In this section, we'll cover all of the ways to find new content on Odysee.
 
-import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
-
-<div class="container" style={{ padding: 0 }}>
-  <div class="row">
-    <div class="col col--3 margin-bottom--lg">
-      <ThumbnailCard
-        title="Following"
-        faIcon="fa-circle-play"
-        description="Following new channels and viewing their content."
-        to={'/category-contentdiscovery/following'}
-        thumbnail="https://placehold.co/1200x600"
-      />
-    </div>
-    <div class="col col--3 margin-bottom--lg">
-      <ThumbnailCard
-        title="Categories"
-        description="Quick overview of the channel categories."
-        to={'/category-contentdiscovery/categories'}
-        thumbnail="https://placehold.co/1200x600"
-      />
-    </div>
-    <div class="col col--3 margin-bottom--lg">
-      <ThumbnailCard
-        title="Search"
-        description="Basic search, Tag search, and Search settings."
-        to={'/category-contentdiscovery/search'}
-        thumbnail="https://placehold.co/1200x600"
-      />
-    </div>
-  </div>
-</div>
+<CategoryCards/>
