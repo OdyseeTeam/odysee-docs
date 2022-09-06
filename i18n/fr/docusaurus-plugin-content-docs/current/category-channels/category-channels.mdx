@@ -1,60 +1,9 @@
 # Interaction avec le contenu
 
-# Chaînes
+## Chaînes
 
 Pour faire des choses comme aimer, ne pas aimer, commenter et créer des listes de lecture, vous avez besoin d'une chaîne.
 
 Dans cette section, nous allons voir comment créer, modifier et supprimer des chaînes.
 
-:::conseil
-
-Il est également possible de rendre les éléments de la carte pour cette catégorie grâce à MDX :
-
-:::
-import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
-
-<div class="container" style={{ padding: 0 }}>
-  <div class="row">
-    <div class="col col--3 margin-bottom--lg">
-      <ThumbnailCard
-        title="Creating Your First Channel"
-        faIcon="fa-circle-play"
-        description="First time on Odysee? Here's how to create a channel."
-        to={'/category-channels/firstchannel'}
-        thumbnail="https://placehold.co/1200x600"
-      />
-    </div>
-    <div class="col col--3 margin-bottom--lg">
-      <ThumbnailCard
-        title="Settings and Customization"
-        description="Your title, URL, profile picture, and more."
-        to={'/category-channels/settings'}
-        thumbnail="https://placehold.co/1200x600"
-      />
-    </div>
-    <div class="col col--3 margin-bottom--lg">
-      <ThumbnailCard
-        title="Creating New Channels"
-        description="Creating new channels after your first."
-        to={'/category-channels/creatingchannels'}
-        thumbnail="https://placehold.co/1200x600"
-      />
-    </div>
-    <div class="col col--3 margin-bottom--lg">
-      <ThumbnailCard
-        title="Editing Channels"
-        description="Editing existing channels."
-        to={'/category-channels/editingchannels'}
-        thumbnail="https://placehold.co/1200x600"
-      />
-    </div>
-    <div class="col col--3 margin-bottom--lg">
-      <ThumbnailCard
-        title="Deleting Channels"
-        description="Got an extra channel? Here's how to delete it."
-        to={'/category-channels/deletingchannels'}
-        thumbnail="https://placehold.co/1200x600"
-      />
-    </div>
-  </div>
-</div>
+<CategoryCards/>
