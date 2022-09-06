@@ -100,7 +100,7 @@
     "description": "The label for category Moderation Tools in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Content Interaction": {
-    "message": "Content Interaction",
+    "message": "Interaction avec le contenu",
     "description": "The label for category Content Interaction in sidebar tutorialSidebar"
   }
 }
