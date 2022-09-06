@@ -102,6 +102,47 @@ const config = {
     defaultLocale: 'en',
     locales: ['en', 'es', 'fr', 'de', 'pt'],
   },
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+		indexBlog: false,
+		docsRouteBasePath: "/",
+		docsDir: "docs",
+        language: ['en', 'es', 'fr', 'de', 'pt'],
+		searchBarShortcutHint: false,
+		explicitSearchResultPath: true,
+        ignoreFiles: [
+		  "category-livestreaming",
+		  "category-basics",
+		  "category-syncprogram",
+		  "category-channels",
+		  "category-interaction",
+		  "category-uploading",
+		  "category-playlists",
+		  "category-monetization",
+		  "category-wallet",
+		  "category-blockchain",
+		  "category-moderation",
+		  "category-contentdiscovery",
+		  "category-categories",
+		  "category-accountcreation",
+		  "category-loggingin",
+		  "category-walkthrough",
+		  "category-faq",
+		  "category-fileuploads",
+		  "category-textuploads",
+		  "category-creatingalivestream",
+		  "category-rewards",
+		  "category-earningsperview",
+		  "category-lbctips",
+		  "category-cashtips",
+		  "category-staking",
+		],
+      },
+    ],
+  ],
   plugins: [
     [
       '@docusaurus/plugin-ideal-image',
@@ -111,32 +152,6 @@ const config = {
         min: 640,
         steps: 4,
         disableInDev: true,
-      },
-    ],
-    [
-      '@cmfcmf/docusaurus-search-local',
-      {
-        // whether to index docs pages
-        indexDocs: true,
-
-        // Whether to also index the titles of the parent categories in the sidebar of a doc page.
-        // 0 disables this feature.
-        // 1 indexes the direct parent category in the sidebar of a doc page
-        // 2 indexes up to two nested parent categories of a doc page
-        // 3...
-        //
-        // Do _not_ use Infinity, the value must be a JSON-serializable integer.
-        indexDocSidebarParentCategories: 0,
-
-        // whether to index blog pages
-        indexBlog: false,
-
-        // whether to index static pages
-        // /404.html is never indexed
-        indexPages: false,
-
-        // language of your documentation, see next section
-        language: ['en', 'es', 'fr', 'de', 'pt'],
       },
     ],
   ].filter(Boolean),
