@@ -5,6 +5,7 @@ import clsx from "clsx";
 import Image from "@theme/IdealImage";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import { useDocById } from '@docusaurus/theme-common/internal';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function CardContainer({ href, children, classes }) {
   return (
@@ -100,7 +101,7 @@ function getCard(props) {
             </Link>
           </div>
           <div className={styles.thumbnailCard}>
-            <h3>{props.title}</h3>
+            <h3>{props.faIcon !== undefined && props.faIcon != "" ? <FontAwesomeIcon icon={props.faIcon} /> : ""} {props.title}</h3>
             <p className={styles.cardDescription}>{props.description}</p>
           </div>
         </CardContainer>
@@ -121,7 +122,7 @@ function getCard(props) {
             </Link>
           </div>
           <div className={styles.thumbnailCard}>
-            <h3>{props.title}</h3>
+            <h3>{props.faIcon !== undefined && props.faIcon != "" ? <FontAwesomeIcon icon={props.faIcon} /> : ""} {props.title}</h3>
             <p className={styles.cardDescription}>{props.description}</p>
           </div>
         </CardContainer>
@@ -142,7 +143,7 @@ function getCard(props) {
             </Link>
           </div>
           <div className={styles.thumbnailCard}>
-            <h3>{props.title}</h3>
+            <h3>{props.faIcon !== undefined && props.faIcon != "" ? <FontAwesomeIcon icon={props.faIcon} /> : ""} {props.title}</h3>
             <p className={styles.cardDescription}>{props.description}</p>
           </div>
         </CardContainer>
@@ -163,7 +164,7 @@ function getCard(props) {
             </Link>
           </div>
           <div className={styles.thumbnailCard}>
-            <h3>{props.title}</h3>
+            <h3>{props.faIcon !== undefined && props.faIcon != "" ? <FontAwesomeIcon icon={props.faIcon} /> : ""} {props.title}</h3>
             <p className={styles.cardDescription}>{props.description}</p>
           </div>
         </CardContainer>
@@ -178,7 +179,7 @@ function getCard(props) {
             <Link to={props.to}></Link>
           </div>
           <div className={styles.thumbnailCard}>
-            <h3>{props.title}</h3>
+            <h3>{props.faIcon !== undefined && props.faIcon != "" ? <FontAwesomeIcon icon={props.faIcon} /> : ""} {props.title}</h3>
             <p className={styles.cardDescription}>{props.description}</p>
           </div>
         </CardContainer>

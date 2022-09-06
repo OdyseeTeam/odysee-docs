@@ -6,6 +6,16 @@ function getIcon(inputType) {
   if (type == 'credits') {
     return Credits();
   }
+  if (type == 'trash') {
+	  return (
+	    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 24 24" overflow="visible" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--Trash" aria-hidden="true"><g><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></g></svg>
+	  );
+  }
+  if (type == 'sticker') {
+	  return (
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 24 24" overflow="visible" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--Sticker" aria-hidden="true"><g><path d="M7.13,9a.38.38,0,1,1-.38.38A.38.38,0,0,1,7.13,9"></path><path d="M5.51,15.42A7.34,7.34,0,0,0,12,19.34a7.83,7.83,0,0,0,.92-.06"></path><path d="M23.24,11.52A11.25,11.25,0,1,0,12,23.25h.5"></path><path d="M14.45,9.66a2.31,2.31,0,0,1,3.91,0"></path><line x1="23.24" y1="11.52" x2="12.5" y2="23.24"></line><path d="M12.5,23.24v-1A10.74,10.74,0,0,1,23.24,11.52"></path></g></svg>
+	  );
+  }
   if (type == 'menu') {
 	return (
 	  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 24 24" overflow="visible" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--Menu" aria-hidden="true"><g><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></g></svg>
