@@ -24,7 +24,7 @@
     "description": "The label for category Playlists in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Monetization & Rewards": {
-    "message": "Monetarisierung & Prämien",
+    "message": "Vergütung & Prämien",
     "description": "The label for category Monetization & Rewards in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Wallet & Transactions": {
@@ -32,7 +32,7 @@
     "description": "The label for category Wallet & Transactions in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Content Discovery": {
-    "message": "Auffindbarkeit von Inhalten",
+    "message": "Inhalte entdecken",
     "description": "The label for category Content Discovery in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Odysee Basics": {
