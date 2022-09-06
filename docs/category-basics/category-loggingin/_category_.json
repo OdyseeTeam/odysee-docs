@@ -2,7 +2,8 @@
   "label": "Logging In",
   "position": 7,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-basics/category-loggingin/category-loggingin"
   },
   "customProps": {
     "faIcon": "fa-circle-play",
