@@ -4,35 +4,35 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Rewards": {
-    "message": "Rewards",
+    "message": "Prämien",
     "description": "The label for category Rewards in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Earnings Per View": {
-    "message": "Earnings Per View",
+    "message": "Einnahmen pro Ansicht",
     "description": "The label for category Earnings Per View in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.LBC Tipping": {
-    "message": "LBC Tipping",
+    "message": "LBC-Trinkgeld verschicken",
     "description": "The label for category LBC Tipping in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Cash Tipping": {
-    "message": "Cash Tipping",
+    "message": "Geld als Trinkgeld verschicken",
     "description": "The label for category Cash Tipping in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Playlists": {
-    "message": "Playlists",
+    "message": "Playlisten",
     "description": "The label for category Playlists in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Monetization & Rewards": {
-    "message": "Monetization & Rewards",
+    "message": "Vergütung & Prämien",
     "description": "The label for category Monetization & Rewards in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Wallet & Transactions": {
-    "message": "Wallet & Transactions",
+    "message": "Brieftasche & Transaktionen",
     "description": "The label for category Wallet & Transactions in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Content Discovery": {
-    "message": "Content Discovery",
+    "message": "Inhalte entdecken",
     "description": "The label for category Content Discovery in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Odysee Basics": {
@@ -100,7 +100,7 @@
     "description": "The label for category Moderation Tools in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Content Interaction": {
-    "message": "Content Interaction",
+    "message": "Interaktion mit Inhalten",
     "description": "The label for category Content Interaction in sidebar tutorialSidebar"
   }
 }
