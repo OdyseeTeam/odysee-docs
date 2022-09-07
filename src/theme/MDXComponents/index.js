@@ -17,11 +17,16 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as Icons from '@fortawesome/free-solid-svg-icons';
 import DocCardList from '@theme/DocCardList';
+import * as BrandIcons from '@fortawesome/free-brands-svg-icons';
 
 const iconList = Object.keys(Icons)
   .filter((key) => key !== 'fas' && key !== 'prefix')
   .map((icon) => Icons[icon]);
 library.add(...iconList);
+const brandIconList = Object.keys(BrandIcons)
+  .filter((key) => key !== 'fas' && key !== 'prefix')
+  .map((icon) => BrandIcons[icon]);
+library.add(...brandIconList);
 
 export default {
   ...MDXComponents,
