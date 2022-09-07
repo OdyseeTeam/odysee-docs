@@ -53,8 +53,6 @@ function filterItems(items) {
 }
 
 function getCard(props) {
-	console.log(props);
-
   if (props.isCategory == true) {
 	var propItem = props.item;
     return (
