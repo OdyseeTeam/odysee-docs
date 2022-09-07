@@ -9,6 +9,7 @@ import React from 'react';
 import {useLocation} from '@docusaurus/router';
 import styles from './styles.module.css';
 import {Link} from "react-router-dom";
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 export default function CustomImage(props: {
@@ -16,8 +17,9 @@ export default function CustomImage(props: {
 }): JSX.Element | null {
   const {pathname} = useLocation();
     if (props.link !== undefined) {
+    const normalizedHref = useBaseUrl(props.link);
     return (
-      <Link to={props.link}><img
+      <Link to={normalizedHref}><img
         onClick={() => {
           // eslint-disable-next-line no-alert
 		  // alert("Hello");
