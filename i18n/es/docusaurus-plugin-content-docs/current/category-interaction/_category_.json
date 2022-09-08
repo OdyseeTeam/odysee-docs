@@ -2,6 +2,7 @@
   "label": "Interacción de contenido",
   "position": 3,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-interaction/category-interaction"
   }
 }
