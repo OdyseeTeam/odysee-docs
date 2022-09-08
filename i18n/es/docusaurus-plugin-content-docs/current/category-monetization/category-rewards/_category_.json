@@ -2,6 +2,13 @@
   "label": "Recompensas",
   "position": 1,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-monetization/category-rewards/category-rewards"
+  },
+   "customProps": {
+    "cardThumbnail": "/img/g_1200x600_Transparent_Placeholder.png",
+    "cardSize": 12,
+    "thumbnailLocation": "left",
+    "tileColor": "blue"
   }
 }
