@@ -20,7 +20,7 @@ export default function FooterLinkItem({item}) {
           })}
       {...props}>
       {props.faicon !== undefined && props.faicon != "" &&
-		  <span><FontAwesomeIcon icon={props.faicon} /> {' '} </span>
+		  <span><FontAwesomeIcon icon={props.faicon} fixedWidth/> {' '} </span>
       }
       {label}
       {href && !isInternalUrl(href) && <IconExternalLink />}
