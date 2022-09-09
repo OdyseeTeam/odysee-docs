@@ -2,6 +2,7 @@
   "label": "Herramientas de moderación",
   "position": 8,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-moderation/category-moderation"
   }
 }
