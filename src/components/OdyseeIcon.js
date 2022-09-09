@@ -689,5 +689,6 @@ function getIcon(inputType, style) {
 }
 
 export default function OdyseeIcon(props) {
-  return props.color !== undefined ? <span style={{color:props.color}}>{getIcon(props.type, props.style)}</span> : getIcon(props.type, props.style);
+  var style = {width: props.width, height: props.height};
+  return props.color !== undefined ? <span style={{color:props.color}}>{getIcon(props.type, style)}</span> : getIcon(props.type, style);
 }
