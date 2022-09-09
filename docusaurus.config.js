@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  clientModules: [require.resolve('./src/js/detectDevice.js'), require.resolve('./src/js/chatBot.js')],
+  clientModules: [require.resolve('./src/js/detectDevice.js'), require.resolve('./src/js/chatBot.js'), require.resolve('./src/js/creditToConsole.js')],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -228,6 +228,10 @@ const config = {
             return `https://github.com/OdyseeTeam/odysee-docs/edit/main/docs/${docPath}`;
           },
           editLocalizedFiles: true,
+          admonitions: {
+            tag: ':::',
+            keywords: ['note', 'tip', 'info', 'caution', 'danger'],
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
