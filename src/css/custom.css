@@ -5,74 +5,33 @@
  */
 
 /* Search bar */
+.navbar__search-input {
+  height: 2.3rem !important;
+  border-radius: 7px !important;
+  border: 1px solid #fff0;
+  outline: 1px solid #fff0;
+}
+.navbar__search-input:focus-visible {
+  border: 1px solid var(--ifm-color-primary);
+  outline: 1px solid var(--ifm-color-primary);
+  height: 2.3rem !important;
+}
+[data-theme='light'] .navbar__search-input {
+  background: #e5e5e5 url('data:image/svg+xml;utf8,<svg fill="%231e003c" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>') no-repeat 0.95rem center / 1rem 1.2rem;
 
-[data-theme='light'] .aa-DetachedSearchButton {
-  background: #e5e5e5 !important;
-  border-radius: 6px !important;
-  border: 2px solid #e5e5e5 !important;
-  margin-top: -3px !important;
-  padding-right: 12px !important;
 }
-[data-theme='dark'] .aa-DetachedSearchButton {
-  background: #3d3d3d !important;
-  border-radius: 6px !important;
-  border: 2px solid #3d3d3d !important;
-  margin-top: -3px !important;
-  padding-right: 12px !important;
-}
-.aa-DetachedSearchButton:target {
-  margin: 0px;
-}
-[data-theme='light'] .aa-DetachedSearchButton:hover {
-  background: #e5e5e5 !important;
-  border-radius: 6px !important;
-  border: 2px solid var(--ifm-color-primary) !important;
-  margin-top: -3px !important;
-}
-[data-theme='dark'] .aa-DetachedSearchButton:hover {
-  background: #3d3d3d !important;
-  border-radius: 6px !important;
-  border: 2px solid var(--ifm-color-primary) !important;
-  margin-top: -3px !important;
-}
-.aa-DetachedSearchButtonPlaceholder {
-  font-size: 14.4px;
-  color: #999999;
-}
-[data-theme='light'] .aa-SubmitIcon {
+[data-theme='light'] .navbar__search-input {
   color: black !important;
-  width: 17px;
-  margin-left: -4px;
 }
-[data-theme='dark'] .aa-SubmitIcon {
-  color: white !important;
-  width: 17px;
-  margin-left: -4px;
+[data-theme='light'] .navbar__search-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--odysee-very-dark-purple);
+  opacity: 1;
 }
-[data-theme='light'] .aa-SubmitButton .aa-SubmitIcon {
-  color: black !important;
-  width: 19px;
-  margin-left: 1px;
-  margin-top: 4px;
+[data-theme='dark'] .navbar__search-input {
+  background: #3d3d3d url('data:image/svg+xml;utf8,<svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>') no-repeat 0.95rem center / 1rem 1.2rem;
 }
-[data-theme='dark'] .aa-SubmitButton .aa-SubmitIcon {
-  color: white !important;
-  width: 19px;
-  margin-left: 1px;
-  margin-top: 4px;
-}
-[data-theme='light'] .aa-Form {
-  border: 2px solid var(--ifm-color-primary) !important;
-  border-radius: 11px !important;
-  background: #e5e5e5 !important;
-}
-[data-theme='dark'] .aa-Form {
-  border: 2px solid var(--ifm-color-primary) !important;
-  border-radius: 11px !important;
-  background: #3d3d3d !important;
-}
-.aa-Input::placeholder {
-  color: #999999 !important;
+.navbar__search {
+  margin-left: 4px !important;
 }
 
 /* Footer */
@@ -207,36 +166,6 @@ theme-doc-sidebar-item-link-level-1,
   --odysee-light-orange-20: rgba(var(--odysee-light-orange-rgb), 0.2);
 }
 
-/* Search */
-.navbar__search-input {
-  height: 2.3rem !important;
-  border-radius: 7px !important;
-  border: 1px solid #fff0;
-  outline: 1px solid #fff0;
-}
-.navbar__search-input:focus-visible {
-  border: 1px solid var(--ifm-color-primary);
-  outline: 1px solid var(--ifm-color-primary);
-  height: 2.3rem !important;
-}
-[data-theme='light'] .navbar__search-input {
-  background: #e5e5e5 url('data:image/svg+xml;utf8,<svg fill="%231e003c" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>') no-repeat 0.95rem center / 1rem 1.2rem;
-
-}
-[data-theme='light'] .navbar__search-input {
-  color: black !important;
-}
-[data-theme='light'] .navbar__search-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: var(--odysee-very-dark-purple);
-  opacity: 1;
-}
-[data-theme='dark'] .navbar__search-input {
-  background: #3d3d3d url('data:image/svg+xml;utf8,<svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>') no-repeat 0.95rem center / 1rem 1.2rem;
-}
-.navbar__search {
-  margin-left: 4px !important;
-}
-
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-font-family-monospace: GothamRnd-Book;
@@ -346,8 +275,18 @@ a {
   margin-right: -6px;
   color: white !important;
 }
+
+
+.menu__list-item-collapsible .menu__link--active {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-right: -6px;
+  color: var(--ifm-color-primary) !important;
+}
 .menu__link:hover {
-  background: #ffffff39;	
+  background: #ffffff10;	
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   border-top-right-radius: 0px;
