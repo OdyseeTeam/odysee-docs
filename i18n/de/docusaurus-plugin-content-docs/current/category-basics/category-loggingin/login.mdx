@@ -14,11 +14,11 @@ sidebar_custom_props:
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs>
+<Tabs groupId="device">
   <TabItem value="web" label="Web" default>
     Du hast bereits ein Konto und möchtest dich bei Odysee einloggen? Klicke oben rechts auf die Schaltfläche <a href="https://odysee.com/$/signin"><b>Anmelden</b></a>.
-    <Image img="/img/de/front_page_logged_out_arrow_login_desktop_dark.png" class="dark-image" />
-    <Image img="/img/de/front_page_logged_out_arrow_login_desktop_light.png" class="light-image" />
+    <Image img="/img/de/front_page_logged_out_arrow_login_desktop_dark.png#dark" />
+    <Image img="/img/de/front_page_logged_out_arrow_login_desktop_light.png#light" />
   </TabItem>
   <TabItem value="mobile" label="Mobile">
     Auf dem Handy drückst du auf das Personensymbol <OdyseeButtonRound ><OdyseeIcon type="person"/></OdyseeButtonRound>, das im Dropdown-Menü <a href="https://odysee.com/$/signin"><b>Anmelden</b></a> anzeigt.
@@ -29,7 +29,7 @@ import TabItem from '@theme/TabItem';
 
 Gib deine E-Mail-Adresse und danach dein Passwort ein.
 
-![](/img/de//login_screen_desktop_dark.png#dark)
-![](/img/de//login_screen_desktop_light.png#light)
+<Image src="/img/de//login_screen_desktop_dark.png#dark" />
+<Image src="/img/de//login_screen_desktop_light.png#light" />
 
 Wenn du dein Passwort kennst und dich anmelden möchtest, gib es einfach ein und klicke auf **Weiter**. Alternativ kannst du dir auch einen [Magic-Link](/category-basics/category-loggingin/loginlinks) über deine E-Mail-Adresse zuschicken lassen oder dein [Passwort zurücksetzen](/category-basics/category-loggingin/passwordreset).

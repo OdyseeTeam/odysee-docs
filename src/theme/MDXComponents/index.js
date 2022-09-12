@@ -5,7 +5,7 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
 import OdyseeButton from '@site/src/components/OdyseeButton';
 import PrimaryOdyseeButton from '@site/src/components/PrimaryOdyseeButton';
 import OdyseeButtonRound from '@site/src/components/OdyseeButtonRound';
-import Image from '@theme/IdealImage';
+import Image from '@site/src/components/Image';
 import Card from '@site/src/components/Card';
 import ThumbnailCard from '@site/src/components/ThumbnailCard';
 import OdyseeIcon from '@site/src/components/OdyseeIcon';
