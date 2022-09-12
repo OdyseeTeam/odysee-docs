@@ -34,6 +34,7 @@
   margin-left: 4px !important;
 }
 
+
 /* Footer */
 .footer--dark {
   --ifm-footer-background-color: var(--odysee-very-dark-purple);
@@ -301,7 +302,3 @@ a {
   border-bottom-right-radius: 0px;
   margin-right: -6px;
 }
-
-
-
-
