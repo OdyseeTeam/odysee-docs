@@ -2,7 +2,7 @@ import React from "react";
 import Link from "@docusaurus/Link";
 import styles from "./styles.module.css";
 import clsx from "clsx";
-import Image from "@theme/IdealImage";
+import Image from '@site/src/components/Image';
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import { useDocById } from '@docusaurus/theme-common/internal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

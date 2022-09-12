@@ -143,15 +143,6 @@ const config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon-spaceman.png',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  // organizationName: '', // Usually your GitHub org/user name.
-  // projectName: '', // Usually your repo name.
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'es', 'fr', 'de', 'pt'],
@@ -198,18 +189,6 @@ const config = {
       },
     ],
   ],
-  plugins: [
-    [
-      '@docusaurus/plugin-ideal-image',
-      {
-        quality: 85,
-        max: 1030,
-        min: 640,
-        steps: 4,
-        disableInDev: true,
-      },
-    ],
-  ].filter(Boolean),
   presets: [
     [
       'classic',
@@ -218,9 +197,6 @@ const config = {
         docs: {
           routeBasePath: '/', // Serve the docs at the site's root
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl: 'https://github.com/OdyseeTeam/odysee-docs/blob/main/',
           editUrl: ({locale, versionDocsDirPath, docPath}) => {
             if (locale !== 'en') {
               return `https://github.com/OdyseeTeam/odysee-docs/edit/main/i18n/${locale}/docusaurus-plugin-content-docs/current/${docPath}`;
