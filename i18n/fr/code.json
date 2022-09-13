@@ -155,7 +155,7 @@
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Éditer cette page",
+    "message": "Suggérer un changement",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
