@@ -211,9 +211,9 @@ const config = {
           routeBasePath: '/', // Serve the docs at the site's root
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: ({locale, versionDocsDirPath, docPath}) => {
-			if (docPath == 'index') { return null; }
-			if (docPath == 'copyright') { return null; }
-			if (docPath == 'communityguidelines') { return null; }
+			if (docPath.endsWith('index.mdx')) { return null; }
+			if (docPath.endsWith('copyright.mdx')) { return null; }
+			if (docPath.endsWith('communityguidelines.mdx')) { return null; }
             if (locale !== 'en') {
               return `https://github.com/OdyseeTeam/odysee-docs/edit/main/i18n/${locale}/docusaurus-plugin-content-docs/current/${docPath}`;
             }
