@@ -51,12 +51,12 @@
 
 @font-face {
   font-family: 'GothamRnd-Bold';
-  src: url('/font/GothamRnd-Bold.otf') format('opentype');
+  src: url('/font/GothamRnd-Bold.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'GothamRnd-Book';
-  src: url('/font/GothamRnd-Book.otf') format('opentype');
+  src: url('/font/GothamRnd-Book.woff2') format('woff2');
 }
 
 /* Sidebar */
