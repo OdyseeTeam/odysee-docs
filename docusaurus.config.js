@@ -1,5 +1,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const FontPreloadPlugin = require('webpack-font-preload-plugin');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -147,6 +148,18 @@ const config = {
     defaultLocale: 'en',
     locales: ['en', 'es', 'fr', 'de', 'pt'],
   },
+  plugins: [
+    function preloadFontPlugin(_context, _options) {
+      return {
+        name: 'preload-font-plugin',
+        configureWebpack(_config, _isServer) {
+          return {
+            plugins: [new FontPreloadPlugin()],
+          };
+        },
+      };
+    },
+  ],
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
