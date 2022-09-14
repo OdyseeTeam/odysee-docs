@@ -24,7 +24,7 @@ export default function FungusCard(props) {
   return (
         <div className={clsx("col col--" + props.size + " margin-bottom--lg", styles.cardColumn)} style={props.style}>
         <CardContainer  classes={clsx(styles.rowCard)}>
-          <img src="/img/testing_happy.png" className={styles.fungusImage}/>
+          <img src="/img/LadyFungus/g_192x192p_RGB_LadyFungus_Happy.png" className={styles.fungusImage}/>
           <div className={styles.fungusCard}>
 			  {props.children}
           </div>

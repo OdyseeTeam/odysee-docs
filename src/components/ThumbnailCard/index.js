@@ -89,6 +89,7 @@ function getCard(props) {
             <Link to={props.to}>
 				{props.thumbnail != "" ?
 				  <Image
+				    loading="eager"
 					className={clsx(styles.thumbnailCardImage,getBackgroundClass(props.tileColor))}
 					img={useBaseUrl(props.thumbnail)}
 					alt={`Thumbnail of ${props.title}`}
@@ -134,6 +135,8 @@ function getCard(props) {
           <div>
             <Link to={props.to}>
               <Image
+                loading="eager"
+				fixedWidth="300"
                 className={clsx(styles.thumbnailCardImageRow,getBackgroundClass(props.tileColor))}
                 img={useBaseUrl(props.thumbnail)}
                 alt={`Thumbnail of ${props.title}`}
@@ -155,6 +158,8 @@ function getCard(props) {
           <div>
             <Link to={props.to}>
               <Image
+                loading="eager"
+				fixedWidth="300"
                 className={clsx(styles.thumbnailCardImageRow,getBackgroundClass(props.tileColor))}
                 img={useBaseUrl(props.thumbnail)}
                 alt={`Thumbnail of ${props.title}`}

@@ -22,6 +22,11 @@
 .rowCard {
 	flex-direction: row !important;
 }
+@media (max-width: 560px) {
+	.rowCard {
+		flex-direction: column !important;
+	}
+}
 
 .fungusImage {
 	padding: 0px !important;
