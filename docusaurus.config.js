@@ -16,6 +16,7 @@ const config = {
         textColor: '#091E42',
         isCloseable: false,
       },*/
+      metadata: [{name: 'keywords', content: 'odysee, help, help hub, support'}],
       navbar: {
         title: '',
         logo: {

@@ -5,16 +5,19 @@ function getCdnUrl(src, width, quality) {
   return "https://thumbnails.odycdn.com/optimize/s:" + width + ":720/quality:" + quality + "/plain/https://help.odysee.tv" + src;
 }
 
-export default function Image({src, img, alt, className}) {
+export default function Image({src, img, alt, className, loading = "lazy", fixedWidth}) {
   const imgSrc = (src === undefined) ? useBaseUrl(img) : useBaseUrl(src)
   const env = process.env.NODE_ENV || 'development';
   if (env == "development") {
-    return (<img loading="lazy" className={className} src={imgSrc} alt={alt} />);
+    return (<img loading={loading} className={className} src={imgSrc} alt={alt} />);
+  }
+  if (fixedWidth !== undefined) {
+    return (<img loading={loading} className={className} src={getCdnUrl(imgSrc, fixedWidth, 85)}  alt={alt} />);
   }
   return (
     <img 
 	  className={className}
-      loading="lazy" 
+      loading={loading} 
       src={getCdnUrl(imgSrc, 400, 85)} 
       alt={alt} 
       srcset={
