@@ -20,11 +20,11 @@
     "description": "The label for category Logging In in sidebar helphub"
   },
   "sidebar.helphub.category.YouTube Sync": {
-    "message": "YouTube Sync",
+    "message": "Sincronização do YouTube",
     "description": "The label for category YouTube Sync in sidebar helphub"
   },
   "sidebar.helphub.category.Walkthrough": {
-    "message": "Walkthrough",
+    "message": "Passo a passo",
     "description": "The label for category Walkthrough in sidebar helphub"
   },
   "sidebar.helphub.category.Frequently Asked Questions": {
@@ -36,27 +36,27 @@
     "description": "The label for category Uploading Content in sidebar helphub"
   },
   "sidebar.helphub.category.Uploading Files (Videos, Images, Audio)": {
-    "message": "Uploading Files (Videos, Images, Audio)",
+    "message": "Upload de arquivos (vídeos, imagens, áudio)",
     "description": "The label for category Uploading Files (Videos, Images, Audio) in sidebar helphub"
   },
   "sidebar.helphub.category.Uploading Text Posts": {
-    "message": "Uploading Text Posts",
+    "message": "Carregar mensagens de texto",
     "description": "The label for category Uploading Text Posts in sidebar helphub"
   },
   "sidebar.helphub.category.Livestreaming": {
-    "message": "Livestreaming",
+    "message": "Transmissão ao vivo",
     "description": "The label for category Livestreaming in sidebar helphub"
   },
   "sidebar.helphub.category.Creating a Livestream": {
-    "message": "Creating a Livestream",
+    "message": "Criar transmissão ao vivo",
     "description": "The label for category Creating a Livestream in sidebar helphub"
   },
   "sidebar.helphub.category.Channel Categories": {
-    "message": "Channel Categories",
+    "message": "Categorias de canais",
     "description": "The label for category Channel Categories in sidebar helphub"
   },
   "sidebar.helphub.category.Odysee's Blockchain": {
-    "message": "Odysee's Blockchain",
+    "message": "A Odysee Blockchain",
     "description": "The label for category Odysee's Blockchain in sidebar helphub"
   },
   "sidebar.helphub.category.Staking": {
@@ -68,39 +68,39 @@
     "description": "The label for category Moderation Tools in sidebar helphub"
   },
   "sidebar.helphub.category.Rewards": {
-    "message": "Rewards",
+    "message": "Recompensas",
     "description": "The label for category Rewards in sidebar helphub"
   },
   "sidebar.helphub.category.Earnings Per View": {
-    "message": "Earnings Per View",
+    "message": "Ganhos por visualização",
     "description": "The label for category Earnings Per View in sidebar helphub"
   },
   "sidebar.helphub.category.LBC Tipping": {
-    "message": "LBC Tipping",
+    "message": "Dicas na LBC",
     "description": "The label for category LBC Tipping in sidebar helphub"
   },
   "sidebar.helphub.category.Cash Tipping": {
-    "message": "Cash Tipping",
+    "message": "Gorjetas em dinheiro",
     "description": "The label for category Cash Tipping in sidebar helphub"
   },
   "sidebar.helphub.category.Playlists": {
-    "message": "Playlists",
+    "message": "Listas de reprodução",
     "description": "The label for category Playlists in sidebar helphub"
   },
   "sidebar.helphub.category.Monetization & Rewards": {
-    "message": "Monetization & Rewards",
+    "message": "Monetização e recompensas",
     "description": "The label for category Monetization & Rewards in sidebar helphub"
   },
   "sidebar.helphub.category.Wallet & Transactions": {
-    "message": "Wallet & Transactions",
+    "message": "Carteira e transações",
     "description": "The label for category Wallet & Transactions in sidebar helphub"
   },
   "sidebar.helphub.category.Content Discovery": {
-    "message": "Content Discovery",
+    "message": "Descoberta de conteúdo",
     "description": "The label for category Content Discovery in sidebar helphub"
   },
   "sidebar.helphub.category.Content Interaction": {
-    "message": "Content Interaction",
+    "message": "Interação de conteúdo",
     "description": "The label for category Content Interaction in sidebar helphub"
   }
 }
