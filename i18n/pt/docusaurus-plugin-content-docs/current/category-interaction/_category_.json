@@ -1,7 +1,8 @@
 {
-  "label": "Interacting With Content",
+  "label": "interação de conteúdo",
   "position": 3,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-interaction/category-interaction"
   }
 }
