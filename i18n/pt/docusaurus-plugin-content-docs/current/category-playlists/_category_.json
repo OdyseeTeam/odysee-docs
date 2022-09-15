@@ -1,7 +1,8 @@
 {
-  "label": "Playlists",
-  "position": 12,
+  "label": "Listas de reprodução",
+  "position": 5,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-playlists/category-playlists"
   }
 }
