@@ -1,7 +1,8 @@
 {
-  "label": "YouTube Sync",
+  "label": "Sincronização do YouTube",
   "position": 2,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-syncprogram/category-syncprogram"
   }
 }
