@@ -102,5 +102,13 @@
   "sidebar.helphub.category.Content Interaction": {
     "message": "Interacción de contenido",
     "description": "The label for category Content Interaction in sidebar helphub"
+  },
+  "sidebar.helphub.category.Memberships": {
+    "message": "Membresías",
+    "description": "The label for category Membresías in sidebar helphub"
+  },
+  "sidebar.helphub.category.Creator Portal": {
+    "message": "Portal del creador",
+    "description": "The label for category Portal del creador in sidebar helphub"
   }
 }
