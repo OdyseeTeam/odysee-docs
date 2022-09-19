@@ -140,7 +140,7 @@ const config = {
     }),
   title: 'Odysee Help Hub',
   tagline: '',
-  url: 'https://docs.odysee.tv',
+  url: 'https://help.odysee.tv',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
