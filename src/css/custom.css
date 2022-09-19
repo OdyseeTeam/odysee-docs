@@ -34,7 +34,6 @@
   margin-left: 4px !important;
 }
 
-
 /* Footer */
 .footer--dark {
   --ifm-footer-background-color: var(--odysee-very-dark-purple);
@@ -51,12 +50,12 @@
 
 @font-face {
   font-family: 'GothamRnd-Bold';
-  src: url('/font/GothamRnd-Bold.woff2') format('woff2');
+  src: url('/src/font/GothamRnd-Bold.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'GothamRnd-Book';
-  src: url('/font/GothamRnd-Book.woff2') format('woff2');
+  src: url('/src/font/GothamRnd-Book.woff2') format('woff2');
 }
 
 /* Sidebar */
@@ -266,6 +265,10 @@ a {
   text-decoration: none !important;
 }
 
+.alert a {
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+}
 
 .menu__link--active {
   background: var(--ifm-color-primary) !important;
