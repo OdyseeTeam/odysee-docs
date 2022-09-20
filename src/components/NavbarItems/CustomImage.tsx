@@ -24,7 +24,7 @@ export default function CustomImage(props: {
           // eslint-disable-next-line no-alert
 		  // alert("Hello");
         }}
-		class={styles.image}
+		className={styles.image}
         src={props.url}
 		width="32px"/></Link>
     );
@@ -35,7 +35,7 @@ export default function CustomImage(props: {
           // eslint-disable-next-line no-alert
 		  // alert("Hello");
         }}
-		class={styles.image}
+		className={styles.image}
         src={props.url}
 		width="32px"/>
     );

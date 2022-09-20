@@ -5,6 +5,8 @@ import ThumbnailCard from '@site/src/components/ThumbnailCard';
 import {useAllPluginInstancesData} from '@docusaurus/useGlobalData';
 import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 import { useDocById } from '@docusaurus/theme-common/internal';
+import Head from '@docusaurus/Head';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 // Filter categories that don't have a link or no category card data.
 function filterItems(items) {
@@ -28,23 +30,44 @@ sidebar_custom_props:
   tileColor: "blue" #Possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink
 */
 
+/* Creates a ItemList to be placed in the header of category page. */ 
+function getItemList() {
+  const {siteConfig} = useDocusaurusContext();
+  var itemList = {};
+  itemList["@context"] = "https://schema.org";
+  itemList["@type"] = "ItemList";
+  itemList["itemListElement"] = [];
+  useCurrentSidebarCategory().items.map((item, index) => (
+    itemList["itemListElement"].push({"@type": "ListItem", "position": index + 1, "url": siteConfig.url + item.href})
+  ));
+  return JSON.stringify(itemList);
+}
+
 export default function CategoryCards({className}) {
   return (
-    <section className={clsx('row', className)}>
-      {filterItems(useCurrentSidebarCategory().items).map((item, index) => (
+    <>
+	 {/*Needs more microdata on each page.
+        <Head>
+          <script type="application/ld+json">{getItemList()}</script>
+	    </Head>*/}
+      <section className={clsx('row', className)}>
+        {filterItems(useCurrentSidebarCategory().items).map((item, index) => (
+          <React.Fragment key={index}>
             <ThumbnailCard
               title={item.label}
               faIcon={item.customProps.faIcon}
               description={useDocById(item.docId ?? undefined)?.description}
               to={item.href}
               thumbnail={item.customProps.cardThumbnail}
-			  size={item.customProps.cardSize}
-			  thumbnailLocation={item.customProps.thumbnailLocation}
-			  tileColor={item.customProps.tileColor}
-			  isCategory={item.type === 'category'}
-			  item={item}
+              size={item.customProps.cardSize}
+              thumbnailLocation={item.customProps.thumbnailLocation}
+              tileColor={item.customProps.tileColor}
+              isCategory={item.type === 'category'}
+              item={item}
             />
-      ))}
-    </section>
+          </React.Fragment>
+        ))}
+      </section>
+	</>
   );
 }

@@ -7,9 +7,9 @@ import PrimaryOdyseeButton from '@site/src/components/PrimaryOdyseeButton';
 import OdyseeButtonRound from '@site/src/components/OdyseeButtonRound';
 import Image from '@site/src/components/Image';
 import Card from '@site/src/components/Card';
+import FAQ from '@site/src/components/FAQ';
 import ThumbnailCard from '@site/src/components/ThumbnailCard';
 import OdyseeIcon from '@site/src/components/OdyseeIcon';
-import CardRow from '@site/src/components/CardRow';
 import MailTemplate from '@site/src/components/MailTemplate';
 import CategoryCards from '@site/src/components/CategoryCards';
 
@@ -81,7 +81,7 @@ export default {
   FontAwesomeIcon: FontAwesomeIcon,
   PrimaryOdyseeButton: PrimaryOdyseeButton,
   OdyseeIcon: OdyseeIcon,
-  CardRow: CardRow,
   MailTemplate: MailTemplate,
   CategoryCards: CategoryCards,
+  FAQ: FAQ,
 };

@@ -19,12 +19,11 @@ function CardContainer({ href, children, classes }) {
 }
 function CategoryCardContainer({ href, children, classes }) {
   return (
-    <Link
-      href={href}
+    <div
       className={clsx("card padding--lg", styles.categoryCardContainer, classes)}
     >
       {children}
-    </Link>
+    </div>
   );
 }
 
@@ -54,28 +53,31 @@ function filterItems(items) {
 
 function getCard(props) {
   if (props.isCategory == true) {
-	var propItem = props.item;
+    var propItem = props.item;
     return (
+
       <div className={clsx("col col--" + props.size + " margin-bottom--lg", styles.cardColumn)} style={props.style}>
         <CategoryCardContainer>
           <div className={styles.thumbnailCard}>
             <h3>{props.title}</h3>
-			<section class="row">
-			  {filterItems(propItem.items).map((item, index) => (
-				<ThumbnailCard
-				  title={item.label}
-				  faIcon={item.customProps.faIcon}
-				  description={useDocById(item.docId ?? undefined)?.description}
-				  to={item.href}
-				  thumbnail={item.customProps.cardThumbnail}
-				  size={item.customProps.cardSize}
-				  thumbnailLocation={item.customProps.thumbnailLocation}
-				  tileColor={item.customProps.tileColor}
-				  isCategory={item.type === 'category'}
-				  item={item}
-				/>
-			  ))}
-			  </section>
+            <section className="row">
+              {filterItems(propItem.items).map((item, index) => (
+                <React.Fragment key={index}>
+                  <ThumbnailCard
+                    title={item.label}
+                    faIcon={item.customProps.faIcon}
+                    description={useDocById(item.docId ?? undefined)?.description}
+                    to={item.href}
+                    thumbnail={item.customProps.cardThumbnail}
+                    size={item.customProps.cardSize}
+                    thumbnailLocation={item.customProps.thumbnailLocation}
+                    tileColor={item.customProps.tileColor}
+                    isCategory={item.type === 'category'}
+                    item={item}
+                  />
+                </React.Fragment>
+              ))}
+              </section>
           </div>
         </CategoryCardContainer>
       </div>
@@ -86,18 +88,19 @@ function getCard(props) {
       <div className={clsx("col col--" + props.size + " margin-bottom--lg", styles.cardColumn)} style={props.style}>
         <CardContainer href={props.to}>
           <div>
-            <Link to={props.to}>
-				{props.thumbnail != "" ?
-				  <Image
-				    loading="eager"
-					className={clsx(styles.thumbnailCardImage,getBackgroundClass(props.tileColor))}
-					img={useBaseUrl(props.thumbnail)}
-					alt={`Thumbnail of ${props.title}`}
-				  />
-			  :
-				<div height="200px"></div>
-				}
-            </Link>
+            {
+              props.thumbnail != "" ?
+                <div className="card__image">
+                  <img
+                    loading="eager"
+                    className={clsx(styles.thumbnailCardImage,getBackgroundClass(props.tileColor))}
+                    src={useBaseUrl(props.thumbnail)}
+                    alt={`Thumbnail of ${props.title}`}
+                    />
+                </div>
+              :
+                <div height="200px"></div>
+            }
           </div>
           <div className={styles.thumbnailCard}>
             <h3>{props.faIcon !== undefined && props.faIcon != "" ? <FontAwesomeIcon icon={props.faIcon} /> : ""} {props.title}</h3>
@@ -112,13 +115,11 @@ function getCard(props) {
       <div className={clsx("col col--" + props.size + " margin-bottom--lg", styles.cardColumn)} style={props.style}>
         <CardContainer href={props.to} classes={clsx(styles.rowCardReversedColumn)}>
           <div>
-            <Link to={props.to} class={getBackgroundClass(props.tileColor)}>
-              <Image
-                className={clsx(styles.thumbnailCardImageReversedColumn,getBackgroundClass(props.tileColor))}
-                img={useBaseUrl(props.thumbnail)}
-                alt={`Thumbnail of ${props.title}`}
-              />
-            </Link>
+            <Image
+              className={clsx(styles.thumbnailCardImageReversedColumn,getBackgroundClass(props.tileColor))}
+              img={useBaseUrl(props.thumbnail)}
+              alt={`Thumbnail of ${props.title}`}
+            />
           </div>
           <div className={styles.thumbnailCard}>
             <h3>{props.faIcon !== undefined && props.faIcon != "" ? <FontAwesomeIcon icon={props.faIcon} /> : ""} {props.title}</h3>
@@ -133,15 +134,13 @@ function getCard(props) {
       <div className={clsx("col col--" + props.size + " margin-bottom--lg", styles.cardColumn)} style={props.style}>
         <CardContainer href={props.to} classes={clsx(styles.rowCard)}>
           <div>
-            <Link to={props.to}>
-              <Image
-                loading="eager"
-				fixedWidth="300"
-                className={clsx(styles.thumbnailCardImageRow,getBackgroundClass(props.tileColor))}
-                img={useBaseUrl(props.thumbnail)}
-                alt={`Thumbnail of ${props.title}`}
-              />
-            </Link>
+            <Image
+              loading="eager"
+              fixedWidth="300"
+              className={clsx(styles.thumbnailCardImageRow,getBackgroundClass(props.tileColor))}
+              img={useBaseUrl(props.thumbnail)}
+              alt={`Thumbnail of ${props.title}`}
+            />
           </div>
           <div className={styles.thumbnailCard}>
             <h3>{props.faIcon !== undefined && props.faIcon != "" ? <FontAwesomeIcon icon={props.faIcon} /> : ""} {props.title}</h3>
@@ -156,15 +155,13 @@ function getCard(props) {
       <div className={clsx("col col--" + props.size + " margin-bottom--lg", styles.cardColumn)} style={props.style}>
         <CardContainer href={props.to} classes={clsx(styles.rowCardReverse)}>
           <div>
-            <Link to={props.to}>
-              <Image
-                loading="eager"
-				fixedWidth="300"
-                className={clsx(styles.thumbnailCardImageRow,getBackgroundClass(props.tileColor))}
-                img={useBaseUrl(props.thumbnail)}
-                alt={`Thumbnail of ${props.title}`}
-              />
-            </Link>
+            <Image
+              loading="eager"
+              fixedWidth="300"
+              className={clsx(styles.thumbnailCardImageRow,getBackgroundClass(props.tileColor))}
+              img={useBaseUrl(props.thumbnail)}
+              alt={`Thumbnail of ${props.title}`}
+            />
           </div>
           <div className={styles.thumbnailCard}>
             <h3>{props.faIcon !== undefined && props.faIcon != "" ? <FontAwesomeIcon icon={props.faIcon} /> : ""} {props.title}</h3>
@@ -178,9 +175,6 @@ function getCard(props) {
     return (
       <div className={clsx("col col--" + props.size + " margin-bottom--lg", styles.cardColumn)} style={props.style}>
         <CardContainer href={props.to}>
-          <div>
-            <Link to={props.to}></Link>
-          </div>
           <div className={styles.thumbnailCard}>
             <h3>{props.faIcon !== undefined && props.faIcon != "" ? <FontAwesomeIcon icon={props.faIcon} /> : ""} {props.title}</h3>
             <p className={styles.cardDescription}>{props.description}</p>
