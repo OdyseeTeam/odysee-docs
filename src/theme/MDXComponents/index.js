@@ -25,12 +25,16 @@ import { faReddit } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faTiktok } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 library.add(faDiscord);
 library.add(faReddit);
 library.add(faFacebook);
 library.add(faTiktok);
 library.add(faGithub);
+library.add(faInstagram);
+library.add(faTwitter);
 
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faShieldHalved } from '@fortawesome/free-solid-svg-icons';
