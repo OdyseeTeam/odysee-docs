@@ -152,6 +152,7 @@ const config = {
   tagline: '',
   url: 'https://help.odysee.tv',
   baseUrl: '/',
+  trailingSlash: true,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon-spaceman.png',
