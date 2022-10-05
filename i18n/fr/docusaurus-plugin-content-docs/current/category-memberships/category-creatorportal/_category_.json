@@ -1,0 +1,11 @@
+{
+  "label": "Creator Portal",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "category-creatorportal/category-creatorportal"
+  },
+  "customProps": {
+    "faIcon": "fa-play"
+  }
+}

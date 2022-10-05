@@ -1,17 +1,43 @@
 ---
 sidebar_position: 1
+description: Auf Odysee kann man nicht nur Videos hochladen, auch Bilder, Audiodateien, PDFs und so ziemlich alles kann hochgeladen werden.
+sidebar_custom_props:
+  faIcon: "fa-circle-play"
+  cardThumbnail: "/img/g_1200x600_Transparent_Placeholder.png" #The thumbnail on the category card.
+  cardSize: 4 #12 is full size, 6 is 50% width, etc.
+  thumbnailLocation: "top" #Possible options: top, left, bottom, right, none
+  tileColor: "blue" #Possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink, none
+keywords: [odysee, dateien auf odysee hochladen, ]
+tags:
+  - Odysee
+  - Inhalte
 ---
 
 # Hochladen und Dateiauswahl
 
 Odysee ist vor allem als Videoplattform bekannt, aber du kannst auch Bilder, Audiodateien, PDFs, CAD-Dateien und so ziemlich alles andere hochladen.
 
-Um eine Datei hochzuladen, klicke auf das Wolkensymbol neben der Suchleiste.
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-Auf mobilen Geräten befindet sich diese Schaltfläche am unteren Rand der erweiterten Seitenleiste.
+<Tabs groupId="device">
+  <TabItem value="web" label="Web" default>
+    Um eine Datei hochzuladen, klicke auf das Wolkensymbol <OdyseeButtonRound url="https://odysee.com/$/upload"><OdyseeIcon type='uploadCloud'/></OdyseeButtonRound> neben der Suchleiste.
+	<Image img="/img/de/locale_upload_link_desktop_dark.png#dark" />
+    <Image img="/img/de/locale_upload_link_desktop_light.png#light" />
+  </TabItem>
+  <TabItem value="mobile" label="Mobile">
+    Auf mobilen Geräten befindet sich die Schaltfläche <a href="https://odysee.com/$/upload"><OdyseeIcon type='uploadCloud'/> Hochladen</a> am unteren Rand der erweiterten Seitenleiste.
+    <Image img="/img/de/locale_upload_link_mobile_dark.png#dark" />
+    <Image img="/img/de/locale_upload_link_mobile_light.png#light" />
+  </TabItem>
+</Tabs>
 
-Auf dem Upload-Bildschirm wirst du zunächst aufgefordert, eine Datei auszuwählen.
+
+Auf der Upload-Seite wirst du zunächst aufgefordert, eine Datei auszuwählen.
 
 Für Videos müssen Sie MP4-Dateien im Format H264/AAC hochladen. Für eine optimale Anzeige empfehlen wir Bitraten unter 8 Mbps.
 
-Odysee-Uploads sind auf 16 GB beschränkt.
+:::info Hinweis
+Odysee-Uploads sind derzeit auf 16 GB beschränkt.
+:::

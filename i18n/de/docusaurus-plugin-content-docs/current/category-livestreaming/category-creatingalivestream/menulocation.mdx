@@ -1,9 +1,28 @@
 ---
 sidebar_position: 1
+description: So kannst du einen Livestream erstellen, damit du auf Odysee live gehen kannst.
+sidebar_custom_props:
+  faIcon: "fa-circle-play"
+  cardThumbnail: "/img/g_1200x600_Transparent_Placeholder.png" #The thumbnail on the category card.
+  cardSize: 12 #12 is full size, 6 is 50% width, etc.
+  thumbnailLocation: "left" #Possible options: top, left, bottom, right, none
+  tileColor: "blue" #Possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink, none
 ---
 
 # Wie kann ich einen Livestream auf Odysee starten? 
 
-Um einen Livestream zu starten, musst du zunächst das Videokamera-Symbol neben der Suchleiste auswählen.
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-Auf mobilen Geräten befindet sich dieses Symbol am unteren Rand der erweiterten Seitenleiste.
+<Tabs groupId="device">
+  <TabItem value="web" label="Web" default>
+    Um einen Livestream zu starten, musst du zunächst das Videokamera-Symbol <OdyseeButtonRound url="https://odysee.com/$/livestream"><OdyseeIcon type='Livestream'/></OdyseeButtonRound> neben der Suchleiste auswählen.
+    <Image img="/img/de/locale_livestream_link_desktop_dark.png#dark" />
+    <Image img="/img/de/locale_livestream_link_desktop_light.png#light" />
+  </TabItem>
+  <TabItem value="mobile" label="Mobile">
+    Auf mobilen Geräten befindet sich die Schaltfläche <a href="https://odysee.com/$/livestream"><OdyseeIcon type='Livestream'/> Livestream starten</a> am unteren Rand der erweiterten Seitenleiste.
+    <Image img="/img/de/locale_livestream_link_mobile_dark.png#dark" />
+    <Image img="/img/de/locale_livestream_link_mobile_light.png#light" />
+  </TabItem>
+</Tabs>

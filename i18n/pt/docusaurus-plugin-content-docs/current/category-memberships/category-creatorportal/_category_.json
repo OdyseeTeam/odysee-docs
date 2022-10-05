@@ -1,0 +1,15 @@
+{
+  "label": "Portal do criador",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "category-memberships/category-creatorportal/category-creatorportal"
+  },
+  "customProps": {
+    "faIcon": "fa-circle-play",
+    "cardThumbnail": "/img/g_1200x600_Transparent_Placeholder.png",
+    "cardSize": 12,
+    "thumbnailLocation": "left",
+    "tileColor": "blue"
+  }
+}

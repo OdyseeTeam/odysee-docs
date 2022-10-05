@@ -1,5 +1,11 @@
 ---
 sidebar_position: 3
+sidebar_custom_props:
+  faIcon: ""
+  cardThumbnail: "/img/g_1200x600_Transparent_Placeholder.png" #The thumbnail on the category card.
+  cardSize: 4 #12 is full size, 6 is 50% width, etc.
+  thumbnailLocation: "top" #Possible options: top, left, bottom, right, none
+  tileColor: "blue" #Placeholder tiles until thumbnail is ready, possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink, none
 ---
 
 # Encodage des vidéos
@@ -10,13 +16,16 @@ Vous avez peut-être essayé de télécharger une vidéo et obtenu ce message :
 
 Vous pouvez charger la vidéo telle quelle, mais il y a de fortes chances de latence pour les spectateurs. Vous pouvez éviter cela en encodant votre vidéo.
 
-Tout d'abord, téléchargez un programme appelé Handbrake. Il est gratuit, open-source et totalement sûr.
+Tout d'abord, téléchargez un programme appelé <a href="https://www.handbrake.fr">Handbrake</a>. Il est gratuit, open-source et totalement sûr.
 
-Vous pouvez le trouver à l'adresse handbrake.fr.
+Vous pouvez le trouver à l'adresse https://handbrake.fr/.
 
 Une fois Handbrake installé, son utilisation est assez simple. Ouvrez ou faites glisser un fichier vidéo dans Handbrake. Lorsque vous avez sélectionné une vidéo, vous devez vérifier quelques paramètres.
 - Assurez-vous que la case Optimisation pour le Web est cochée
 - Vérifiez les pistes. Votre vidéo doit avoir un encodage H264 et un son AAC. Si l'audio n'est pas en AAC, la vidéo n'aura pas de son.
 - Le préréglage par défaut est 1080p avec 30 FPS. Cela convient généralement, mais selon la vidéo, vous devrez peut-être réduire la qualité à 720p.
 
+:::info
 Si tout est correct, vous pouvez sélectionner une destination et un nom de fichier, puis cliquer sur démarrer. Si vous avez encodé en 1080p et que le débit binaire est encore trop élevé, vous devrez réessayer en 720p. La plupart du temps, la vidéo devrait être correcte en 1080p.
+
+:::

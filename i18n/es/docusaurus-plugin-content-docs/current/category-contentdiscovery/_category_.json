@@ -2,6 +2,7 @@
   "label": "Descubrimiento de contenido",
   "position": 9,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-contentdiscovery/category-contentdiscovery"
   }
 }

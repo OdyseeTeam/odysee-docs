@@ -1,0 +1,11 @@
+{
+  "label": "Associações",
+  "position": 7,
+  "link": {
+    "type": "doc",
+    "id": "category-memberships/category-memberships"
+  },
+  "customProps": {
+    "faIcon": "fa-play"
+  }
+}

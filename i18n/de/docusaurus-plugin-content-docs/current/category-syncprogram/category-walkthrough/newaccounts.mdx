@@ -2,6 +2,15 @@
 sidebar_position: 1
 title: Synchronisieren ohne Konto
 description: Wenn du deinen YouTube-Kanal mit einem brandneuen Odysee-Konto synchronisieren möchtest, dann bist du hier genau richtig.
+sidebar_custom_props:
+  cardThumbnail: "/img/g_1200x600_Transparent_Placeholder.png" #The thumbnail on the category card.
+  cardSize: 4 #12 is full size, 6 is 50% width, etc.
+  thumbnailLocation: "top" #Possible options: top, left, bottom, right, none
+  tileColor: "blue" #Placeholder tiles until thumbnail is ready, possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink, none
+keywords: [odysee, sync function, wie richte ich den odysee sync ein ohne konto, syncen ohne konto auf odysee]
+tags:
+  - Odysee
+  - Sync Funktion
 ---
 
 # YouTube-Sync ohne Konto einrichten
@@ -14,40 +23,49 @@ In diesem Abschnitt wird ein YouTube-Kanal mit einem neuen Odysee-Konto synchron
 
 Wenn du deinen YouTube-Kanal mit einem brandneuen Odysee-Konto synchronisierst, sind die Schritte ziemlich einfach.
 
-Klicken zuerst auf **[Registrieren](https://odysee.com/$/signup)** in der oberen rechten Ecke des Bildschirms.
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-![](https://i.imgur.com/59HsYjZ.jpg)
-
-Auf Mobilgeräten klicke auf das Personensymbol, das im Dropdown-Menü **Registrieren** enthält.
-
-![](https://i.imgur.com/hGOB1zG.png)
+<Tabs groupId="device">
+  <TabItem value="web" label="Web" default>
+    Klicke zuerst auf <PrimaryOdyseeButton url="https://odysee.com/$/signup">Registrieren</PrimaryOdyseeButton> in der oberen rechten Ecke des Bildschirms.
+    <Image img="/img/de/front_page_logged_out_arrow_register_desktop_dark.png#dark" />
+    <Image img="/img/de/front_page_logged_out_arrow_register_desktop_light.png#light" />
+  </TabItem>
+  <TabItem value="mobile" label="Mobile">
+    Klicke auf das Personen Icon <OdyseeButtonRound><OdyseeIcon type="person" /></OdyseeButtonRound> und drücke im Dropdown-Menü auf{' '}
+    <b><a href="https://odysee.com/$/signup">Registrieren</a></b>.
+    <Image img="/img/de/front_page_logged_out_arrow_register_mobile_dark.png#dark" />
+    <Image img="/img/de/front_page_logged_out_arrow_register_mobile_light.png#light" />
+  </TabItem>
+</Tabs>
 
 Als nächstes wirst du aufgefordert, eine E-Mail und ein Passwort einzugeben. Wir haben keine Anforderungen an die Passwortstärke, aber wir empfehlen dringend längere, komplexe Passwörter. Wir prüfen auch, ob das Passwort in der Vergangenheit jemals geleakt wurde, in diesem Fall musst du ein Neues eingeben.
 
-:::caution
+:::caution Achtung
 
-Stelle sicher, dass du das Kontrollkästchen "Meinen YouTube-Kanal synchronisieren" ausgewählt hast, bevor du fortfährst.
+Stelle sicher, dass du das Kontrollkästchen "Synchronisiere meinen YouTube-Kanal" ausgewählt hast, bevor du fortfährst.
 
 :::
 
-![](https://i.imgur.com/DfOXLeM.png)
+<Image src="/img/de/register_screen_arrow_sync_dark.png#dark" />
+<Image src="/img/de/register_screen_arrow_sync_light.png#light" />
 
-Wenn du alles eingegeben hast, klicke auf **Registrieren**.
+Wenn du alles eingegeben hast, klicke auf <PrimaryOdyseeButton>Registrieren</PrimaryOdyseeButton>.
 
-Nachdem du auf dem vorherigen Bildschirm auf die Schaltfläche **Registrieren** geklickt hast, wirst du aufgefordert, deine E-Mail-Adresse zu bestätigen. Dazu gehört das Klicken auf einen Link und das Ausführen eines CAPTCHA.
+Nachdem du auf dem vorherigen Bildschirm auf die Schaltfläche Registrieren geklickt hast, wirst du aufgefordert, deine E-Mail-Adresse zu bestätigen. Dazu gehört das Klicken auf einen Link und das Ausführen eines CAPTCHA.
 
-:::notiz
+:::note Hinweis
 
 Wenn bei dir kein Captcha angezeigt wird, versuche es in einem anderen Browser. Die E-Mail zur Bestätigung kann bis zu 10 Minuten dauern, wenn du keine E-Mail erhältst, schreib uns gerne eine E-Mail: hello@odysee.com
 
 :::
 
-![](https://i.imgur.com/P9ckfiY.png)
+<Image src="/img/de/confirm_account_screen_dark.png#dark" />
+<Image src="/img/de/confirm_account_screen_light.png#light" />
 
 Nach der Bestätigung wird dein ursprüngliches Anmeldefenster zu einer neuen Seite weitergeleitet, auf dem dir empfohlene Kanäle zum Folgen angezeigt werden.
 
-![](https://i.imgur.com/yq7x9wj.png)
+Alle neuen Accounts folgen automatisch [@OdyseeDE](https://odysee.com/@OdyseeDE:1) und [@OdyseeHilfe](https://odysee.com/@OdyseeHilfe:1).
 
-Alle neuen Accounts folgen automatisch @OdyseeDE und @OdyseeHilfe.
-
-Du bist noch nicht ganz fertig. Du musst deinen Kanal noch [beanspruchen]((category-syncprogram/category-walkthrough/claimingyourchannel)), damit dir dein Kanal vollständig gehört. Jetzt hast du deinen YouTube-Kanal erfolgreich synchronisiert. 
+Du bist noch nicht ganz fertig. Du musst deinen Kanal noch [beanspruchen](/category-syncprogram/category-walkthrough/claimingyourchannel), damit dir dein Kanal vollständig gehört. Jetzt hast du deinen YouTube-Kanal erfolgreich synchronisiert. 

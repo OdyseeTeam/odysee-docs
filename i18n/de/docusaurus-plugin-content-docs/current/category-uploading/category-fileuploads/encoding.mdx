@@ -1,20 +1,40 @@
 ---
 sidebar_position: 3
+description: Wie du deine Videos für Odysee optimal kodierst, damit diese flüssig laufen und schön aussehen.
+sidebar_custom_props:
+  faIcon: "fa-circle-play"
+  cardThumbnail: "/img/g_1200x600_Transparent_Placeholder.png" #The thumbnail on the category card.
+  cardSize: 4 #12 is full size, 6 is 50% width, etc.
+  thumbnailLocation: "top" #Possible options: top, left, bottom, right, none
+  tileColor: "blue" #Possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink, none
+keywords: [odysee, videos enkodieren, wie enkodiere ich videos für odysee, videos für odysee vorbereiten]
+tags:
+  - Odysee
+  - Inhalte
 ---
 
 # Videos kodieren
 
 Vielleicht hast du schon versucht ein Video hochzuladen und folgende Meldung erhalten:
 
-*Ihr Video hat eine Bitrate von über 8 Mbps. Wir empfehlen eine Transkodierung, um den Zuschauern ein optimales Erlebnis zu bieten.
+*Dein Video hat eine Bitrate von über 8 Mbps. Wir empfehlen eine Transkodierung, um den Zuschauern ein optimales Erlebnis zu bieten.*
 
-Natürlich kannst du das Video hochladen, wie es ist, allerdings besteht die Wahrscheinlichkeit, dass das Video länger laden muss. Das kann vermieden werden, indem du das Video transcodierst.
+Natürlich kannst du das Video einfach hochladen, allerdings besteht die Wahrscheinlichkeit, dass das Video länger laden muss, weil wir standardmäßig noch nicht alle Videos transcodieren. Das kann vermieden werden, indem du das Video selbst bei dir transcodierst.
 
-Lade zunächst ein Programm namens {' '} <a href="www.handbrake.fr">Handbrake</a> herunter. Es ist kostenlos, Open-Source und absolut sicher. 
+Lade zunächst ein Programm namens <a href="https://www.handbrake.fr">Handbrake</a> herunter. Es ist kostenlos, Open-Source und absolut sicher. 
 
 Sobald du Handbrake installiert hast, ist die Verwendung ziemlich einfach. Öffne oder ziehe die Videodatei in das Handbrake-Programm. Wenn du das Video ausgewählt hast, musst du noch ein paar Einstellungen überprüfen.
-- Das Kästchen **Weboptimiert** muss markiert sein.
-- Das Video sollte eine **H264-Kodierung** und **AAC-Audio** haben. Wenn der Ton nicht in AAC vorliegt, hat das Video keinen Ton.
-- Die Standardvorgabe ist 1080p mit 30 FPS. Das ist in der Regel in Ordnung, aber je nach Video muss die Qualität möglicherweise auf 720p verringert werden.
+- Das Kästchen **Web-optimiert** sollte markiert sein.
+- Das Video sollte eine **H264-Kodierung** und **AAC-Audio** haben. Wenn der Ton nicht in AAC vorliegt, hat das Video möglicherweise keinen Ton.
+- Die Standardvorgabe ist 1080p mit 30 FPS. Das ist in der Regel in Ordnung, kann je nach Aufnahme auch auf 60 FPS erhöht werden.
+
+<video width="100%" autoplay="true" loop="true" muted="true">
+  <source src="/img/de/handbrake_process.mp4" type="video/mp4" />
+  Dein Browser unterstützt keine Video-Tags.
+</video>
+
+:::info Dauert länger, aber die Qualität ist besser
+Zusätzlich empfehlen wir wie im Video gezeigt unter dem Tab **Video**, die Encoder-Voreinstellung auf **Slower** zu stellen, mit einer Abstimmung auf Animation und dem Profil auf High. Dadurch wird die Datei kleiner, gleichzeitig bleibt die Qualität gut, jedoch dauert der Vorgang etwas länger.
+:::
 
 Wenn alles korrekt eingestellt ist, kannst du noch den Zielort und einen Dateinamen auswählen, dann auf Start klicken. In einigen Ausnahmefällen kann die Bitrate bei 1080p noch immer zu hoch sein, dann muss der Vorgang mit 720p wiederholt werden. Der Vorgang kann bei längeren Videos einige Stunden in Anspruch nehmen. 

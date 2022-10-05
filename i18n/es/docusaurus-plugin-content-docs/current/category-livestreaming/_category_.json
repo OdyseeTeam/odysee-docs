@@ -2,6 +2,7 @@
   "label": "Transmisión en vivo",
   "position": 5,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-livestreaming/category-livestreaming"
   }
 }
