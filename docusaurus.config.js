@@ -96,7 +96,7 @@ const config = {
               {
 				faicon: "fa-brands fa-tiktok",
                 label: 'TikTok',
-                href: 'https://www.tiktok.com/@odyseeteam',
+                href: 'https://www.tiktok.com/@odyseeforever',
               }
 			]
           },
