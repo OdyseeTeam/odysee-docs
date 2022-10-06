@@ -81,12 +81,22 @@ const config = {
               {
 				faicon: "fa-brands fa-facebook",
                 label: 'Facebook',
-                href: 'https://www.facebook.com/OdyseeVideo/',
+                href: 'https://www.facebook.com/OdyseeForever/',
+              },
+              {
+				faicon: "fa-brands fa-instagram",
+                label: 'Instagram',
+                href: 'https://www.instagram.com/odyseeforever/',
+              },
+              {
+				faicon: "fa-brands fa-twitter",
+                label: 'Twitter',
+                href: 'https://twitter.com/odyseeteam',
               },
               {
 				faicon: "fa-brands fa-tiktok",
                 label: 'TikTok',
-                href: 'https://www.tiktok.com/@odyseeteam',
+                href: 'https://www.tiktok.com/@odyseeforever',
               }
 			]
           },
@@ -142,6 +152,7 @@ const config = {
   tagline: '',
   url: 'https://help.odysee.tv',
   baseUrl: '/',
+  trailingSlash: true,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon-spaceman.png',
