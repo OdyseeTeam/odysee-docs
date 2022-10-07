@@ -110,5 +110,9 @@
   "sidebar.helphub.category.Creator Portal": {
     "message": "Portal del creador",
     "description": "The label for category Portal del creador in sidebar helphub"
+  },
+  "sidebar.helphub.category.Donor Portal": {
+    "message": "Portal de donantes",
+    "description": "The label for category Donor Portal in sidebar helphub"
   }
 }
