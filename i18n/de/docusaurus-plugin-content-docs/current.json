@@ -108,7 +108,11 @@
     "description": "The label for category Memberships in sidebar helphub"
   },
   "sidebar.helphub.category.Creator Portal": {
-    "message": "Unterstützer-Portal",
+    "message": "Mitgliedschaften-Menü",
     "description": "The label for category Creator Portal in sidebar helphub"
+  },
+  "sidebar.helphub.category.Donor Portal": {
+    "message": "Unterstützer-Menü",
+    "description": "The label for category Donor Portal in sidebar helphub"
   }
 }
