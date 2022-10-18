@@ -124,6 +124,11 @@ const config = {
                 href: 'https://odysee.com/$/careers',
               },
               {
+				faicon: "fa-envelope",
+                label: 'help@odysee.com',
+                href: 'mailto:help@odysee.com',
+              },
+              {
 				faicon: "fa-circle-info",
                 label: 'Community Guidelines',
                 to: '/communityguidelines',
