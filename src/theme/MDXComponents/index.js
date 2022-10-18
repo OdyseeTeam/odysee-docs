@@ -36,6 +36,7 @@ library.add(faGithub);
 library.add(faInstagram);
 library.add(faTwitter);
 
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faShieldHalved } from '@fortawesome/free-solid-svg-icons';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
@@ -48,6 +49,7 @@ import { faHandHoldingDollar } from '@fortawesome/free-solid-svg-icons';
 import { faRightToBracket } from '@fortawesome/free-solid-svg-icons';
 import { faUnlockKeyhole } from '@fortawesome/free-solid-svg-icons';
 
+library.add(faEnvelope);
 library.add(faHouse);
 library.add(faShieldHalved);
 library.add(faBook);
