@@ -188,6 +188,8 @@ const config = {
         language: ['en', 'es', 'fr', 'de', 'pt'],
 		searchBarShortcutHint: false,
 		explicitSearchResultPath: true,
+		removeDefaultStemmer: true,
+		removeDefaultStopWordFilter: true,
 		highlightSearchTermsOnTargetPage: true,
       },
     ],
