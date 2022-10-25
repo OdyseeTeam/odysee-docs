@@ -191,7 +191,6 @@ const config = {
 		removeDefaultStemmer: true,
 		removeDefaultStopWordFilter: true,
 		explicitSearchResultPath: true,
-		highlightSearchTermsOnTargetPage: true,
       },
     ],
   ],
