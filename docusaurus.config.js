@@ -190,6 +190,7 @@ const config = {
 		explicitSearchResultPath: true,
 		removeDefaultStemmer: true,
 		removeDefaultStopWordFilter: true,
+		explicitSearchResultPath: true,
 		highlightSearchTermsOnTargetPage: true,
       },
     ],
