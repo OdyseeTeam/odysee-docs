@@ -132,17 +132,7 @@ const config = {
 				faicon: "fa-circle-info",
                 label: 'Community Guidelines',
                 to: '/communityguidelines',
-              },
-              {
-				faicon: "fa-star",
-                label: 'Characters',
-                to: '/characters',
-              },
-              {
-				faicon: "fa-timeline",
-                label: 'Timeline',
-                to: '/timeline',
-              },
+              }
             ],
           },
         ],
