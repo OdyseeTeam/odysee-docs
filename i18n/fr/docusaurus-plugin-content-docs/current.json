@@ -104,15 +104,15 @@
     "description": "The label for category Content Interaction in sidebar helphub"
   },
   "sidebar.helphub.category.Memberships": {
-    "message": "Memberships",
+    "message": "Adhésions",
     "description": "The label for category Memberships in sidebar helphub"
   },
   "sidebar.helphub.category.Creator Portal": {
-    "message": "Creator Portal",
+    "message": "Portail des créateurs",
     "description": "The label for category Creator Portal in sidebar helphub"
   },
   "sidebar.helphub.category.Donor Portal": {
-    "message": "Donor Portal",
+    "message": "Portail des donateurs",
     "description": "The label for category Donor Portal in sidebar helphub"
   }
 }
