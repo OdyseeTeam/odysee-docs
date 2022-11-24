@@ -114,5 +114,9 @@
   "sidebar.helphub.category.Donor Portal": {
     "message": "Portail des donateurs",
     "description": "The label for category Donor Portal in sidebar helphub"
+  },
+  "sidebar.helphub.category.Settings and Customization": {
+    "message": "Paramètres et personnalisation",
+    "description": "The label for category Settings and Customization in sidebar helphub"
   }
 }
