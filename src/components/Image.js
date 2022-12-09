@@ -2,6 +2,9 @@ import React from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 function getCdnUrl(src, width, quality) {
+  if (src.includes("https://")) {
+    return "https://thumbnails.odycdn.com/optimize/s:" + width + ":720/quality:" + quality + "/plain/" + src;
+  }
   return "https://thumbnails.odycdn.com/optimize/s:" + width + ":720/quality:" + quality + "/plain/https://help.odysee.tv" + src;
 }
 
