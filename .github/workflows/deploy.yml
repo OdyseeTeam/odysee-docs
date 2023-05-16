@@ -43,7 +43,7 @@ jobs:
       # Install and build Docusaurus website
       - name: Build Docusaurus website
         run: |
-          npm install 
+          npm install --legacy-peer-deps
           npm run build
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
