@@ -21,7 +21,7 @@
   },
   "link.item.label.Twitter": {
     "message": "Twitter",
-    "description": "The label of footer link with label=Twitter linking to https://twitter.com/OdyseeEs"
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/odyseeteam"
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
@@ -41,11 +41,11 @@
   },
   "link.item.label.Facebook": {
     "message": "Facebook",
-    "description": "The label of footer link with label=Facebook linking to https://www.facebook.com/OdyseeVideo/"
+    "description": "The label of footer link with label=Facebook linking to https://www.facebook.com/OdyseeForever/"
   },
   "link.item.label.TikTok": {
     "message": "TikTok",
-    "description": "The label of footer link with label=TikTok linking to https://www.tiktok.com/@odyseeteam"
+    "description": "The label of footer link with label=TikTok linking to https://www.tiktok.com/@odyseeforever"
   },
   "link.item.label.Privacy Policy": {
     "message": "Privacy Policy",
@@ -70,5 +70,13 @@
   "link.item.label.Timeline": {
     "message": "Timeline",
     "description": "The label of footer link with label=Timeline linking to /timeline"
+  },
+  "link.item.label.Instagram": {
+    "message": "Instagram",
+    "description": "The label of footer link with label=Instagram linking to https://www.instagram.com/odyseeforever/"
+  },
+  "link.item.label.help@odysee.com": {
+    "message": "help@odysee.com",
+    "description": "The label of footer link with label=help@odysee.com linking to mailto:help@odysee.com"
   }
 }

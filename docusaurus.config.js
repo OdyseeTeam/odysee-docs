@@ -16,6 +16,28 @@ const config = {
         textColor: '#091E42',
         isCloseable: false,
       },*/
+    typesense: {
+      // Replace this with the name of your index/collection.
+      // It should match the "index_name" entry in the scraper's "config.json" file.
+      typesenseCollectionName: 'Odysee Help',
+
+      typesenseServerConfig: {
+        nodes: [
+          {
+            host: 'typesense-search.odysee.tv',
+            port: 443,
+            protocol: 'https',
+          }
+        ],
+        apiKey: '4GTsCd3uCubegfQOZKE9z6k39LGulcrg',
+      },
+
+      // Optional: Typesense search parameters: https://typesense.org/docs/0.24.0/api/search.html#search-parameters
+      typesenseSearchParameters: {},
+
+      // Optional
+      contextualSearch: true,
+    },
       metadata: [{name: 'keywords', content: 'odysee, help, help hub, support'}],
       navbar: {
         title: '',
@@ -167,23 +189,7 @@ const config = {
       };
     },
   ],
-  themes: [
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      {
-        hashed: true,
-		indexBlog: false,
-		docsRouteBasePath: "/",
-		docsDir: "docs",
-        language: ['en', 'es', 'fr', 'de', 'pt'],
-		searchBarShortcutHint: false,
-		explicitSearchResultPath: true,
-		removeDefaultStemmer: true,
-		removeDefaultStopWordFilter: true,
-		explicitSearchResultPath: true,
-      },
-    ],
-  ],
+  themes: ['docusaurus-theme-search-typesense'],
   presets: [
     [
       'classic',

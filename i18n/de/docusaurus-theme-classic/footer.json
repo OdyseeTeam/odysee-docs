@@ -78,5 +78,9 @@
   "link.item.label.Instagram": {
     "message": "Instagram",
     "description": "The label of footer link with label=Instagram linking to https://www.instagram.com/odyseeforever/"
+  },
+  "link.item.label.help@odysee.com": {
+    "message": "help@odysee.com",
+    "description": "The label of footer link with label=help@odysee.com linking to mailto:help@odysee.com"
   }
 }

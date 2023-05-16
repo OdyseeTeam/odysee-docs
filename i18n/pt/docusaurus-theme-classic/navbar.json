@@ -10,5 +10,9 @@
   "item.label.Odysee": {
     "message": "Odysee",
     "description": "Navbar item with label Odysee"
+  },
+  "logo.alt": {
+    "message": "Odysee Logo",
+    "description": "The alt text of navbar logo"
   }
 }

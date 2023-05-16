@@ -93,7 +93,7 @@
   },
   "sidebar.helphub.category.Wallet & Transactions": {
     "message": "Monedero y transacciones",
-    "description": "The label for category Wallet in sidebar helphub"
+    "description": "The label for category Wallet & Transactions in sidebar helphub"
   },
   "sidebar.helphub.category.Playlists": {
     "message": "Listas de reproducción",
@@ -105,11 +105,11 @@
   },
   "sidebar.helphub.category.Memberships": {
     "message": "Membresías",
-    "description": "The label for category Membresías in sidebar helphub"
+    "description": "The label for category Memberships in sidebar helphub"
   },
   "sidebar.helphub.category.Creator Portal": {
     "message": "Portal del creador",
-    "description": "The label for category Portal del creador in sidebar helphub"
+    "description": "The label for category Creator Portal in sidebar helphub"
   },
   "sidebar.helphub.category.Donor Portal": {
     "message": "Portal de donantes",
