@@ -1,6 +1,16 @@
 ---
 sidebar_position: 1
 description: Hier erfährst du Schritt für Schritt, wie du dich auf Odysee anmelden kannst. 
+sidebar_custom_props:
+  faIcon: "fa-square-plus"
+  cardThumbnail: "/img/g_1200x600_Transparent_Placeholder.png" #The thumbnail on the category card.
+  cardSize: 6 #12 is full size, 6 is 50% width, etc.
+  thumbnailLocation: "top" #Possible options: top, left, bottom, right, none
+  tileColor: "blue" #Possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink, none
+keywords: [odysee, konto, erstellen, wie erstellt man ein odysee konto]
+tags:
+  - Odysee
+  - Konto
 ---
 
 import Tabs from '@theme/Tabs';
@@ -8,17 +18,19 @@ import TabItem from '@theme/TabItem';
 
 # Ein Konto erstellen
 
-<Tabs>
+<Tabs groupId="device">
   <TabItem value="web" label="Web" default>
-    Um ein Konto zu erstellen, klicke auf <b>Registrieren</b>, um zur{' '}
+    Um ein Konto zu erstellen, klicke auf <PrimaryOdyseeButton url="https://odysee.com/$/signup">Registrieren</PrimaryOdyseeButton>, um zur{' '}
     <a href="https://odysee.com/$/signup">Registrierungsseite</a> zu kommen. Der
     Button befindet sich in der oberen rechten Ecke.
-    <Image img="https://i.imgur.com/Cg8ff6Z.png" />
+    <Image img="/img/de/front_page_logged_out_arrow_register_desktop_dark.png#dark" />
+    <Image img="/img/de/front_page_logged_out_arrow_register_desktop_light.png#light" />
   </TabItem>
   <TabItem value="mobile" label="Mobile">
-    Klicke auf das Personen Icon, drücke im Dropdown-Menü auf{' '}
-    <b>Registrieren</b>.
-    <Image img="https://i.imgur.com/XyWT6eA.png" />
+    Klicke auf das Personen Icon <OdyseeButtonRound><OdyseeIcon type="person" /></OdyseeButtonRound> und drücke im Dropdown-Menü auf{' '}
+    <b><a href="https://odysee.com/$/signup">Registrieren</a></b>.
+    <Image img="/img/de/front_page_logged_out_arrow_register_mobile_dark.png#dark" />
+    <Image img="/img/de/front_page_logged_out_arrow_register_mobile_light.png#light" />
   </TabItem>
 </Tabs>
 
@@ -28,12 +40,15 @@ Auf der Anmeldeseite gibst du deine E-Mail-Adresse und ein Passwort ein. Wir hab
 Wir prüfen, ob dein Passwort in der Vergangenheit geleakt wurde, in diesem Fall musst du ein Neues eingeben.
 :::
 
-![](https://i.imgur.com/76ftthb.png)
+<Image src="/img/de/register_screen_dark.png#dark" />
+<Image src="/img/de/register_screen_light.png#light" />
 
 :::tip Du hast einen YouTube Kanal?
 Wenn du einen YouTube Kanal synchronisieren möchtest, wähle "**Synchronisiere meinen YouTube-Kanal**" aus.
 
-![](https://i.imgur.com/qfYBr9e.png)
+
+<Image src="/img/de/register_screen_arrow_sync_dark.png#dark" />
+<Image src="/img/de/register_screen_arrow_sync_light.png#light" />
 
 Eine genaue Anleitung zu unserem Synchronisierungsprozess findest du in unserem YouTube-Synchronisierungsleitfaden.
 
@@ -41,13 +56,12 @@ Eine genaue Anleitung zu unserem Synchronisierungsprozess findest du in unserem 
 
 Nachdem du auf der vorherigen Seite auf **Registrieren** geklickt hast, wirst du aufgefordert, deine E-Mail-Adresse zu bestätigen. Klicke dafür auf den Link in der E-Mail und löse das Captcha auf der Seite.
 
-![](https://i.imgur.com/P9ckfiY.png)
+<Image src="/img/de/confirm_account_screen_dark.png#dark" />
+<Image src="/img/de/confirm_account_screen_light.png#light" />
 
 Nachdem du deine E-Mail-Adresse bestätigt hast, werden dir Kanäle empfohlen, denen du folgen kannst.
 
-![](https://i.imgur.com/yq7x9wj.png#light)
-
-Alle neuen Accounts folgen automatisch @OdyseeDE und @OdyseeHilfe.
+Alle neuen Accounts folgen automatisch <a href="https://odysee.com/@OdyseeDE:1?r=97bT3hvnLEY1inLzM9eE6PG2qDS4h4KF">@OdyseeDE</a> und <a href="https://odysee.com/@OdyseeHilfe:1?r=97bT3hvnLEY1inLzM9eE6PG2qDS4h4KF">@OdyseeHilfe</a>.
 
 :::info Häufig gefragt
 Der Link in der E-Mail erfordert die Lösung eines Captchas, wenn du kein Captcha siehst, versuche es in einem anderen Browser. Die Zustellung der Bestätigungs-E-Mail kann bis zu 15 Minuten dauern.

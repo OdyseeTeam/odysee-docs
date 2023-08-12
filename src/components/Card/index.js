@@ -41,8 +41,6 @@ export default function Card({
   to,
   faIcon,
 }) {
-  console.log(faIcon);
-
   return (
     <CardContainer href={to}>
       <h2 className={clsx('text--truncate', styles.cardTitle)} title={title}>

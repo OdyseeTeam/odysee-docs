@@ -2,6 +2,14 @@
   "label": "Iniciando sesión",
   "position": 7,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-basics/category-loggingin/category-loggingin"
+  },
+  "customProps": {
+    "faIcon": "fa-circle-play",
+    "cardThumbnail": "/img/g_1200x600_Transparent_Placeholder.png",
+    "cardSize": 12,
+    "thumbnailLocation": "left",
+    "tileColor": "blue"
   }
 }

@@ -3,68 +3,116 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Odysee Basics": {
+  "sidebar.helphub.category.Odysee Basics": {
     "message": "Lo básico de Odysee",
-    "description": "The label for category Odysee Basics in sidebar tutorialSidebar"
+    "description": "The label for category Odysee Basics in sidebar helphub"
   },
-  "sidebar.tutorialSidebar.category.Setting Up Your Account": {
+  "sidebar.helphub.category.Setting Up Your Account": {
     "message": "Configuración de su cuenta",
-    "description": "The label for category Setting Up Your Account in sidebar tutorialSidebar"
+    "description": "The label for category Setting Up Your Account in sidebar helphub"
   },
-  "sidebar.tutorialSidebar.category.Channels": {
+  "sidebar.helphub.category.Channels": {
     "message": "Canales",
-    "description": "The label for category Channels in sidebar tutorialSidebar"
+    "description": "The label for category Channels in sidebar helphub"
   },
-  "sidebar.tutorialSidebar.category.Logging In": {
+  "sidebar.helphub.category.Logging In": {
     "message": "Iniciando sesión",
-    "description": "The label for category Logging In in sidebar tutorialSidebar"
+    "description": "The label for category Logging In in sidebar helphub"
   },
-  "sidebar.tutorialSidebar.category.YouTube Sync": {
+  "sidebar.helphub.category.YouTube Sync": {
     "message": "Sincronización de YouTube",
-    "description": "The label for category YouTube Sync in sidebar tutorialSidebar"
+    "description": "The label for category YouTube Sync in sidebar helphub"
   },
-  "sidebar.tutorialSidebar.category.Walkthrough": {
+  "sidebar.helphub.category.Walkthrough": {
     "message": "Paso a paso",
-    "description": "The label for category Walkthrough in sidebar tutorialSidebar"
+    "description": "The label for category Walkthrough in sidebar helphub"
   },
-  "sidebar.tutorialSidebar.category.Frequently Asked Questions": {
+  "sidebar.helphub.category.Frequently Asked Questions": {
     "message": "Preguntas frecuentes",
-    "description": "The label for category Frequently Asked Questions in sidebar tutorialSidebar"
+    "description": "The label for category Frequently Asked Questions in sidebar helphub"
   },
-  "sidebar.tutorialSidebar.category.Uploading Content": {
+  "sidebar.helphub.category.Uploading Content": {
     "message": "Subiendo contenido",
-    "description": "The label for category Uploading Content in sidebar tutorialSidebar"
+    "description": "The label for category Uploading Content in sidebar helphub"
   },
-  "sidebar.tutorialSidebar.category.Uploading Files (Videos, Images, Audio)": {
-    "message": "Uploading Files (Videos, Images, Audio)",
-    "description": "The label for category Uploading Files (Videos, Images, Audio) in sidebar tutorialSidebar"
+  "sidebar.helphub.category.Uploading Files (Videos, Images, Audio)": {
+    "message": "Carga de archivos (videos, imágenes, audio)",
+    "description": "The label for category Uploading Files (Videos, Images, Audio) in sidebar helphub"
   },
-  "sidebar.tutorialSidebar.category.Uploading Text Posts": {
-    "message": "Uploading Text Posts",
-    "description": "The label for category Uploading Text Posts in sidebar tutorialSidebar"
+  "sidebar.helphub.category.Uploading Text Posts": {
+    "message": "Subir publicaciones de texto",
+    "description": "The label for category Uploading Text Posts in sidebar helphub"
   },
-  "sidebar.tutorialSidebar.category.Livestreaming": {
+  "sidebar.helphub.category.Livestreaming": {
     "message": "Transmisión en vivo",
-    "description": "The label for category Livestreaming in sidebar tutorialSidebar"
+    "description": "The label for category Livestreaming in sidebar helphub"
   },
-  "sidebar.tutorialSidebar.category.Creating a Livestream": {
-    "message": "Creating a Livestream",
-    "description": "The label for category Creating a Livestream in sidebar tutorialSidebar"
+  "sidebar.helphub.category.Creating a Livestream": {
+    "message": "Crear transmisión en vivo",
+    "description": "The label for category Creating a Livestream in sidebar helphub"
   },
-  "sidebar.tutorialSidebar.category.Channel Categories": {
+  "sidebar.helphub.category.Channel Categories": {
     "message": "Categorías de canales",
-    "description": "The label for category Channel Categories in sidebar tutorialSidebar"
+    "description": "The label for category Channel Categories in sidebar helphub"
   },
-  "sidebar.tutorialSidebar.category.Odysee's Blockchain": {
+  "sidebar.helphub.category.Odysee's Blockchain": {
     "message": "La blockchain de Odysee",
-    "description": "The label for category Odysee's Blockchain in sidebar tutorialSidebar"
+    "description": "The label for category Odysee's Blockchain in sidebar helphub"
   },
-  "sidebar.tutorialSidebar.category.Staking": {
+  "sidebar.helphub.category.Staking": {
     "message": "Staking",
-    "description": "The label for category Staking in sidebar tutorialSidebar"
+    "description": "The label for category Staking in sidebar helphub"
   },
-  "sidebar.tutorialSidebar.category.Moderation Tools": {
-    "message": "Moderation Tools",
-    "description": "The label for category Moderation Tools in sidebar tutorialSidebar"
+  "sidebar.helphub.category.Moderation Tools": {
+    "message": "Herramientas de moderación",
+    "description": "The label for category Moderation Tools in sidebar helphub"
+  },
+  "sidebar.helphub.category.Content Discovery": {
+    "message": "Descubrimiento de contenido",
+    "description": "The label for category Content Discovery in sidebar helphub"
+  },
+  "sidebar.helphub.category.Monetization & Rewards": {
+    "message": "Monetización y recompensas",
+    "description": "The label for category Monetization & Rewards in sidebar helphub"
+  },
+  "sidebar.helphub.category.Cash Tipping": {
+    "message": "Propinas en efectivo",
+    "description": "The label for category Cash Tipping in sidebar helphub"
+  },
+  "sidebar.helphub.category.Earnings Per View": {
+    "message": "Ganancias por vista",
+    "description": "The label for category Earnings Per View in sidebar helphub"
+  },
+  "sidebar.helphub.category.LBC Tipping": {
+    "message": "Propinas LBC",
+    "description": "The label for category LBC Tipping in sidebar helphub"
+  },
+  "sidebar.helphub.category.Rewards": {
+    "message": "Recompensas",
+    "description": "The label for category Rewards in sidebar helphub"
+  },
+  "sidebar.helphub.category.Wallet & Transactions": {
+    "message": "Monedero y transacciones",
+    "description": "The label for category Wallet & Transactions in sidebar helphub"
+  },
+  "sidebar.helphub.category.Playlists": {
+    "message": "Listas de reproducción",
+    "description": "The label for category Playlists in sidebar helphub"
+  },
+  "sidebar.helphub.category.Content Interaction": {
+    "message": "Interacción de contenido",
+    "description": "The label for category Content Interaction in sidebar helphub"
+  },
+  "sidebar.helphub.category.Memberships": {
+    "message": "Membresías",
+    "description": "The label for category Memberships in sidebar helphub"
+  },
+  "sidebar.helphub.category.Creator Portal": {
+    "message": "Portal del creador",
+    "description": "The label for category Creator Portal in sidebar helphub"
+  },
+  "sidebar.helphub.category.Donor Portal": {
+    "message": "Portal de donantes",
+    "description": "The label for category Donor Portal in sidebar helphub"
   }
 }

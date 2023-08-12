@@ -1,0 +1,11 @@
+{
+  "label": "Creator Memberships",
+  "position": 6.5,
+  "link": {
+    "type": "doc",
+    "id": "category-memberships/category-memberships"
+  },
+  "customProps": {
+    "faIcon": "fa-play"
+  }
+}

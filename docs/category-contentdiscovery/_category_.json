@@ -1,7 +1,8 @@
 {
   "label": "Content Discovery",
-  "position": 9,
+  "position": 12,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-contentdiscovery/category-contentdiscovery"
   }
 }

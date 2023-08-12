@@ -1,7 +1,8 @@
 {
-  "label": "Channel Categories",
-  "position": 6,
+  "label": "Categorias de canais",
+  "position": 10,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-categories/category-categories"
   }
 }

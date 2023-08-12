@@ -1,0 +1,8 @@
+// Credit FontAwesome, since Docusaurus removes the credits.
+
+// clientModules are still evaluated server-side, this is a workaround:
+if (typeof window !== 'undefined') {
+	console.log(`Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+	License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+	`);
+}

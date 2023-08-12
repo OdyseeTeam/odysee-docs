@@ -1,35 +1,55 @@
 ---
 sidebar_position: 1
-description: Sign-up Process Walkthrough
+description : Visite guidée du processus d'inscription
+sidebar_custom_props:
+  faIcon: ""
+  cardThumbnail: "/img/g_1200x600_Transparent_Placeholder.png" #The thumbnail on the category card.
+  cardSize: 6 #12 is full size, 6 is 50% width, etc.
+  thumbnailLocation: "top" #Possible options: top, left, bottom, right, none
+  tileColor: "cream" #Placeholder tiles until thumbnail is ready, possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink, none
 ---
 
-# Creating an Account
+# Création d'un compte
 
-To create an account, you'll want to go to the sign up screen by clicking the **Sign Up** button. On the web version, this is at the top right corner.
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-![](https://i.imgur.com/59HsYjZ.jpg)
+<Tabs>
+  <TabItem value="web" label="Web" default>
+    Pour créer un compte, vous devez cliquer sur <PrimaryOdyseeButton url="https://odysee.com/$/signup">Créer un compte</PrimaryOdyseeButton> pour accéder à l'écran d'inscription.
+    <Image img="/img/fr/créationducompte01.png" />
+  </TabItem>
+  <TabItem value="mobile" label="Mobile">
+    Sur un téléphone portable, vous cliquerez sur l'icône représentant une personne <OdyseeButtonRound><OdyseeIcon type="person" /></OdyseeButtonRound>, qui affichera <PrimaryOdyseeButton url="https://odysee.com/$/signup">Créer un compte</PrimaryOdyseeButton>
+    <a href="https://odysee.com/$/signup">Registrierungsseite</a> dans le menu déroulant.
+    <Image img="/img/fr/Mcréeruncompte.png" />
+  </TabItem>
+</Tabs>
 
+Sur l'écran d'inscription, vous devrez saisir une adresse électronique et un mot de passe. Nous n'avons pas d'exigences en matière de force du mot de passe, mais nous recommandons fortement des mots de passe longs et complexes. Nous vérifierons également si votre mot de passe a déjà fait l'objet d'une fuite dans le passé, auquel cas vous devrez en saisir un nouveau.
 
-On mobile, you'll click the person icon, which will show **Sign Up** in the dropdown menu.
+<Image src="/img/fr/créationducompte03.png" />
 
-![](https://i.imgur.com/hGOB1zG.png)
+:::caution Important 
+**Si vous essayez de synchroniser une chaîne YouTube, assurez-vous de cocher la case "Synchroniser ma chaîne YouTube "**.
 
-On the sign up screen, you'll enter an email and a password. We don't have password strength requirements, but we strongly recommend longer, complex passwords. We'll also check if your password has ever been leaked in the past, in which case you'll have to enter a new one.
+:::
 
-![](https://i.imgur.com/k6OlCxi.png)
+<Image src="/img/fr/créationducompte04.png" />
 
-**If you're attempting to sync a YouTube channel, be sure to check "Sync my YouTube channel."**
+Pour une description détaillée du reste du processus de synchronisation, ainsi que d'autres informations sur le programme de synchronisation de YouTube, consultez notre guide de synchronisation de YouTube en cliquant [ici](http://chihuahuaspin.com/).
 
-![](https://i.imgur.com/DfOXLeM.png)
+Après avoir cliqué sur le bouton <PrimaryOdyseeButton url="https://odysee.com/$/signup">Créer un compte</PrimaryOdyseeButton> de l'écran précédent, il vous sera demandé de confirmer votre courriel. Cela implique de cliquer sur un lien et de passer un CAPTCHA.
 
-For a walkthrough of the remainder of the sync process, as well as other information about the YouTube sync program, visit our YouTube sync guide by clicking [here](http://chihuahuaspin.com/).
+<Image src="/img/fr/créationducompte05.png" />
 
-After clicking the **Sign Up** button on the previous screen, you'll be asked to confirm your email. This involves clicking a link and doing a CAPTCHA.
+Après confirmation, votre onglet d'origine passera à cet écran, où l'on vous recommande des chaînes à suivre. 
 
-![](https://i.imgur.com/P9ckfiY.png)
+<Image src="/img/fr/créationducompte06.png" />
 
-After confirming, your original tab will progress to this screen, where you're recommended channels to follow. 
+Tous les nouveaux comptes suivront automatiquement @Odysee et @OdyseeHelp.
 
-![](https://i.imgur.com/yq7x9wj.png)
+:::info Fréquemment demandé
+Le lien dans l'e-mail nécessite de résoudre un captcha, si vous ne voyez pas de captcha, essayez un autre navigateur. L'envoi de l'e-mail de confirmation peut prendre jusqu'à 15 minutes. Pas de mail reçu ? Écrivez-nous : hello@odysee.com 
 
-All new accounts will follow @Odysee and @OdyseeHelp automatically.
+:::

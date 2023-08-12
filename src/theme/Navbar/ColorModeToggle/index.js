@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 export default function ColorModeToggleWrapper(props) {
   return (
     <>
-      <div class={styles.colorModeToggle}>
+      <div className={styles.colorModeToggle}>
         <ColorModeToggle {...props} />
       </div>
     </>

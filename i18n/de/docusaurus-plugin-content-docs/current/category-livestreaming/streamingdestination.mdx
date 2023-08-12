@@ -1,66 +1,110 @@
 ---
 sidebar_position: 3
+description: Hier zeigen wir dir, wie du deine Livestream-Software für Odysee einrichten kannst.
+sidebar_custom_props:
+  faIcon: "fa-circle-play"
+  cardThumbnail: "/img/g_1200x600_Transparent_Placeholder.png" #The thumbnail on the category card.
+  cardSize: 4 #12 is full size, 6 is 50% width, etc.
+  thumbnailLocation: "top" #Possible options: top, left, bottom, right, none
+  tileColor: "blue" #Possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink, none
 ---
 
-# Setting a Stream Destination
 
-After your livestream has been created, switch to the **Local Setup** tab.
+# Livestream richtig einstellen
 
-*image*
+Nachdem dein Livestream erstellt wurde, wechsle zum Tab **[Lokale Einrichtung](https://odysee.com/$/livestream?t=Setup)**, dort findest du deinen Odysee Stream-Key und Streamserver.
 
-Your stream server and stream key are used to tell your streaming software where to send your livestream to. You'll copy these and enter them where needed on your streaming software.
+<Image src="/img/de/stream_key_and_stream_server_screen_dark.png#dark" />
+<Image src="/img/de/stream_key_and_stream_server_screen_light.png#light" />
+
+Der Streamserver und der Streamschlüssel werden verwendet, um deiner Streaming-Software mitzuteilen, wohin dein Livestream gesendet werden soll. Kopiere diese Angaben und gebe sie bei Bedarf in die Streaming-Software ein.
 
 ## OBS
 
-On OBS, you'll click File > Settings > Stream.
+:::tip Gut zu wissen
+OBS ist kostenlos, liegt direkt auf deinem Computer und erlaubt dir viele Einstellungen vorzunehmen, aus diesem Grund empfehlen wir OBS als Streaming-Software für deinen Odysee Livestream. [Zum OBS Download](https://obsproject.com/de)
+:::
 
-*gif*
+OBS: `Datei` > `Einstellungen` > `Stream`
 
-On **Service**, you'll select *Custom*.
+<video width="100%" autoplay="true" loop="true" muted="true" class="dark-video">
+  <source src="/img/de/obs_setup_stream_key_dark.mp4" type="video/mp4" />
+  Dein Browser unterstützt keine Video-Tags.
+</video>
+<video
+  width="100%"
+  autoplay="true"
+  loop="true"
+  muted="true"
+  class="light-video"
+>
+  <source src="/img/de/obs_setup_stream_key_light.mp4" type="video/mp4" />
+  Dein Browser unterstützt keine Video-Tags.
+</video>
 
-On **Server**, you'll enter the stream server provided on Odysee.
+1. **Plattform**: _Benutzerdefiniert_ auswählen
 
-On **Stream Key**, you'll enter the stream key provided on Odysee.
+2. **Server**: Gebe den auf Odysee bereitgestellten Streamserver ein
 
-If everything is correct, you'll click **Ok**.
+3. **Streamschlüssel**: Gebe den auf Odysee bereitgestellten Streamschlüssel ein
+
+Sofern alles korrekt ist, klicke auf **Okay**.
 
 ## Streamyard
 
-*Note: To livestream to Odysee using Streamyard, you'll need to have the paid version of Streamyard.*
+:::note Hinweis
+Um mit Streamyard auf Odysee zu streamen, wird die kostenpflichtige Basic-Version von Streamyard benötigt.
+:::
 
-From the main Streamyard screen after logging in, you'll select **Destinations** on the right side.
+Wähle auf dem [Streamyard-Hauptbildschirm](https://streamyard.com/broadcasts) nach dem Einloggen die Schaltfläche "Eine Übertragung erstellen" aus.
 
-*image*
+<Image src="/img/de/streamyard_add_new_stream.png" />
 
-From here, you'll select **Add Destination** and **Custom RTMP**.
+Klicke auf die Schaltfläche "Ziel hinzufügen" und dort auf "Benuutzerdefiniertes RTMP".
 
-On the next screen, you'll begin entering your stream information.
+<Image src="/img/de/streamyard_add_new_source.png" />
 
-On **RTMP server URL**, you'll enter the stream server provided on Odysee.
+Auf dem nächsten Bildschirm beginne mit der Eingabe deiner Stream-Information.
 
-On **Stream Key**, you'll enter the stream key provided on Odysee.
+1. Unter **RTMP-Server-URL**, gebe den auf Odysee bereitgestellten Streamserver ein.
 
-If everything is correct, you'll click **Add RTMP Server**.
+2. Unter **Stream-Key**, gebe den auf Odysee bereitgestellten Streamschlüssel ein.
 
+3. Der Kurzname ist für dich bestimmt, du kannst hier einfach "Odysee" eingeben.
+
+Wenn alles korrekt ist, klicke auf **RTMP-Server hinzufügen**.
+
+<Image src="/img/de/streamyard_add_custom_rtmp.png" />
+
+Jetzt kannst du Streamyard wie gewohnt nutzen und direkt über Streamyard live gehen.
+
+<Image src="/img/de/streamyard_go_live.png" />
 
 ## Restream
 
-*To livestream to Odysee using Restream, you'll need to have the paid version of Restream.*
+:::note Hinweis
+Um mit Restream auf Odysee zu streamen, wird die kostenpflichtige Version von Restream benötigt.
+:::
 
-*image*
+Auf dem Restream-Hauptbildschirm wähle nach dem Einloggen **Stream With Studio**.
 
-From the main Restream screen after logging in, you'll select **Stream With Studio**.
+<Image src="/img/de/restream_add_destination_arrow.png" />
 
-*image*
+Sobald du im Studio bist, wähle **Add Destination** und **Custom RTMP**.
 
-Once you're in the studio, you'll select **Add Destination** and **Custom RTMP**.
+<Image src="/img/de/restream_studio_arrow.png" />
 
-*image*
+<Image src="/img/de/restream_select_service_arrow.png" />
 
-From here, you'll begin entering your stream information.
 
-On **RTMP URL**, you'll enter the stream server provided on Odysee.
+Auf dem nächsten Bildschirm beginne mit der Eingabe deiner Stream-Information.
 
-On **Stream Key**, you'll enter the stream key provided on Odysee.
+1. Unter **RTMP server URL**, gebe den auf Odysee bereitgestellten Streamserver ein.
 
-If everything is correct, you'll click **Add Channel**.
+2. Unter **Stream Key**, gebe den auf Odysee bereitgestellten Streamschlüssel ein.
+
+Wenn alles korrekt ist, klicke auf **Add Channel**.
+
+<Image src="/img/de/restream_ender_rtmp.png" />
+
+

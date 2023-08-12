@@ -1,37 +1,46 @@
 ---
 sidebar_position: 3
-description: If it was up to us, we'd be syncing every channel that asked with no restrictions. Unfortunately, our YouTube sync resources are limited and we have to allocate them as best we can.
+description: Si cela ne tenait qu'à nous, nous synchroniserions toutes les chaînes qui le demandent, sans aucune restriction. Malheureusement, nos ressources de synchronisation YouTube sont limitées et nous devons les répartir au mieux.
+sidebar_custom_props:
+  faIcon: ""
+  cardThumbnail: "/img/g_1200x600_Transparent_Placeholder.png" #The thumbnail on the category card.
+  cardSize: 12 #12 is full size, 6 is 50% width, etc.
+  thumbnailLocation: "left" #Possible options: top, left, bottom, right, none
+  tileColor: "blue" #Placeholder tiles until thumbnail is ready, possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink, none
 ---
 
-# Requirements & Limits
+# Exigences et limites
 
-If it was up to us, we'd be syncing every channel that asked with no restrictions. Unfortunately, our YouTube sync resources are limited (especially as Odysee continues to grow) and we have to allocate them as best we can.
+Si cela ne tenait qu'à nous, nous synchroniserions toutes les chaînes qui le demandent, sans aucune restriction. Malheureusement, nos ressources de synchronisation YouTube sont limitées (d'autant plus qu'Odysee continue de se développer) et nous devons les répartir du mieux que nous pouvons.
 
-## Requirements:
+## Exigences :
 
-- Your subscription count must be public on YouTube.
-- Videos bigger than 2GB will be synced at lower quality (720p, 480p, ...)
-- Private or unlisted videos will not be published. Copyrighted and age restricted videos may also be skipped.
-- You must have at least 100 YouTube subscribers.
+- Votre nombre d'abonnements doit être public sur YouTube.
+- Les vidéos de plus de 2 Go seront synchronisées en qualité inférieure (720p, 480p, ...).
+- Les vidéos privées ou non listées ne seront pas publiées. Les vidéos soumises à des droits d'auteur ou à des restrictions d'âge peuvent également être ignorées.
+- Vous devez avoir au moins 100 abonnés YouTube.
 
-## Limits:
+## Limites :
 
-**Note: your channel limits are based on your subscriber count at the time of syncing. If your channel had 200 subscribers when enrolling but is now at 2000 subscribers, your channel would still have the 200 subscriber limits. To request a raise on these limits, email hello@odysee.com.**
+:::tip Note : 
+Les limites de votre chaîne sont basées sur votre nombre d'abonnés au moment de la synchronisation. Si votre chaîne comptait 200 abonnés au moment de l'inscription, mais qu'elle en compte aujourd'hui 2000, votre chaîne sera toujours limitée à 200 abonnés. Pour demander une augmentation de ces limites, envoyez un e-mail à hello@odysee.com.
 
-For the number of videos we'll sync:
+:::
 
- - If you have fewer than 300 subscribers, only your newest 20 videos will sync.
- - If you have 300-599 subscribers, only your newest 80 videos will sync.
- - If you have 600-799 subscribers, only your newest 200 videos will sync.
- - If you have 800-999 subscribers, only your newest 250 videos will sync.
- - If you have 1000-4999 subscribers, only your newest 400 videos will sync.
- - If you have 5000-9999 subscribers, only your newest 500 videos will sync.
- - For all higher subscriber counts, we will only sync your newest 1000 videos.
+Pour le nombre de vidéos que nous synchroniserons :
 
-For the length of videos we'll sync:
+|Abonnés| Limite de vidéos pour synchro (Nouvelles vidéos transmises en premier) | Durée maximale de la vidéo |
+|:-|:-|:-|
+|100+|20|30 minutes|
+|300+|80|30 minutes|
+|500+|80|1 heure|
+|600+|200|1 heure|
+|800+|250|1 heure|
+|1000+|400|2 heures|
+|5000+|500|2 heures|
+|10000+|1000|2 heures|
 
-- If you have fewer than 500 subscribers, we will only sync videos under 30 minutes long.
-- If you have 500-999 subscribers, we will only sync videos under 1 hour long.
-- For all channels over 1000 subscribers, we will only sync videos under 2 hours long.
+:::tip
+Les exceptions peuvent être discutées. Contactez-nous à l'adresse hello@odysee.com.
 
-Exceptions can be discussed. Contact us at hello@odysee.com.
+:::

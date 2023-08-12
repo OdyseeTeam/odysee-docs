@@ -1,15 +1,35 @@
 ---
 sidebar_position: 1
+sidebar_custom_props:
+  faIcon: ""
+  cardThumbnail: "/img/g_1200x600_Transparent_Placeholder.png" #The thumbnail on the category card.
+  cardSize: 4 #12 is full size, 6 is 50% width, etc.
+  thumbnailLocation: "top" #Possible options: top, left, bottom, right, none
+  tileColor: "blue" #Placeholder tiles until thumbnail is ready, possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink, none
 ---
 
-# Uploading and File Selection
+# Téléchargement et sélection de fichiers
 
-To upload a file, click the cloud icon next to the search bar at the top of the screen.
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-On mobile, this button will be towards the bottom of the expanded sidebar.
+<Tabs>
+  <TabItem value="web" label="Web" default>
+    Pour télécharger un fichier, cliquez sur l'icône de nuagesymbol <OdyseeButtonRound url="https://odysee.com/$/upload"><OdyseeIcon type='uploadCloud'/></OdyseeButtonRound> à côté de la barre de recherche en haut de l'écran.    
+	<Image
+      img="/img/fr/Nuage.png" />
+  </TabItem>
+  <TabItem value="mobile" label="Mobile">
+    Sur téléphone portable, le bouton <a href="https://odysee.com/$/upload"><OdyseeIcon type='uploadCloud'/> Télécharger</a> se trouve en bas de la barre latérale étendue.
+      <Image img="/img/fr/Mtéléchargements.png" />
+  </TabItem>
+</Tabs>
 
-From the upload screen, you'll first be asked to select a file. Odysee is best known as a video platform, but you're also able to upload images, audio files, PDFs, CAD files, and just about anything else.
+Dans l'écran de téléchargement, il vous sera d'abord demandé de sélectionner un fichier. Odysee est surtout connu comme une plateforme vidéo, mais vous pouvez également télécharger des images, des fichiers audio, des PDF, des fichiers CAO et à peu près tout le reste.
 
-For videos, you'll need to upload MP4s in H264/AAC format. For the best viewer experience, we recommend bitrates under 8 Mbps.
+Pour les vidéos, vous devrez télécharger des MP4 au format H264/AAC. Pour une expérience optimale, nous recommandons des débits inférieurs à 8 Mbps.
 
-Odysee uploads are restricted to 16 GB.
+:::info Bon à savoir
+Les téléchargements Odysee sont limités à 16 Go.
+
+:::

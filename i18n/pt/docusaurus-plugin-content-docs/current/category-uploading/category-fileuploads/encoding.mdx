@@ -1,22 +1,29 @@
 ---
 sidebar_position: 3
+description: Como codificar seus vídeos antes de enviar?
+sidebar_custom_props:
+  cardThumbnail: "/img/g_1200x600_Transparent_Placeholder.png" #The thumbnail on the category card.
+  cardSize: 4 #12 is full size, 6 is 50% width, etc.
+  thumbnailLocation: "top" #Possible options: top, left, bottom, right, none
+  tileColor: "orange" #Placeholder tiles until thumbnail is ready, possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink, none
 ---
 
-# Encoding Videos
+# Codificação de vídeo
 
-You may have tried uploading a video and gotten this message:
+Você pode ter tentado enviar um vídeo e recebeu esta mensagem:
 
-*Your video has a bitrate over 8 Mbps. We suggest transcoding to provide viewers the best experience.*
+*Seu vídeo tem uma taxa de bits de mais de 8 Mbps. Sugerimos a transcodificação para oferecer aos espectadores a melhor experiência.*
 
-You could upload the video as is, but there’s a high chance of buffering for viewers. You can avoid this by encoding your video.
+Você pode carregar o vídeo como está, mas há uma grande chance de que ele seja armazenado em buffer para os espectadores. Você pode evitar isso codificando seu vídeo.
 
-First, download a program called Handbrake. It’s free to use, open-source, and completely safe.
+Primeiro, baixe um programa chamado Handbrake. É de uso gratuito, de código aberto e totalmente seguro.
 
-You can find it at handbrake.fr.
+Você pode encontrá-lo em https://handbrake.fr/.
 
-Once you have Handbrake installed, using it is pretty simple. Open or drag a video file into Handbrake. When you have a video selected, you’ll want to check a few settings.
--	Make sure the Web Optimized Box is checked
--	Check the Tracks. Your video should have H264 encoding and AAC audio. If the audio is not in AAC, the video will not have sound.
--	The default preset is 1080p with 30 FPS. This is typically fine, but depending on the video you may need to lower the quality to 720p.
+Depois de instalar o Handbrake, usá-lo é bastante simples. Abra ou arraste um arquivo de vídeo para o Handbrake. Ao selecionar um vídeo, você deve verificar algumas configurações.
 
-If everything is correct, you can select a destination and file name, and hit start. If you encoded at 1080p and the bitrate is still too high, you’ll need to try again at 720p. The majority of the time, the video should be fine at 1080p.
+- Verifique se a caixa Otimizado para Web está marcada
+- Verifique as faixas. Seu vídeo deve ter codificação H.264 e áudio AAC. Se o áudio não estiver em AAC, o vídeo não terá som.
+- A predefinição padrão é 1080p com 30 FPS. Geralmente isso é bom, mas dependendo do vídeo pode ser necessário reduzir a qualidade para 720p.
+
+Se tudo estiver correto, você pode selecionar um destino e um nome de arquivo e clicar em iniciar. Se você codificou em 1080p e a taxa de bits ainda estiver muito alta, será necessário tentar novamente em 720p. Na maioria das vezes, o vídeo deve ficar bem em 1080p.

@@ -21,7 +21,7 @@
   },
   "link.item.label.Twitter": {
     "message": "Twitter",
-    "description": "The label of footer link with label=Twitter linking to https://twitter.com/OdyseeTeam"
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/odyseeteam"
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
@@ -34,5 +34,53 @@
   "link.item.label.Index": {
     "message": "Index",
     "description": "The label of footer link with label=Index linking to /"
+  },
+  "link.item.label.Odysee": {
+    "message": "Odysee",
+    "description": "The label of footer link with label=Odysee linking to https://odysee.com/@Odysee:8"
+  },
+  "link.item.label.Reddit": {
+    "message": "Reddit",
+    "description": "The label of footer link with label=Reddit linking to https://www.reddit.com/r/OdyseeForever/"
+  },
+  "link.item.label.Facebook": {
+    "message": "Facebook",
+    "description": "The label of footer link with label=Facebook linking to https://www.facebook.com/OdyseeForever/"
+  },
+  "link.item.label.TikTok": {
+    "message": "TikTok",
+    "description": "The label of footer link with label=TikTok linking to https://www.tiktok.com/@odyseeforever"
+  },
+  "link.item.label.Privacy Policy": {
+    "message": "Privacy Policy",
+    "description": "The label of footer link with label=Privacy Policy linking to https://odysee.com/$/privacypolicy"
+  },
+  "link.item.label.Terms of Use": {
+    "message": "Terms of Use",
+    "description": "The label of footer link with label=Terms of Use linking to https://odysee.com/$/tos"
+  },
+  "link.item.label.Careers": {
+    "message": "Careers",
+    "description": "The label of footer link with label=Careers linking to https://odysee.com/$/careers"
+  },
+  "link.item.label.Community Guidelines": {
+    "message": "Community Guidelines",
+    "description": "The label of footer link with label=Community Guidelines linking to /communityguidelines"
+  },
+  "link.item.label.Characters": {
+    "message": "Characters",
+    "description": "The label of footer link with label=Characters linking to /characters"
+  },
+  "link.item.label.Timeline": {
+    "message": "Timeline",
+    "description": "The label of footer link with label=Timeline linking to /timeline"
+  },
+  "link.item.label.Instagram": {
+    "message": "Instagram",
+    "description": "The label of footer link with label=Instagram linking to https://www.instagram.com/odyseeforever/"
+  },
+  "link.item.label.help@odysee.com": {
+    "message": "help@odysee.com",
+    "description": "The label of footer link with label=help@odysee.com linking to mailto:help@odysee.com"
   }
 }

@@ -1,0 +1,35 @@
+.fungusCardContainer {
+  --ifm-link-color: var(--ifm-color-emphasis-800);
+  --ifm-link-hover-color: var(--ifm-color-emphasis-700);
+  --ifm-link-hover-decoration: none;
+  box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 15%);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  padding: 0px !important;
+  height: 100%;
+  background: #f7f7f7;
+  display: flex;
+  align-items: center;
+}
+
+[data-theme='dark'] .fungusCardContainer {
+  background: #2b2b2d;
+}
+
+.fungusCard {
+  padding: 1.5rem !important;
+}
+
+.rowCard {
+	flex-direction: row !important;
+}
+@media (max-width: 560px) {
+	.rowCard {
+		flex-direction: column !important;
+	}
+}
+
+.fungusImage {
+	padding: 0px !important;
+	margin: -7px;
+	border-radius: 0px !important;
+}
