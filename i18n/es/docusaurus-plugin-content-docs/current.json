@@ -1,6 +1,6 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Siguiente",
     "description": "The label for version current"
   },
   "sidebar.helphub.category.Odysee Basics": {
@@ -71,25 +71,17 @@
     "message": "Descubrimiento de contenido",
     "description": "The label for category Content Discovery in sidebar helphub"
   },
-  "sidebar.helphub.category.Monetization & Rewards": {
-    "message": "Monetización y recompensas",
-    "description": "The label for category Monetization & Rewards in sidebar helphub"
+  "sidebar.helphub.category.Tips and hyperchat": {
+    "message": "Propinas e hiperchat",
+    "description": "The label for category Tips and hyperchat in sidebar helphub"
   },
   "sidebar.helphub.category.Cash Tipping": {
     "message": "Propinas en efectivo",
     "description": "The label for category Cash Tipping in sidebar helphub"
   },
-  "sidebar.helphub.category.Earnings Per View": {
-    "message": "Ganancias por vista",
-    "description": "The label for category Earnings Per View in sidebar helphub"
-  },
   "sidebar.helphub.category.LBC Tipping": {
     "message": "Propinas LBC",
     "description": "The label for category LBC Tipping in sidebar helphub"
-  },
-  "sidebar.helphub.category.Rewards": {
-    "message": "Recompensas",
-    "description": "The label for category Rewards in sidebar helphub"
   },
   "sidebar.helphub.category.Wallet & Transactions": {
     "message": "Monedero y transacciones",
