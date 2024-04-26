@@ -223,7 +223,7 @@ const config = {
             '/category-creatingalivestream/',
             '/category-incentives/',
             '/category-creditsperview/',
-            '/category-lbctips/',
+            '/category-creditstips/',
             '/category-cashtips/',
             '/category-staking/',
             '/category-monetization/category-creditsperview/',
