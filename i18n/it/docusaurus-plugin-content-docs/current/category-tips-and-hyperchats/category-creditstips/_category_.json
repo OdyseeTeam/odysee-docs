@@ -1,0 +1,14 @@
+{
+  "label": "Credits Tipping",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "category-tips-and-hyperchats/category-creditstips/category-creditstips"
+  },
+   "customProps": {
+    "cardThumbnail": "/img/g_1200x600_Transparent_Placeholder.png",
+    "cardSize": 12,
+    "thumbnailLocation": "left",
+    "tileColor": "blue"
+  }
+}
