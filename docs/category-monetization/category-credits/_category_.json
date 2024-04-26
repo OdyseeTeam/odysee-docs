@@ -1,9 +1,9 @@
 {
-    "label": "Incentives",
+    "label": "Credits",
     "position": 1,
     "link": {
       "type": "doc",
-      "id": "category-monetization/category-incentives/category-incentives"
+      "id": "category-monetization/category-credits/category-credits"
     },
      "customProps": {
       "cardThumbnail": "/img/g_1200x600_Transparent_Placeholder.png",
