@@ -1,0 +1,14 @@
+{
+    "label": "Incentives",
+    "position": 1,
+    "link": {
+      "type": "doc",
+      "id": "category-monetization/category-incentives/category-incentives"
+    },
+     "customProps": {
+      "cardThumbnail": "/img/g_1200x600_Transparent_Placeholder.png",
+      "cardSize": 12,
+      "thumbnailLocation": "left",
+      "tileColor": "blue"
+    }
+  }
