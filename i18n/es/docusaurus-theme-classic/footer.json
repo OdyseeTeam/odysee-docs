@@ -32,7 +32,7 @@
     "description": "The footer copyright"
   },
   "link.item.label.Odysee": {
-    "message": "Odysee en Español",
+    "message": "Odysee",
     "description": "The label of footer link with label=Odysee linking to https://odysee.com/@odysee.es:a"
   },
   "link.item.label.Reddit": {
