@@ -221,7 +221,7 @@ const config = {
             '/category-fileuploads/',
             '/category-textuploads/',
             '/category-creatingalivestream/',
-            '/category-incentives/',
+            '/category-credits/',
             '/category-creditsperview/',
             '/category-creditstips/',
             '/category-cashtips/',
