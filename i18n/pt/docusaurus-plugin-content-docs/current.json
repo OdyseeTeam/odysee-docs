@@ -67,13 +67,9 @@
     "message": "Ferramentas de Moderação",
     "description": "The label for category Moderation Tools in sidebar helphub"
   },
-  "sidebar.helphub.category.Rewards": {
-    "message": "Recompensas",
-    "description": "The label for category Rewards in sidebar helphub"
-  },
-  "sidebar.helphub.category.Earnings Per View": {
-    "message": "Ganhos por visualização",
-    "description": "The label for category Earnings Per View in sidebar helphub"
+  "sidebar.helphub.category.Tips and hyperchat": {
+    "message": "Dicas e hiperchat",
+    "description": "The label for category Tips and hyperchat in sidebar helphub"
   },
   "sidebar.helphub.category.LBC Tipping": {
     "message": "Dicas na LBC",
@@ -86,10 +82,6 @@
   "sidebar.helphub.category.Playlists": {
     "message": "Listas de reprodução",
     "description": "The label for category Playlists in sidebar helphub"
-  },
-  "sidebar.helphub.category.Monetization & Rewards": {
-    "message": "Monetização e recompensas",
-    "description": "The label for category Monetization & Rewards in sidebar helphub"
   },
   "sidebar.helphub.category.Wallet & Transactions": {
     "message": "Carteira e transações",
