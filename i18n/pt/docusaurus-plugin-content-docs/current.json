@@ -67,16 +67,20 @@
     "message": "Ferramentas de Moderação",
     "description": "The label for category Moderation Tools in sidebar helphub"
   },
+  "sidebar.helphub.category.Monetization": {
+    "message": "Monetização",
+    "description": "The label for category Monetization in sidebar helphub"
+  },
   "sidebar.helphub.category.Tips and hyperchat": {
     "message": "Dicas e hiperchat",
     "description": "The label for category Tips and hyperchat in sidebar helphub"
   },
-  "sidebar.helphub.category.LBC Tipping": {
-    "message": "Dicas na LBC",
-    "description": "The label for category LBC Tipping in sidebar helphub"
+  "sidebar.helphub.category.Credits Tipping": {
+    "message": "Dicas em Créditos",
+    "description": "The label for category Credits Tipping in sidebar helphub"
   },
   "sidebar.helphub.category.Cash Tipping": {
-    "message": "Gorjetas em dinheiro",
+    "message": "Dicas em dinheiro",
     "description": "The label for category Cash Tipping in sidebar helphub"
   },
   "sidebar.helphub.category.Playlists": {
