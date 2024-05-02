@@ -71,6 +71,14 @@
     "message": "Monetização",
     "description": "The label for category Monetization in sidebar helphub"
   },
+  "sidebar.helphub.category.Credits Per View": {
+    "message": "Créditos por visualização",
+    "description": "The label for category Credits per view in sidebar helphub"
+  },
+  "sidebar.helphub.category.Credits": {
+    "message": "Créditos",
+    "description": "The label for category Credits in sidebar helphub"
+  },
   "sidebar.helphub.category.Tips and hyperchat": {
     "message": "Dicas e hiperchat",
     "description": "The label for category Tips and hyperchat in sidebar helphub"
