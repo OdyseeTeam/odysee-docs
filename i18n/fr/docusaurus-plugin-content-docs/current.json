@@ -7,13 +7,17 @@
     "message": "Récompenses",
     "description": "The label for category Rewards in sidebar helphub"
   },
-  "sidebar.helphub.category.Earnings Per View": {
-    "message": "Gains par vue",
-    "description": "The label for category Earnings Per View in sidebar helphub"
+  "sidebar.helphub.category.Credits Per View": {
+    "message": "Crédits par vue",
+    "description": "The label for category Credits per view in sidebar helphub"
   },
-  "sidebar.helphub.category.LBC Tipping": {
-    "message": "Pourboires en LBC",
-    "description": "The label for category LBC Tipping in sidebar helphub"
+  "sidebar.helphub.category.Credits": {
+    "message": "Crédits",
+    "description": "The label for category Credits in sidebar helphub"
+  },
+  "sidebar.helphub.category.Credits Tipping": {
+    "message": "Pourboire avec Crédits",
+    "description": "The label for category Credits Tipping in sidebar helphub"
   },
   "sidebar.helphub.category.Cash Tipping": {
     "message": "Pourboires en espèces",
@@ -23,9 +27,13 @@
     "message": "Listes de lecture",
     "description": "The label for category Playlists in sidebar helphub"
   },
-  "sidebar.helphub.category.Monetization & Rewards": {
-    "message": "Monétisation et récompenses",
-    "description": "The label for category Monetization & Rewards in sidebar helphub"
+  "sidebar.helphub.category.Monetization": {
+    "message": "Monétisation",
+    "description": "The label for category Monetization in sidebar helphub"
+  },
+  "sidebar.helphub.category.Tips and hyperchat": {
+    "message": "Pourboires et hyperchat",
+    "description": "The label for category Tips and hyperchat in sidebar helphub"
   },
   "sidebar.helphub.category.Wallet & Transactions": {
     "message": "Portefeuille et transactions",
