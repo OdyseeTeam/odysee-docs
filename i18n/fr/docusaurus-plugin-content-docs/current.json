@@ -3,10 +3,6 @@
     "message": "Suivant",
     "description": "The label for version current"
   },
-  "sidebar.helphub.category.Rewards": {
-    "message": "Récompenses",
-    "description": "The label for category Rewards in sidebar helphub"
-  },
   "sidebar.helphub.category.Credits Per View": {
     "message": "Crédits par vue",
     "description": "The label for category Credits per view in sidebar helphub"
