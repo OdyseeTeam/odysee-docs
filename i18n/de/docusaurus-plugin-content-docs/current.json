@@ -3,29 +3,29 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.helphub.category.Rewards": {
-    "message": "Prämien",
-    "description": "The label for category Rewards in sidebar helphub"
+  "sidebar.helphub.category.Credits": {
+    "message": "Credits",
+    "description": "The label for category Credits in sidebar helphub"
   },
-  "sidebar.helphub.category.Earnings Per View": {
-    "message": "Einnahmen pro Ansicht",
-    "description": "The label for category Earnings Per View in sidebar helphub"
+  "sidebar.helphub.category.Credits Per View": {
+    "message": "Credits pro Ansicht",
+    "description": "The label for category Credits per view in sidebar helphub"
   },
-  "sidebar.helphub.category.LBC Tipping": {
-    "message": "LBC-Trinkgeld verschicken",
-    "description": "The label for category LBC Tipping in sidebar helphub"
+  "sidebar.helphub.category.Credits Tipping": {
+    "message": "Credits-Trinkgeld",
+    "description": "The label for category Credits Tipping in sidebar helphub"
   },
   "sidebar.helphub.category.Cash Tipping": {
-    "message": "Geld als Trinkgeld verschicken",
+    "message": "Geld als Trinkgeld",
     "description": "The label for category Cash Tipping in sidebar helphub"
   },
   "sidebar.helphub.category.Playlists": {
     "message": "Playlisten",
     "description": "The label for category Playlists in sidebar helphub"
   },
-  "sidebar.helphub.category.Monetization & Rewards": {
-    "message": "Vergütung & Prämien",
-    "description": "The label for category Monetization & Rewards in sidebar helphub"
+  "sidebar.helphub.category.Monetization": {
+    "message": "Monetarisierung",
+    "description": "The label for category Monetization in sidebar helphub"
   },
   "sidebar.helphub.category.Wallet & Transactions": {
     "message": "Brieftasche & Transaktionen",
