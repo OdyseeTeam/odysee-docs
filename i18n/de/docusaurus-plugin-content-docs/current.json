@@ -27,6 +27,10 @@
     "message": "Monetarisierung",
     "description": "The label for category Monetization in sidebar helphub"
   },
+  "sidebar.helphub.category.Tips and hyperchat": {
+    "message": "Trinkgeld und Hyperchat",
+    "description": "The label for category Tips and hyperchat in sidebar helphub"
+  },
   "sidebar.helphub.category.Wallet & Transactions": {
     "message": "Brieftasche & Transaktionen",
     "description": "The label for category Wallet & Transactions in sidebar helphub"
