@@ -1,54 +1,76 @@
 ---
 slug: /unexpected-errors
-sidebar_label: 'Unexpected errors'
+sidebar_label: 'Errores inesperados'
 sidebar_position: 99
-title: Unexpected errors
-description: Some unexpected errors when using Odysee.
+title: Errores inesperados
+description: Algunos errores inesperados al usar Odysee.
 image: https://i.imgur.com/FpXwZoM.jpg
-keywords: [odysee, errors, unexpected errors, fix errors]
+keywords: [odysee, errores, errores inesperados, corregir errores]
 displayed_sidebar: helphub
 ---
 
-# Unexpected errors
+# Errores inesperados
 
 import FungusCard from '@site/src/components/FungusCard';
 
 <FungusCard size="12">
-	Hello, it's me, again, <b>Lady Fungus</b>. First of all, I'm sorry that you had a different experience on Odysee with some unexpected errors. Here you can find some of the errors that should not be frequent, but that will help you solve it. If you do not find any unexpected errors in this documentation that are happening to you, please email us at hello@odysee.com.
+	Hola, soy yo, de nuevo, <b>Lady Fungus</b>. En primer lugar, lamento que hayas tenido una experiencia diferente en Odysee con algunos errores inesperados. Aquí podrás encontrar algunos de los errores que no deberían ser frecuentes, pero que te ayudarán a solucionarlo. Si no encuentra ningún error inesperado en esta documentación que le esté sucediendo, envíenos un correo electrónico..
 </FungusCard>
 
-## Your channel is not a candidate for sync
+## Tu canal no es candidato para sincronización.
 
-If you are trying to sync your YouTube channel to Odysee and the error: <b>"Your channel is not a candidate for sync"</b> is displayed, it is possible that the channel needs some of the minimum requirements to sync. If the channel meets the requirements but still cannot sync, please email us.
+Si estás intentando sincronizar tu canal de YouTube con Odysee y aparece el mensaje: <b>"Tu canal no es candidato para sincronización"</b>, es posible que el canal necesite algunos de los requisitos mínimos para sincronizarse. Si el canal cumple con los requisitos pero aún no se puede sincronizar, envíenos un correo electrónico.
 
-Visit the [Requirements & Limits](https://help.odysee.tv/category-syncprogram/) page in the documentation.
+Visita los [Requisitos y Límites](https://help.odysee.tv/es/category-syncprogram/) en la documentación.
 
-## Channel connected to a different account
+## Canal conectado a una cuenta diferente
 
-If you are trying to sync a YouTube channel to Odysee and the message, "the channel is connected to a different account," is displayed, you may:
+Si está intentando sincronizar un canal de YouTube con Odysee y aparece el mensaje <b>"el canal está conectado a una cuenta diferente"</b>, es posible que deba evaluar algunas de estas opciones:
 
-a. The account has been deleted with the YouTube channel connected to that account, but the channel was not synced yet. You will need to send an email to try to fix it.
-b. The channel was synced with a different account but you tried to sync it again. Sorry, it is not possible to sync the channel to another account if it has already been synced.
-c. The channel is synced to another account but the channel was deleted. In these cases it is possible that the channel cannot be synchronized again on another account.
-d. Trying to sync a YouTube channel to a manually created channel in Odysee. Sorry, the content transfer will be to the channel created automatically by synchronization. However, you can edit a video on your Odysee channel and save it to another channel. Here you can find out how: [Channel Selection](https://help.odysee.tv/category-uploading/category-fileuploads/settings/)
+1. La cuenta se eliminó con el canal de YouTube conectado a esa cuenta, pero el canal aún no se sincronizó. Deberá enviar un correo electrónico para intentar solucionarlo.
+2. El canal se sincronizó con una cuenta diferente pero intentaste sincronizarlo nuevamente. Lo sentimos, no es posible sincronizar el canal con otra cuenta si el canal se ha sincronizado.
+3. El canal está sincronizado con otra cuenta pero el canal fue eliminado. En estos casos es posible que el canal no pueda volver a sincronizarse en otra cuenta.
+4. Intentar sincronizar un canal de YouTube con un canal creado manualmente en Odysee. Lo sentimos, la transferencia de contenido será al canal creado automáticamente por sincronización. Sin embargo, puedes editar un video en tu canal Odysee y guardarlo en otro canal.
+
+**Aquí puedes descubrir cómo:** [Selección del canal](https://help.odysee.tv/es/category-uploading/category-fileuploads/settings/)
 
 :::info
 
-If you think your case is different from the errors mentioned here, you can send us an email. We will be happy to review your case.
+Si cree que su caso es diferente a los errores de sincronización mencionados aquí, puede enviarnos un correo electrónico a hello@odysee.com. Estaremos encantados de revisar su caso.
 
 :::
 
-## Error loading content
+## Error al cargar contenido
 
-In some cases unexpected error messages may appear when loading content. Some of these unexpected errors can be fixed by making some changes to the publication.
+En algunos casos pueden aparecer mensajes de error inesperados al cargar contenido. Algunos de estos errores inesperados se pueden solucionar realizando algunos cambios en la publicación.
 
-1. <b>"Insufficient balance"</b>. The message suggests that you do not have enough Credits to publish or to Boost content. Please check that you have sufficient Credits from the wallet page in the immediate spending balance section. Check that your post does not exceed the amount of Credits you have in your wallet. If you need more Credits for immediate spending, you can edit published content or revoke Boosts from transactions on the wallet page.
-2. <b>"The transaction was rejected by network rules. TX rejected: script size (number) exceeds limit."</b> You may have exceeded the number of characters in your content description. You will have to edit the number of characters and try to upload the content again.
-3. <b>"The media could not be loaded, either because the server or network failed or because the format is not supported."</b> It is possible that you have uploaded a video with HEVC(H.265) encoding or some other unsupported codec. We currently do not have automatic transcoding upon upload, so videos are published in the original format. We recommend using H264 video encoding as it is supported by virtually all browsers and devices. You can find our short guide on how to do it from here: [Encoding Videos](https://help.odysee.tv/category-uploading/category-fileuploads/encoding/)
-4. <b>"There was a network error, but the publish may have been completed. Wait a few minutes, then check your Uploads or Wallet page to confirm."</b> This unexpected error may be caused by an interruption in the content loading per connection, but it may have been published successfully. You can check it by visiting the Uploads page.
+1. <b>"Saldo insuficiente"</b>. El mensaje sugiere que no tienes suficientes Créditos para publicar o impulsar contenido. Verifique que tenga suficientes Créditos en la página de billetera en la sección de saldo de gastos inmediatos. Comprueba que tu publicación no exceda la cantidad de Créditos que tienes en tu billetera. Si necesita más Créditos para gastar de inmediato, puede editar el contenido publicado o revocar los Impulsos de las transacciones en la página de la billetera.
+2. <b>"La transacción fue rechazada por las reglas de la red. TX rechazada: el tamaño del script (número) excede el límite".</b> Es posible que haya excedido el número de caracteres en la descripción de su contenido. Tendrás que editar la cantidad de caracteres e intentar cargar el contenido nuevamente.
+3. <b>"No se pudo cargar el medio, ya sea porque el servidor o la red fallaron o porque el formato no es compatible".</b> Es posible que hayas subido un vídeo con codificación HEVC(H.265) o algún otro códec no compatible. Actualmente no tenemos transcodificación automática al cargarlos, por lo que los videos se publican en el formato original. Recomendamos utilizar la codificación de vídeo H264, ya que es compatible con prácticamente todos los navegadores y dispositivos.
+
+**Puedes encontrar nuestra breve guía aquí:** [Codificación de vídeos](https://help.odysee.tv/es/category-uploading/category-fileuploads/encoding/)
+
+4. <b>"Hubo un error de red, pero es posible que la publicación se haya completado. Espere unos minutos y luego verifique su página Cargas o Cartera para confirmar".</b> Este error inesperado puede deberse a una interrupción en el contenido se carga por conexión, pero es posible que se haya publicado correctamente. Puedes comprobarlo visitando la página de Cargas.
+
+## Error en navegación, verificación o captcha
+
+En algunos casos, los navegadores web que tienen escudos publicitarios y otros scripts que bloquean la funcionalidad activada pueden causar errores en la navegación y la experiencia en Odysee.
+
+Recomendamos desactivar temporalmente los escudos o scripts en su navegador web compatible con Odysee para disfrutar del contenido o realizar otras acciones necesarias. También ayudará a verificar la cuenta con el sistema captcha.
+
+## Cartera vacía
+
+Si va a la página de su billetera y ve un mensaje que indica que tienes la billetera vacía, puede deberse a estos motivos:
+
+1. Verifique que su cuenta haya sido verificada para recibir algunos Créditos.
+2. Vaya a la página de Créditos y reciba algunos Créditos por ver contenido o algunas tareas adicionales.
+3. Si tiene Créditos apostados en el contenido, puede desbloquear Créditos editando la publicación para enviar Créditos como gasto inmediato a la página de billetera.
+4. Verifique que no tenga contenido Impulsado por Créditos. Consulte el filtro de transacciones en la página de la billetera.
+5. ¿Quizás iniciaste sesión en una cuenta diferente? Verifique sus credenciales.
+6. En algunos casos es necesario sincronizar la billetera. Por favor contáctenos.
 
 :::info
 
-If you do not find an unexpected error here, it may be a temporary interruption of some service. You can also write to us at hello@odysee.com and share more details about the error you are experiencing. Some screenshots may help too.
+Si no encuentras aquí un error inesperado puede que se trate de una interrupción temporal de algún servicio. Envíenos un correo electrónico a hello@odysee.com con más detalles sobre el error que está experimentando. Algunas capturas de pantalla también pueden ayudar.
 
 :::
