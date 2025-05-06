@@ -16,7 +16,7 @@ You may have tried uploading a video and gotten this message:
 
 You could upload the video as is, but there’s a high chance of buffering for viewers. You can avoid this by encoding your video.
 
-First, download a program called Handbrake. It’s free to use, open-source, and completely safe.
+First, download a program called Handbrake (or command-line users please scroll to the bottom). Handbrake is free to use, open-source, and completely safe.
 
 You can find it at handbrake.fr.
 
@@ -34,3 +34,11 @@ When you have a video selected, you’ll want to check a few settings.
 ![](/img/en/category-uploading11.png)
 
 If everything is correct, you can select a destination and file name, and hit start. If you encoded at 1080p and the bitrate is still too high, you’ll need to try again at 720p. The majority of the time, the video should be fine at 1080p.
+
+Command-line:
+
+For example,
+
+ffmpeg -i input.mov -c:v libx264 -pix_fmt yuv420p -profile:v baseline -level 3.0 -crf 22 -preset veryslow -vf scale=1280:-2 -c:a aac -movflags +faststart output.mp4 
+
+(from https://gist.github.com/jaydenseric/220c785d6289bcfd7366 )
