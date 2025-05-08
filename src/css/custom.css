@@ -305,3 +305,7 @@ a {
   border-bottom-right-radius: 0px;
   margin-right: -6px;
 }
+
+li > p {
+  margin-bottom: 0px;
+}
