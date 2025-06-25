@@ -67,13 +67,9 @@
     "message": "Ferramentas de Moderação",
     "description": "The label for category Moderation Tools in sidebar helphub"
   },
-  "sidebar.helphub.category.Monetization": {
-    "message": "Monetização",
-    "description": "The label for category Monetization in sidebar helphub"
-  },
-  "sidebar.helphub.category.Credits Per View": {
-    "message": "Créditos por visualização",
-    "description": "The label for category Credits per view in sidebar helphub"
+  "sidebar.helphub.category.Wallet & Monetization": {
+    "message": "Carteira e Monetização",
+    "description": "The label for category Wallet & Monetization in sidebar helphub"
   },
   "sidebar.helphub.category.Credits": {
     "message": "Créditos",
@@ -87,17 +83,13 @@
     "message": "Dicas em Créditos",
     "description": "The label for category Credits Tipping in sidebar helphub"
   },
-  "sidebar.helphub.category.Cash Tipping": {
-    "message": "Dicas em dinheiro",
-    "description": "The label for category Cash Tipping in sidebar helphub"
-  },
   "sidebar.helphub.category.Playlists": {
     "message": "Listas de reprodução",
     "description": "The label for category Playlists in sidebar helphub"
   },
-  "sidebar.helphub.category.Wallet & Transactions": {
-    "message": "Carteira e transações",
-    "description": "The label for category Wallet & Transactions in sidebar helphub"
+  "sidebar.helphub.category.Legacy Monetization": {
+    "message": "Legado de Monetização",
+    "description": "The label for category Legacy Monetization in sidebar helphub"
   },
   "sidebar.helphub.category.Content Discovery": {
     "message": "Descoberta de conteúdo",

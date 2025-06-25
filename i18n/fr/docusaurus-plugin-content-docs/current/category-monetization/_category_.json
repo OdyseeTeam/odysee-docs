@@ -1,8 +1,8 @@
 {
-    "label": "Monétisation",
-    "position": 6,
-    "link": {
-      "type": "doc",
-      "id": "category-monetization/category-monetization"
-    }
+  "label": "Portefeuille et monétisation",
+  "position": 9,
+  "link": {
+    "type": "doc",
+    "id": "category-monetization/category-monetization"
   }
+}
