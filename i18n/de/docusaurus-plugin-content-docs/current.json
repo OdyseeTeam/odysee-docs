@@ -7,33 +7,25 @@
     "message": "Credits",
     "description": "The label for category Credits in sidebar helphub"
   },
-  "sidebar.helphub.category.Credits Per View": {
-    "message": "Credits pro Ansicht",
-    "description": "The label for category Credits per view in sidebar helphub"
-  },
   "sidebar.helphub.category.Credits Tipping": {
     "message": "Credits-Trinkgeld",
     "description": "The label for category Credits Tipping in sidebar helphub"
-  },
-  "sidebar.helphub.category.Cash Tipping": {
-    "message": "Geld als Trinkgeld",
-    "description": "The label for category Cash Tipping in sidebar helphub"
   },
   "sidebar.helphub.category.Playlists": {
     "message": "Playlisten",
     "description": "The label for category Playlists in sidebar helphub"
   },
-  "sidebar.helphub.category.Monetization": {
-    "message": "Monetarisierung",
-    "description": "The label for category Monetization in sidebar helphub"
+  "sidebar.helphub.category.Legacy Monetization": {
+    "message": "Legacy-Monetarisierung",
+    "description": "The label for category Legacy Monetization in sidebar helphub"
   },
   "sidebar.helphub.category.Tips and hyperchat": {
     "message": "Trinkgeld und Hyperchat",
     "description": "The label for category Tips and hyperchat in sidebar helphub"
   },
-  "sidebar.helphub.category.Wallet & Transactions": {
-    "message": "Brieftasche & Transaktionen",
-    "description": "The label for category Wallet & Transactions in sidebar helphub"
+  "sidebar.helphub.category.Wallet & Monetization": {
+    "message": "Brieftasche & Monetarisierung",
+    "description": "The label for category Wallet & Monetization in sidebar helphub"
   },
   "sidebar.helphub.category.Content Discovery": {
     "message": "Inhalte entdecken",

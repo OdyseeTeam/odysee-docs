@@ -1,8 +1,8 @@
 {
-    "label": "Monetização",
-    "position": 6,
-    "link": {
-      "type": "doc",
-      "id": "category-monetization/category-monetization"
-    }
+  "label": "Carteira e Monetização",
+  "position": 9,
+  "link": {
+    "type": "doc",
+    "id": "category-monetization/category-monetization"
   }
+}
