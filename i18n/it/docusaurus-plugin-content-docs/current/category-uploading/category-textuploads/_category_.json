@@ -1,7 +1,14 @@
 {
-  "label": "Uploading Text Posts",
+  "label": "Carica post di testo",
   "position": 3,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "category-uploading/category-textuploads/category-textuploads"
+  },
+   "customProps": {
+    "cardThumbnail": "/img/g_1200x600_Transparent_Placeholder.png",
+    "cardSize": 12,
+    "thumbnailLocation": "left",
+    "tileColor": "blue"
   }
 }

@@ -175,7 +175,7 @@ const config = {
   favicon: 'img/favicon-spaceman.png',
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'es', 'fr', 'de', 'pt'],
+    locales: ['en', 'es', 'fr', 'de', 'pt', 'it'],
   },
   plugins: [
     function preloadFontPlugin(_context, _options) {
