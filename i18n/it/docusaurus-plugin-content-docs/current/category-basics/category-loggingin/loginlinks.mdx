@@ -1,25 +1,53 @@
 ---
 sidebar_position: 3
-description: Logging in via magic links
+description: Accedi tramite link magici
+sidebar_custom_props:
+  faIcon: "fa-circle-play"
+  cardThumbnail: "/img/g_1200x600_Transparent_Placeholder.png" #L'immagine sulla scheda della categoria.
+  cardSize: 12 #12 è dimensione intera, 6 è 50% larghezza, ecc.
+  thumbnailLocation: "left" #Opzioni possibili: top, left, bottom, right, none
+  tileColor: "blue" #Opzioni possibili: blue, cream, darkpurple, lightpurple, mauve, orange, pink, none
 ---
 
-# Login Links
+# Link magico
 
-If you'd rather login using an email link than a password, you can select **Use Magic Link**.
+Se preferisci accedere a Odysee utilizzando un link inviato alla tua email invece di una password, puoi selezionare l'opzione **Usa link magico**.
 
-![](https://i.imgur.com/sxATuIE.png)
+![](/img/es/image_20.png)
 
-This sends an confirmation email. Simply click the button in this email and complete a CAPTCHA, and you'll be logged in.
+Questo invia un'email di conferma con un link. Basta cliccare sul pulsante o sul link nell'email e completare un CAPTCHA nel tuo browser web o dispositivo, e avrai effettuato l'accesso correttamente.
 
-![](https://i.imgur.com/MttvyYb.png)
+:::info Informazione
 
-**Note: if you receive this email but weren't trying to log in, don't click the link.**
+Per migliorare l'esperienza di verifica, prova a utilizzare un browser compatibile e disattiva i blocchi pubblicitari o i captcha. Il link è valido solo per pochi minuti, quindi potresti dover riprovare.
 
-## Why Am I Being Asked to Verify Via Link?
+:::
 
-Sometimes when logging in, you may be sent a confirmation email without requesting it. This happens when we detect an IP change. The security reason behind this is to prevent people who aren't you from logging into your account, even if they know your username and password.
+![](/img/es/image_21.png)
 
-If you switch locations between logins, you'll be asked to confirm via email, even if you've used Odysee at both of those locations previously.
+:::danger Avvertenza
 
-This can also be triggered if you use a VPN.
+Se ricevi questa email con un link magico ma non stavi tentando di accedere al tuo account, non cliccare sul link.
 
+:::
+
+## Ecco alcuni passaggi aggiuntivi nel caso in cui si verifichino errori imprevisti durante l'utilizzo del link magico.
+
+1. Chiudi il tuo browser web (Firefox, Chrome, Brave).
+2. Apri Odysee ed effettua l'accesso utilizzando il link magico.
+3. Clicca sul link inviato alla tua email nello stesso browser.
+4. Attendi qualche secondo e la tua sessione sarà attiva.
+
+:::info Informazione
+
+In alcuni casi, potrebbe essere necessario cancellare la cache del browser per Odysee se si verificano errori imprevisti. Inviaci un'email se riscontri un errore imprevisto a hello@odysee.com.
+
+:::
+
+## Perché mi viene chiesto di verificare tramite un link?
+
+A volte, quando accedi, potresti ricevere un'email di conferma senza averla richiesta. Questo accade quando rileviamo un cambio di IP o un nuovo dispositivo. Il motivo di sicurezza dietro a ciò è evitare che persone diverse da te accedano al tuo account, anche se conoscono il tuo nome utente e la tua password.
+
+Se cambi posizione tra gli accessi o dispositivo, ti verrà chiesto di confermare tramite email, anche se hai già usato Odysee in entrambe le posizioni in precedenza.
+
+Questo può accadere anche se utilizzi una VPN.

@@ -1,8 +1,7 @@
 {
-  "label": "Uploading Content",
+  "label": "Caricamento di contenuti",
   "position": 4,
   "link": {
-    "type": "doc",
-    "id": "category-uploading/category-uploading"
+    "type": "generated-index"
   }
 }

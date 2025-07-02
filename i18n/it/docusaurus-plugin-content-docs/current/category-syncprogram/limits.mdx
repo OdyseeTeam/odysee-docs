@@ -1,37 +1,53 @@
 ---
 sidebar_position: 3
-description: If it was up to us, we'd be syncing every channel that asked with no restrictions. Unfortunately, our YouTube sync resources are limited and we have to allocate them as best we can.
+description: I diversi requisiti e limiti per i vari canali.
+sidebar_custom_props:
+  cardThumbnail: "/img/g_1200x600_Transparent_Placeholder.png" #The thumbnail on the category card.
+  cardSize: 12 #12 is full size, 6 is 50% width, etc.
+  thumbnailLocation: "left" #Possible options: top, left, bottom, right, none
+  tileColor: "orange" #Placeholder tiles until thumbnail is ready, possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink, none
 ---
 
-# Requirements & Limits
+# Requisiti e Limiti
 
-If it was up to us, we'd be syncing every channel that asked with no restrictions. Unfortunately, our YouTube sync resources are limited (especially as Odysee continues to grow) and we have to allocate them as best we can.
+:::danger
 
-## Requirements:
+Per garantire che i tuoi contenuti rimangano accessibili su Odysee, ti consigliamo vivamente di iniziare a [caricare manualmente](https://help.odysee.tv/it/category-uploading/) i tuoi video direttamente.
 
-- Your subscription count must be public on YouTube.
-- Videos bigger than 2GB will be synced at lower quality (720p, 480p, ...)
-- Private or unlisted videos will not be published. Copyrighted and age restricted videos may also be skipped.
-- You must have at least 100 YouTube subscribers.
+Questo approccio non solo garantisce la presenza dei tuoi video sulla piattaforma, ma ti rende anche idoneo per il nostro futuro programma di monetizzazione e per partecipare all’Ecosistema dei Media Decentralizzati.
 
-## Limits:
+:::
 
-**Note: your channel limits are based on your subscriber count at the time of syncing. If your channel had 200 subscribers when enrolling but is now at 2000 subscribers, your channel would still have the 200 subscriber limits. To request a raise on these limits, email hello@odysee.com.**
+## Requisiti:
 
-For the number of videos we'll sync:
+- Il tuo canale deve avere almeno 50.000 visualizzazioni mensili su YouTube.
+- Il numero di iscritti deve essere pubblico su YouTube.
+- I video superiori a 2 GB verranno sincronizzati a una qualità inferiore (720p, 480p, ...).
+- Non verranno pubblicati video privati o non in elenco. Anche i video con copyright o con restrizioni di età possono essere omessi.
+- Il canale deve essere attivo e avere contenuti recenti. Questo include sia video brevi che regolari.
+- I video di 7 secondi o meno non verranno sincronizzati.
 
- - If you have fewer than 300 subscribers, only your newest 20 videos will sync.
- - If you have 300-599 subscribers, only your newest 80 videos will sync.
- - If you have 600-799 subscribers, only your newest 200 videos will sync.
- - If you have 800-999 subscribers, only your newest 250 videos will sync.
- - If you have 1000-4999 subscribers, only your newest 400 videos will sync.
- - If you have 5000-9999 subscribers, only your newest 500 videos will sync.
- - For all higher subscriber counts, we will only sync your newest 1000 videos.
+## Limiti:
 
-For the length of videos we'll sync:
+:::tip Avviso
 
-- If you have fewer than 500 subscribers, we will only sync videos under 30 minutes long.
-- If you have 500-999 subscribers, we will only sync videos under 1 hour long.
-- For all channels over 1000 subscribers, we will only sync videos under 2 hours long.
+I limiti del tuo canale si basano sul numero di iscritti al momento della sincronizzazione. Se il tuo canale aveva 100 iscritti quando ti sei iscritto ma ora ne ha 2000, il limite rimarrà quello dei 100 iscritti. Per richiedere un aumento di questi limiti, invia una mail a hello@odysee.com.
 
-Exceptions can be discussed. Contact us at hello@odysee.com.
+:::
+
+|Iscritti| Numero di video (i nuovi video vengono trasferiti per primi) | Durata massima del video |
+|:-|:-|:-|
+|100+|20|30 minuti|
+|300+|80|30 minuti|
+|500+|80|1 ora|
+|600+|200|1 ora|
+|800+|250|1 ora|
+|1000+|400|2 ore|
+|5000+|500|2 ore|
+|10000+|1000|2 ore|
+
+:::info Eccezioni
+
+Ovviamente facciamo delle eccezioni. Basta inviarci una mail a hello@odysee.com
+
+:::
