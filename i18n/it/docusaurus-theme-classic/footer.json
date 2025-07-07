@@ -1,18 +1,18 @@
 {
   "link.title.Help Hub": {
-    "message": "Help Hub",
+    "message": "Centro de ayuda",
     "description": "The title of the footer links column with title=Help Hub in the footer"
   },
   "link.title.Community": {
-    "message": "Community",
+    "message": "Comunidad",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.More": {
-    "message": "More",
+    "message": "Más",
     "description": "The title of the footer links column with title=More in the footer"
   },
   "link.item.label.Index": {
-    "message": "Index",
+    "message": "Índice",
     "description": "The label of footer link with label=Index linking to /"
   },
   "link.item.label.Discord": {
@@ -21,19 +21,19 @@
   },
   "link.item.label.Twitter": {
     "message": "Twitter",
-    "description": "The label of footer link with label=Twitter linking to https://twitter.com/odyseeteam"
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/OdyseeEs"
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
     "description": "The label of footer link with label=GitHub linking to https://github.com/OdyseeTeam"
   },
   "copyright": {
-    "message": "Copyright © 2022 Odysee.",
+    "message": "Copyright © 2025 Odysee Holdings, Inc.",
     "description": "The footer copyright"
   },
   "link.item.label.Odysee": {
     "message": "Odysee",
-    "description": "The label of footer link with label=Odysee linking to https://odysee.com/@Odysee:8"
+    "description": "The label of footer link with label=Odysee linking to https://odysee.com/@odysee.es:a"
   },
   "link.item.label.Reddit": {
     "message": "Reddit",
@@ -41,26 +41,26 @@
   },
   "link.item.label.Facebook": {
     "message": "Facebook",
-    "description": "The label of footer link with label=Facebook linking to https://www.facebook.com/OdyseeForever/"
+    "description": "The label of footer link with label=Facebook linking to https://www.facebook.com/odysee.es"
   },
   "link.item.label.TikTok": {
     "message": "TikTok",
     "description": "The label of footer link with label=TikTok linking to https://www.tiktok.com/@odyseeforever"
   },
   "link.item.label.Privacy Policy": {
-    "message": "Privacy Policy",
+    "message": "Política de privacidad",
     "description": "The label of footer link with label=Privacy Policy linking to https://odysee.com/$/privacypolicy"
   },
   "link.item.label.Terms of Use": {
-    "message": "Terms of Use",
+    "message": "Términos de Uso",
     "description": "The label of footer link with label=Terms of Use linking to https://odysee.com/$/tos"
   },
   "link.item.label.Careers": {
-    "message": "Careers",
+    "message": "Carreras",
     "description": "The label of footer link with label=Careers linking to https://odysee.com/$/careers"
   },
   "link.item.label.Community Guidelines": {
-    "message": "Community Guidelines",
+    "message": "Pautas de la comunidad",
     "description": "The label of footer link with label=Community Guidelines linking to /communityguidelines"
   },
   "link.item.label.Characters": {
@@ -74,5 +74,9 @@
   "link.item.label.Instagram": {
     "message": "Instagram",
     "description": "The label of footer link with label=Instagram linking to https://www.instagram.com/odyseeforever/"
+  },
+  "link.item.label.help@odysee.com": {
+    "message": "help@odysee.com",
+    "description": "The label of footer link with label=help@odysee.com linking to mailto:help@odysee.com"
   }
 }

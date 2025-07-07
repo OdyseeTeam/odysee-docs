@@ -1,8 +1,11 @@
 {
-  "label": "Odysee Basics",
+  "label": "Nozioni di base su Odysee",
   "position": 1,
   "link": {
     "type": "doc",
     "id": "category-basics/category-basics"
+  },
+  "customProps": {
+    "faIcon": "fa-play"
   }
 }

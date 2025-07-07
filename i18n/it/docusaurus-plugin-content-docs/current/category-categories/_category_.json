@@ -1,6 +1,6 @@
 {
-  "label": "Channel Categories",
-  "position": 10,
+  "label": "Categorie dei canali",
+  "position": 13,
   "link": {
     "type": "doc",
     "id": "category-categories/category-categories"
