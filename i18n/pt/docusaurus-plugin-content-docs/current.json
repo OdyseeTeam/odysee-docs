@@ -79,8 +79,8 @@
     "message": "Dicas e hiperchat",
     "description": "The label for category Tips and hyperchat in sidebar helphub"
   },
-  "sidebar.helphub.category.Credits Tipping": {
-    "message": "Dicas em Créditos",
+  "sidebar.helphub.category.AR Tipping": {
+    "message": "Dicas em AR",
     "description": "The label for category Credits Tipping in sidebar helphub"
   },
   "sidebar.helphub.category.Playlists": {
