@@ -7,6 +7,10 @@
     "message": "Crédits",
     "description": "The label for category Credits in sidebar helphub"
   },
+    "sidebar.helphub.category.AR Tipping": {
+    "message": "Pourboire avec AR",
+    "description": "The label for category AR Tipping in sidebar helphub"
+  },
   "sidebar.helphub.category.Playlists": {
     "message": "Listes de lecture",
     "description": "The label for category Playlists in sidebar helphub"

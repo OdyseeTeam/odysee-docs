@@ -75,9 +75,9 @@
     "message": "Propinas e hiperchat",
     "description": "The label for category Tips and hyperchat in sidebar helphub"
   },
-  "sidebar.helphub.category.Credits Tipping": {
-    "message": "Propinas con Créditos",
-    "description": "The label for category Credits Tipping in sidebar helphub"
+  "sidebar.helphub.category.AR Tipping": {
+    "message": "Propinas con AR",
+    "description": "The label for category AR Tipping in sidebar helphub"
   },
   "sidebar.helphub.category.Wallet & Monetization": {
     "message": "Billetera y Monetización",

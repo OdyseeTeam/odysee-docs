@@ -7,8 +7,8 @@
     "message": "Credits",
     "description": "The label for category Credits in sidebar helphub"
   },
-  "sidebar.helphub.category.Credits Tipping": {
-    "message": "Credits-Trinkgeld",
+  "sidebar.helphub.category.AR Tipping": {
+    "message": "AR-Trinkgeld",
     "description": "The label for category Credits Tipping in sidebar helphub"
   },
   "sidebar.helphub.category.Playlists": {

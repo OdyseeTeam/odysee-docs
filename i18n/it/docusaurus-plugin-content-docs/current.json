@@ -75,8 +75,8 @@
     "message": "Mance e hyperchat",
     "description": "The label for category Tips and hyperchat in sidebar helphub"
   },
-  "sidebar.helphub.category.Credits Tipping": {
-    "message": "Mance con crediti",
+  "sidebar.helphub.category.AR Tipping": {
+    "message": "Mance con AR",
     "description": "The label for category Credits Tipping in sidebar helphub"
   },
   "sidebar.helphub.category.Wallet & Monetization": {
