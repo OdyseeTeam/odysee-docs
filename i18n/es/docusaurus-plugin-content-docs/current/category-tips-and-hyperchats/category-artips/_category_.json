@@ -1,9 +1,9 @@
 {
-  "label": "Dicas de Créditos",
+  "label": "Propinas con AR",
   "position": 3,
   "link": {
     "type": "doc",
-    "id": "category-tips-and-hyperchats/category-creditstips/category-creditstips"
+    "id": "category-tips-and-hyperchats/category-artips/category-artips"
   },
    "customProps": {
     "cardThumbnail": "/img/g_1200x600_Transparent_Placeholder.png",

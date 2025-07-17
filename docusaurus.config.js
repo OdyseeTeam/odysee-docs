@@ -222,7 +222,7 @@ const config = {
             '/category-textuploads/',
             '/category-creatingalivestream/',
             '/category-credits/',
-            '/category-creditstips/',
+            '/category-artips/',
             '/category-staking/',
           ],
           filename: 'sitemap.xml',
