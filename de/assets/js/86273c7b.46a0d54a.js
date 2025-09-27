@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkodysee_docs=self.webpackChunkodysee_docs||[]).push([[3118],{9767:e=>{e.exports=JSON.parse('{"label":"Richtlinien","permalink":"/de/tags/richtlinien","allTagsPath":"/de/tags","count":1,"items":[{"id":"communityguidelines","title":"Gemeinschafts-Richtlinien","description":"aktualisiert am 8/6/2025","permalink":"/de/communityguidelines"}]}')}}]);
