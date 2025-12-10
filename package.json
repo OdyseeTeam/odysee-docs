@@ -63,6 +63,7 @@
     "form-data": "4.0.4",
     "@babel/traverse": "7.23.2",
     "@babel/helpers": "7.26.10",
+    "@babel/runtime": "7.26.10",
     "json5": "2.2.3",
     "body-parser": "1.20.3",
     "tough-cookie": "4.1.3",
