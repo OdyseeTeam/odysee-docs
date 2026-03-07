@@ -1,0 +1,470 @@
+
+> odysee-docs@0.0.0 build
+> npm run docusaurus -- build
+
+
+> odysee-docs@0.0.0 docusaurus
+> node -r ./scripts/node16-crypto-polyfill.cjs ./node_modules/@docusaurus/core/bin/docusaurus.mjs build
+
+
+╭──────────────────────────────────────────────────────────────────────────────╮│                                                                              ││                        Update available 2.4.1 → 3.9.2                        ││                                                                              ││       To upgrade Docusaurus packages with the latest version, run the        ││                             following command:                               ││       `npm i @docusaurus/core@latest @docusaurus/preset-classic@latest       ││                   @docusaurus/module-type-aliases@latest`                    ││                                                                              │╰──────────────────────────────────────────────────────────────────────────────╯
+
+[INFO] Website will be built for all these locales: 
+- en
+- es
+- fr
+- de
+- pt
+- it
+[INFO] [en] Creating an optimized production build...
+i Compiling Client
+i Compiling Server
+√ Client: Compiled successfully in 1.92s
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
+{
+  links: [
+    { title: 'Help Hub', items: [Array] },
+    { title: 'Community', items: [Array] },
+    { title: 'More', items: [Array] }
+  ]
+}
