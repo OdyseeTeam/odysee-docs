@@ -7,7 +7,7 @@ sidebar_custom_props:
   cardSize: 4 #12 is full size, 6 is 50% width, etc.
   thumbnailLocation: "top" #Possible options: top, left, bottom, right, none
   tileColor: "blue" #Possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink, none
-keywords: [odysee, dateien auf odysee hochladen, ]
+keywords: [odysee, dateien auf odysee hochladen]
 tags:
   - Odysee
   - Inhalte
@@ -17,22 +17,31 @@ tags:
 
 Odysee ist vor allem als Videoplattform bekannt, aber du kannst auch Bilder, Audiodateien, PDFs, CAD-Dateien und so ziemlich alles andere hochladen.
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
 
 <Tabs groupId="device">
   <TabItem value="web" label="Web" default>
-    Um eine Datei hochzuladen, klicke auf das Wolkensymbol <OdyseeButtonRound url="https://odysee.com/$/upload"><OdyseeIcon type='uploadCloud'/></OdyseeButtonRound> neben der Suchleiste.
-	<Image img="/img/de/locale_upload_link_desktop_dark.png#dark" />
+    Um eine Datei hochzuladen, klicke auf das Wolkensymbol{" "}
+    <OdyseeButtonRound url="https://odysee.com/$/upload">
+      <OdyseeIcon type="uploadCloud" />
+    </OdyseeButtonRound>{" "}
+    neben der Suchleiste.
+    <Image img="/img/de/locale_upload_link_desktop_dark.png#dark" />
     <Image img="/img/de/locale_upload_link_desktop_light.png#light" />
   </TabItem>
   <TabItem value="mobile" label="Mobile">
-    Auf mobilen Geräten befindet sich die Schaltfläche <a href="https://odysee.com/$/upload"><OdyseeIcon type='uploadCloud'/> Hochladen</a> am unteren Rand der erweiterten Seitenleiste.
+    Auf mobilen Geräten befindet sich die Schaltfläche{" "}
+    <a href="https://odysee.com/$/upload">
+      <OdyseeIcon type="uploadCloud" /> Hochladen
+    </a>{" "}
+    am unteren Rand der erweiterten Seitenleiste.
     <Image img="/img/de/locale_upload_link_mobile_dark.png#dark" />
     <Image img="/img/de/locale_upload_link_mobile_light.png#light" />
   </TabItem>
 </Tabs>
 
+![odysee](https://thumbs.odycdn.com/1f99600e77fc5e286c77a4831ae8d781.webp)
 
 Auf der Upload-Seite wirst du zunächst aufgefordert, eine Datei auszuwählen.
 
