@@ -5,3 +5,4 @@ build
 .env
 .DS_Store
 thumbs.db
+build-verify.log
