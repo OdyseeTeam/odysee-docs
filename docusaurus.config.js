@@ -1,6 +1,8 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes} = require('prism-react-renderer');
 const FontPreloadPlugin = require('webpack-font-preload-plugin');
+
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -86,7 +88,6 @@ const config = {
             title: 'Community',
             items: [
               {
-				faicon: "fa-brands fa-odysee",
                 label: 'Odysee',
                 href: 'https://odysee.com/@Odysee:8',
               },
@@ -241,10 +242,6 @@ const config = {
             return `https://github.com/OdyseeTeam/odysee-docs/edit/main/docs/${docPath}`;
           },
           editLocalizedFiles: true,
-          admonitions: {
-            tag: ':::',
-            keywords: ['note', 'tip', 'info', 'caution', 'danger'],
-          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -1,10 +1,11 @@
 import React from 'react';
 import clsx from 'clsx';
-import { findFirstCategoryLink } from '@docusaurus/theme-common/internal';
 import ThumbnailCard from '@site/src/components/ThumbnailCard';
-import {useAllPluginInstancesData} from '@docusaurus/useGlobalData';
-import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
-import { useDocById } from '@docusaurus/theme-common/internal';
+import {
+  findFirstSidebarItemLink,
+  useCurrentSidebarCategory,
+  useDocById,
+} from '@docusaurus/plugin-content-docs/client';
 import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
@@ -15,7 +16,7 @@ function filterItems(items) {
       return false;
     }
     if (item.type === 'category') {
-      return !!findFirstCategoryLink(item);
+      return !!findFirstSidebarItemLink(item);
     }
     return true;
   });

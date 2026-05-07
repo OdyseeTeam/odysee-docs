@@ -8,19 +8,28 @@ sidebar_custom_props:
   tileColor: "blue" #Placeholder tiles until thumbnail is ready, possible options: blue, cream, darkpurple, lightpurple, mauve, orange, pink, none
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
 # Emplacement du menu
 
 <Tabs>
   <TabItem value="web" label="Web" default>
-    Pour télécharger un message texte, cliquez sur l'icône de la plumesymbol <OdyseeButtonRound url="https://odysee.com/$/post"><OdyseeIcon type='Post'/></OdyseeButtonRound> à côté de la barre de recherche en haut de l'écran.
-	<Image
-      img="/img/fr/Plume.png"/>
+    Pour télécharger un message texte, cliquez sur l'icône de la plumesymbol{" "}
+    <OdyseeButtonRound url="https://odysee.com/$/post">
+      <OdyseeIcon type="Post" />
+    </OdyseeButtonRound>{" "}
+    à côté de la barre de recherche en haut de l'écran.
+    <Image img="/img/fr/Plume.png" />
   </TabItem>
   <TabItem value="mobile" label="Mobile">
-    Sur les appareils portables, le bouton <a href="https://odysee.com/$/post"><OdyseeIcon type='Post'/> Post</a> se trouve en bas de la barre latérale développée.  am unteren Rand der erweiterten Seitenleiste.
-    <Image
-      img="/img/fr/Mpost.png"
-    />
+    Sur les appareils portables, le bouton{" "}
+    <a href="https://odysee.com/$/post">
+      <OdyseeIcon type="Post" /> Post
+    </a>{" "}
+    se trouve en bas de la barre latérale développée. am unteren Rand der
+    erweiterten Seitenleiste.
+    <Image img="/img/fr/Mpost.png" />
   </TabItem>
 </Tabs>
 

@@ -7,11 +7,12 @@ function getFAQPageSchema(props) {
   FAQPage["@context"] = "https://schema.org";
   FAQPage["@type"] = "FAQPage";
   FAQPage["mainEntity"] = [];
-  props.children.map((detail) => {
+  React.Children.toArray(props.children).forEach((detail) => {
+    const detailChildren = React.Children.toArray(detail.props.children);
     /* First entry in array is the question. */
-    const question = onlyText(detail.props.children[0]);
+    const question = onlyText(detailChildren[0]);
     /* Following entries in array are the answer. */
-    const answer = onlyText(detail.props.children.slice(1));
+    const answer = onlyText(detailChildren.slice(1));
     FAQPage["mainEntity"].push(
       {
         "@type": "Question",

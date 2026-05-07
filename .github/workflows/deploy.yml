@@ -9,41 +9,42 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@master
-    - name: Copy i18n files
-      run: |
-        rsync -r --ignore-existing docs/ i18n/it/docusaurus-plugin-content-docs/current
-        rsync -r --ignore-existing docs/ i18n/de/docusaurus-plugin-content-docs/current
-        rsync -r --ignore-existing docs/ i18n/fr/docusaurus-plugin-content-docs/current
-        rsync -r --ignore-existing docs/ i18n/es/docusaurus-plugin-content-docs/current
-        rsync -r --ignore-existing docs/ i18n/pt/docusaurus-plugin-content-docs/current
-    - name: Commit files
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add -A
-        if ! git diff-index --quiet HEAD; then
-          git commit -m "Copy files into i18n folder" -a
-        fi
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v4
+      - name: Copy i18n files
+        run: |
+          rsync -r --ignore-existing docs/ i18n/it/docusaurus-plugin-content-docs/current
+          rsync -r --ignore-existing docs/ i18n/de/docusaurus-plugin-content-docs/current
+          rsync -r --ignore-existing docs/ i18n/fr/docusaurus-plugin-content-docs/current
+          rsync -r --ignore-existing docs/ i18n/es/docusaurus-plugin-content-docs/current
+          rsync -r --ignore-existing docs/ i18n/pt/docusaurus-plugin-content-docs/current
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Copy files into i18n folder" -a
+          fi
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
   publish:
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Check out repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       # Node is required for npm
       - name: Set up Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: "16"
+          node-version: "18"
+          cache: "npm"
       # Install and build Docusaurus website
       - name: Build Docusaurus website
         run: |
-          npm install --legacy-peer-deps
+          npm ci
           npm run build
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
@@ -56,4 +57,4 @@ jobs:
       #    key: ${{ secrets.SSH_PRIVATE_KEY }}
       #    known_hosts: ${{ secrets.KNOWN_HOSTS }}
       #- name: Deploy with rsync
-      #  run: rsync -avz -e "ssh -p ${{ secrets.SSH_PORT }}" ./build/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/odysee/odyseedocs/        
+      #  run: rsync -avz -e "ssh -p ${{ secrets.SSH_PORT }}" ./build/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/odysee/odyseedocs/

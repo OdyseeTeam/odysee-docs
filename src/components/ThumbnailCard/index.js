@@ -4,7 +4,10 @@ import styles from "./styles.module.css";
 import clsx from "clsx";
 import Image from '@site/src/components/Image';
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import { useDocById } from '@docusaurus/theme-common/internal';
+import {
+  findFirstSidebarItemLink,
+  useDocById,
+} from '@docusaurus/plugin-content-docs/client';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function CardContainer({ href, children, classes }) {
@@ -45,7 +48,7 @@ function filterItems(items) {
       return false;
     }
     if (item.type === 'category') {
-      return !!findFirstCategoryLink(item);
+      return !!findFirstSidebarItemLink(item);
     }
     return true;
   });
