@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "docusaurus": "node ./node_modules/@docusaurus/core/bin/docusaurus.mjs",
+    "docusaurus": "node -r ./scripts/node16-crypto-polyfill.cjs ./node_modules/@docusaurus/core/bin/docusaurus.mjs",
     "start": "npm run docusaurus -- start",
     "build": "npm run docusaurus -- build",
     "swizzle": "npm run docusaurus -- swizzle",

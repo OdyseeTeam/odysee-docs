@@ -1,7 +1,15 @@
-// Polyfill Web Crypto global for Node 16 where globalThis.crypto may be undefined.
-if (typeof globalThis.crypto === "undefined") {
-  const crypto = require("crypto");
-  if (crypto && crypto.webcrypto) {
-    globalThis.crypto = crypto.webcrypto;
+// Provide a Web Crypto global for runtimes where dependencies expect `crypto`
+// to exist on the global object during module evaluation.
+if (typeof globalThis.crypto === 'undefined' || typeof global.crypto === 'undefined') {
+  const nodeCrypto = require('crypto');
+  const webCrypto = nodeCrypto && nodeCrypto.webcrypto;
+
+  if (webCrypto) {
+    if (typeof globalThis.crypto === 'undefined') {
+      globalThis.crypto = webCrypto;
+    }
+    if (typeof global.crypto === 'undefined') {
+      global.crypto = webCrypto;
+    }
   }
 }
