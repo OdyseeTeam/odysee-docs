@@ -42,7 +42,7 @@
     "webpack-dev-server": "5.2.6",
     "micromatch": "4.0.8",
     "picomatch": "2.3.2",
-    "postcss": "8.5.10",
+    "postcss": "8.5.18",
     "express": "4.20.0",
     "follow-redirects": "1.16.0",
     "node-forge": "1.4.0",
@@ -77,7 +77,7 @@
     "fast-uri": "3.1.4",
     "send": "0.19.0",
     "uuid": "11.1.1",
-    "svgo": "^2.8.1",
+    "svgo": "2.8.3",
     "yaml": "1.10.3",
     "schema-utils@2.7.0": {
       "ajv": "6.14.0",
