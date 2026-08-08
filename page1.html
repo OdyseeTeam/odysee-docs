@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MWANYAMBE | Cœur de la Communauté</title>
+    <!-- Polices Premium -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* Palette Terre & Prestige */
+            --primary: #1e3f20;      /* Vert forêt profond */
+            --primary-light: #2d5a27;
+            --accent: #c68b59;       /* Ocre chaud */
+            --gold: #d4af37;         /* Or subtil */
+            --dark: #0f1d10;         /* Noir organique */
+            --light-bg: #f8f9fa;
+            --white: #ffffff;
+            --glass: rgba(255, 255, 255, 0.88);
+            --shadow-sm: 0 4px 20px rgba(0, 0, 0, 0.05);
+            --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.12);
+            --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        /* Reset & Base */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            background: var(--light-bg); 
+            color: #2c3e50; 
+            scroll-behavior: smooth;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, .logo-text {
+            font-family: 'Cinzel', serif;
+            letter-spacing: 0.5px;
+        }
+
+        /* Navigation Glassmorphism */
+        nav {
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            padding: 18px 8%; 
+            background: rgba(255, 255, 255, 0.92); 
+            backdrop-filter: blur(12px);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+            position: sticky; 
+            top: 0; 
+            z-index: 1000;
+            transition: var(--transition);
+        }
+        .logo { 
+            display: flex; 
+            align-items: center; 
+            gap: 12px; 
+            text-decoration: none;
+        }
+        .logo img {
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            object-fit: cover;
+        }
+        .logo-text {
+            font-weight: 700; 
+            color: var(--primary); 
+            font-size: 1.4rem; 
+            letter-spacing: 2px;
+        }
+        .nav-links { display: flex; gap: 25px; align-items: center; }
+        .nav-links a { 
+            text-decoration: none; 
+            color: var(--primary); 
+            font-weight: 600; 
+            font-size: 0.95rem;
+            position: relative;
+            padding: 5px 0;
+            transition: var(--transition);
+        }
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 2px;
+            background: var(--accent);
+            transition: var(--transition);
+        }
+        .nav-links a:hover::after { width: 100%; }
+        .nav-links a:hover { color: var(--accent); }
+
+        /* Hero Section avec ton image de départ en arrière-plan flouté */
+        header {
+            position: relative;
+            height: 80vh; 
+            min-height: 550px;
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center; 
+            color: var(--white); 
+            text-align: center; 
+            padding: 0 20px;
+            overflow: hidden;
+        }
+
+        /* Image "image/Logo MWANYAMBE.jpg" floutée uniquement en fond */
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(180deg, rgba(15, 29, 16, 0.7) 0%, rgba(15, 29, 16, 0.5) 100%), 
+                        url("image/Logo MWANYAMBE.jpg") center/cover no-repeat;
+            filter: blur(10px);
+            transform: scale(1.1); /* Pour couper les bords flous */
+            z-index: 1;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 2;
+            max-width: 850px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .badge { 
+            background: var(--accent); 
+            color: var(--white); 
+            padding: 8px 24px; 
+            border-radius: 50px; 
+            font-size: 0.85rem; 
+            font-weight: 700; 
+            letter-spacing: 2px;
+            margin-bottom: 20px; 
+            text-transform: uppercase; 
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(198, 139, 89, 0.4);
+        }
+        header h1 { 
+            font-size: 3.8rem; 
+            font-weight: 800;
+            margin: 10px 0 20px; 
+            text-shadow: 0 10px 30px rgba(0,0,0,0.6); 
+            line-height: 1.15;
+        }
+        header p { 
+            font-size: 1.25rem; 
+            opacity: 0.95; 
+            font-weight: 300;
+            margin: 0 auto 30px; 
+            max-width: 680px; 
+            text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+        }
+
+        /* Stats Cards Premium */
+        .stats-container {
+            display: grid; 
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 25px;
+            max-width: 1100px; 
+            margin: -60px auto 70px; 
+            padding: 0 20px;
+            position: relative;
+            z-index: 10;
+        }
+        .stat-card {
+            background: var(--glass); 
+            backdrop-filter: blur(10px);
+            padding: 35px 25px; 
+            border-radius: 20px; 
+            text-align: center;
+            box-shadow: var(--shadow-lg); 
+            border: 1px solid rgba(255, 255, 255, 0.7);
+            border-top: 4px solid var(--accent);
+            transition: var(--transition);
+        }
+        .stat-card:hover { 
+            transform: translateY(-10px); 
+            border-top-color: var(--primary);
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+        }
+        .stat-card h3 { 
+            color: var(--primary); 
+            font-size: 2.5rem; 
+            font-weight: 700;
+            margin-bottom: 5px; 
+        }
+        .stat-card p { 
+            font-weight: 600; 
+            color: #666; 
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.8rem; 
+        }
+
+        /* Boutons d'action */
+        .cta-box { display: flex; justify-content: center; gap: 20px; margin-bottom: 80px; }
+        .btn { 
+            padding: 16px 40px; 
+            border-radius: 50px; 
+            text-decoration: none; 
+            font-weight: 700; 
+            font-size: 0.95rem;
+            letter-spacing: 0.5px;
+            transition: var(--transition); 
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-reg { 
+            background: var(--primary); 
+            color: white; 
+            box-shadow: 0 10px 25px rgba(45, 90, 39, 0.3);
+        }
+        .btn-reg:hover {
+            background: var(--primary-light);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(45, 90, 39, 0.4);
+        }
+        .btn-doc { 
+            background: white; 
+            border: 2px solid var(--primary); 
+            color: var(--primary); 
+            box-shadow: var(--shadow-sm);
+        }
+        .btn-doc:hover { 
+            background: var(--primary);
+            color: white;
+            transform: translateY(-3px); 
+        }
+
+        /* Conteneur principal */
+        .container { max-width: 1100px; margin: auto; padding: 0 20px 80px; }
+        .section-title { 
+            text-align: center; 
+            color: var(--primary); 
+            margin-bottom: 50px; 
+            font-size: 2.5rem; 
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: var(--accent);
+            margin: 15px auto 0;
+            border-radius: 2px;
+        }
+        
+        /* Grille À Propos */
+        .about-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            gap: 60px; 
+            align-items: center; 
+            margin-bottom: 120px; 
+        }
+        .about-text h2 { color: var(--primary); font-size: 2.2rem; margin-bottom: 20px; }
+        .about-text p { line-height: 1.8; font-size: 1.05rem; color: #555; margin-bottom: 15px; }
+
+        .about-image-wrapper {
+            position: relative;
+        }
+        .about-image-wrapper img { 
+            width: 100%; 
+            border-radius: 24px; 
+            box-shadow: var(--shadow-lg); 
+            object-fit: cover;
+            display: block;
+            transition: var(--transition);
+        }
+        .about-image-wrapper::before {
+            content: '';
+            position: absolute;
+            inset: -15px -15px 15px 15px;
+            border: 2px solid var(--accent);
+            border-radius: 28px;
+            z-index: -1;
+            transition: var(--transition);
+        }
+        .about-image-wrapper:hover::before {
+            transform: translate(5px, -5px);
+        }
+
+        /* Galerie Premium */
+        .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+        .photo-card { 
+            position: relative; 
+            border-radius: 20px; 
+            overflow: hidden; 
+            height: 380px; 
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+        .photo-card img { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+            transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1); 
+        }
+        .photo-card:hover img { transform: scale(1.1); }
+        .overlay { 
+            position: absolute; 
+            inset: 0; 
+            background: linear-gradient(180deg, transparent 40%, rgba(15, 29, 16, 0.9)); 
+            display: flex; 
+            align-items: flex-end; 
+            padding: 30px; 
+            color: white; 
+            font-family: 'Cinzel', serif;
+            font-weight: 600; 
+            font-size: 1.25rem; 
+            letter-spacing: 1px;
+            transition: var(--transition);
+        }
+
+        /* Footer */
+        footer { 
+            background: var(--dark); 
+            color: white; 
+            padding: 80px 20px 40px; 
+            text-align: center; 
+            border-top: 4px solid var(--accent);
+        }
+        .footer-links { margin-bottom: 30px; }
+        .footer-links a { 
+            color: var(--accent); 
+            text-decoration: none; 
+            margin: 0 15px; 
+            font-weight: 500;
+            transition: var(--transition);
+        }
+        .footer-links a:hover { color: var(--white); }
+        footer p { opacity: 0.8; font-size: 0.95rem; line-height: 1.8; }
+        footer p strong { color: var(--gold); letter-spacing: 1px; }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Adaptation Mobile */
+        @media (max-width: 992px) {
+            .stats-container { grid-template-columns: repeat(2, 1fr); margin-top: -40px; }
+            .about-grid { grid-template-columns: 1fr; gap: 40px; }
+            .gallery-grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 2.8rem; }
+        }
+        @media (max-width: 576px) {
+            .stats-container { grid-template-columns: 1fr; }
+            .cta-box { flex-direction: column; }
+            nav { padding: 15px 5%; }
+            .nav-links { gap: 12px; }
+            .nav-links a { font-size: 0.85rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#accueil" class="logo">
+            <img src="image/Logo MWANYAMBE.jpg" width="48" height="48" alt="Logo MWANYAMBE">
+            <span class="logo-text">MWANYAMBE</span>
+        </a>
+        <div class="nav-links">
+            <a href="#accueil">Accueil</a>
+            <a href="#histoire">Histoire</a>
+            <a href="web4.html">Nous Contacter</a>
+            <a href="web6.html">Carte</a>
+        </div>
+    </nav>
+
+    <!-- Header Hero Flouté avec image/Logo MWANYAMBE.jpg -->
+    <header id="accueil">
+        <div class="header-content">
+            <div class="badge">Patrimoine & Avenir</div>
+            <h1>Terre de Fraternité</h1>
+            <p>Bienvenue sur le portail officiel de Mwanyambe. Un village uni par ses racines et tourné vers le développement durable.</p>
+        </div>
+    </header>
+
+    <!-- Cartes Statistiques -->
+    <div class="stats-container">
+        <div class="stat-card">
+            <h3>200 000+</h3>
+            <p>Habitants</p>
+        </div>
+        <div class="stat-card">
+            <h3>5</h3>
+            <p>Famille Unis</p>
+        </div>
+        <div class="stat-card">
+            <h3>100%</h3>
+            <p>Terres Fertiles</p>
+        </div>
+        <div class="stat-card">
+            <h3>5</h3>
+            <p>Projets 2026</p>
+        </div>
+    </div>
+
+    <!-- Appels à l'action -->
+    <div class="cta-box">
+        <a href="web13.html" class="btn btn-reg">Soutenir le Village</a>
+        <a href="web14.html" class="btn btn-doc">Journal Communautaire</a>
+    </div>
+
+    <!-- Section Histoire & À Propos -->
+    <div class="container">
+        <div class="about-grid" id="histoire">
+            <div class="about-text">
+                <h2>Notre Héritage</h2>
+                <p>Mwanyambe n'est pas qu'une terre géographique, c'est le berceau de nos ancêtres. Situé au cœur d'une nature généreuse, notre village se distingue par sa solidarité légendaire.</p>
+                <p>De la gestion des forêts à la célébration de nos rites traditionnels, nous œuvrons chaque jour pour que l'identité de <strong>Mwanyambe</strong> brille à travers le pays et dans la diaspora.</p>
+            </div>
+            <div class="about-image-wrapper">
+                <img src="image-village.jpg" alt="Vue de Mwanyambe">
+            </div>
+        </div>
+
+        <!-- Galerie de Photos -->
+        <h2 class="section-title">Vie et Paysages</h2>
+        <div class="gallery-grid">
+            <div class="photo-card">
+                <img src="culture.jpg" alt="Culture">
+                <div class="overlay">Traditions & Rites</div>
+            </div>
+            <div class="photo-card">
+                <img src="agriculture.jpg" alt="Agriculture">
+                <div class="overlay">Nos Plantations</div>
+            </div>
+            <div class="photo-card">
+                <img src="jeunesse.jpg" alt="Jeunesse">
+                <div class="overlay">L'Avenir du Village</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pied de Page -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">Facebook</a> | 
+            <a href="#">WhatsApp Diaspora</a> | 
+            <a href="#">Mentions Légales</a>
+        </div>
+        <p><strong>VILLAGE DE MWANYAMBE</strong><br>Solidarité - Progrès - Culture</p>
+        <p style="margin-top: 15px; font-size: 0.85rem; opacity: 0.6;">&copy; 2026 Comité de Développement de Mwanyambe. Site officiel.</p>
+    </footer>
+
+</body>
+</html>
